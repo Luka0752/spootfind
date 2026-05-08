@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Poppins, Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -8,6 +9,21 @@ import Footer from '@/components/Footer';
 import NewsletterPopup from '@/components/NewsletterPopup';
 import { OrganizationSchema, WebsiteSchema } from '@/components/StructuredData';
 import { WishlistProvider } from '@/components/WishlistButton';
+import { CartProvider } from '@/components/CartContext';
+import './globals.css';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600', '700', '800'],
+  variable: '--font-display',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+});
 
 const BASE_URL = 'https://spootfind.com';
 
@@ -115,19 +131,21 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${poppins.variable} ${inter.variable}`}>
       <head>
         <OrganizationSchema />
         <WebsiteSchema />
       </head>
-      <body>
+      <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
-          <WishlistProvider>
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
-            <NewsletterPopup />
-          </WishlistProvider>
+          <CartProvider>
+            <WishlistProvider>
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+              <NewsletterPopup />
+            </WishlistProvider>
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>
