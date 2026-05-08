@@ -1,0 +1,138 @@
+{
+  "lastUpdated": "2026-04-30T14:15:00+08:00",
+  "source": "manual-curation",
+  "products": [
+    {
+      "id": "t1",
+      "name": "Compostable Dog Waste Bags",
+      "category": "Pet Care",
+      "price": 12.99,
+      "trend": "hot",
+      "region": "AU,CA,EU",
+      "image": "/products/dog-bag.jpg",
+      "description": "BPI certified, 120 bags/box. Top seller in AU & CA pet stores.",
+      "source": "AliExpress Trending"
+    },
+    {
+      "id": "t2",
+      "name": "Bamboo Cutlery Travel Set",
+      "category": "Kitchen",
+      "price": 7.99,
+      "trend": "rising",
+      "region": "EU,US",
+      "image": "/products/bamboo-cutlery.jpg",
+      "description": "4-piece + straw, cotton case. EU single-use plastic ban drives demand.",
+      "source": "Amazon Bestseller"
+    },
+    {
+      "id": "t3",
+      "name": "Beeswax Food Wraps",
+      "category": "Kitchen",
+      "price": 14.99,
+      "trend": "hot",
+      "region": "US,UK,AU",
+      "image": "/products/beeswax-wraps.jpg",
+      "description": "5-pack organic cotton. Replace plastic wrap for 12+ months.",
+      "source": "Etsy Trending"
+    },
+    {
+      "id": "t4",
+      "name": "Reusable Produce Bags",
+      "category": "Kitchen",
+      "price": 9.99,
+      "trend": "stable",
+      "region": "Global",
+      "image": "/products/produce-bags.jpg",
+      "description": "10-pack mesh cotton. Farmers market essential.",
+      "source": "Amazon Bestseller"
+    },
+    {
+      "id": "t5",
+      "name": "Compostable Garbage Bags 30L",
+      "category": "Home",
+      "price": 18.99,
+      "trend": "hot",
+      "region": "AU,DE,CA",
+      "image": "/products/compost-bags.jpg",
+      "description": "TÜV OK Compost certified. FOGO program compatible.",
+      "source": "AliExpress Trending"
+    },
+    {
+      "id": "t6",
+      "name": "Silicone Food Storage Lids",
+      "category": "Kitchen",
+      "price": 11.49,
+      "trend": "rising",
+      "region": "US,EU",
+      "image": "/products/silicone-lids.jpg",
+      "description": "6-size set. Stretch-fit bowls, pots, cups. Dishwasher safe.",
+      "source": "TikTok Shop"
+    },
+    {
+      "id": "t7",
+      "name": "Stainless Steel Straw Set",
+      "category": "Kitchen",
+      "price": 8.99,
+      "trend": "stable",
+      "region": "Global",
+      "image": "/products/steel-straws.jpg",
+      "description": "8 straws + cleaner + pouch. The OG plastic-free swap.",
+      "source": "Amazon Bestseller"
+    },
+    {
+      "id": "t8",
+      "name": "Recycled Paper Shopping Bags",
+      "category": "Retail",
+      "price": 22.99,
+      "trend": "rising",
+      "region": "EU,UK",
+      "image": "/products/paper-bags.jpg",
+      "description": "100% post-consumer kraft. Custom printing available. MOQ 100.",
+      "source": "Alibaba Top Rated"
+    },
+    {
+      "id": "t9",
+      "name": "Solar Garden Lights",
+      "category": "Home",
+      "price": 19.99,
+      "trend": "hot",
+      "region": "US,AU",
+      "image": "/products/solar-lights.jpg",
+      "description": "8-pack LED pathway lights. Auto on/off. IP65 waterproof.",
+      "source": "Amazon Bestseller"
+    },
+    {
+      "id": "t10",
+      "name": "Portable Solar Charger",
+      "category": "Tech",
+      "price": 29.99,
+      "trend": "rising",
+      "region": "US,EU,AU",
+      "image": "/products/solar-charger.jpg",
+      "description": "25000mAh dual USB. Outdoor & emergency must-have.",
+      "source": "TikTok Shop"
+    },
+    {
+      "id": "t11",
+      "name": "Biodegradable Phone Case",
+      "category": "Tech",
+      "price": 16.99,
+      "trend": "rising",
+      "region": "US,EU,UK",
+      "image": "/products/phone-case.jpg",
+      "description": "Plant-based bioplastic. Fits iPhone 15/16. Composts in 2 years.",
+      "source": "Etsy Trending"
+    },
+    {
+      "id": "t12",
+      "name": "Organic Cotton Tote Bag",
+      "category": "Fashion",
+      "price": 6.99,
+      "trend": "stable",
+      "region": "Global",
+      "image": "/products/tote-bag.jpg",
+      "description": "Heavyweight 300gsm. Minimalist design. Custom print available.",
+      "source": "Alibaba Top Rated"
+    }
+  ]
+}

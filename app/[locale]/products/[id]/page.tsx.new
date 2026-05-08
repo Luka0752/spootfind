@@ -1,0 +1,86 @@
+import { Metadata } from 'next';
+import Script from 'next/script';
+import { setRequestLocale } from 'next-intl/server';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import ParticlesCanvas from '@/components/ParticlesCanvas';
+import { trendingData } from '@/lib/data';
+import { BreadcrumbSchema } from '@/components/StructuredData';
+
+const BASE_URL = 'https://spootfind.com';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const productId = (await params).id;
+  const product = (trendingData.products as any[]).find((p: any) => p.id === `t${productId}`);
+  const canonicalUrl = `${BASE_URL}/${locale !== 'en' ? locale + '/' : ''}products/${productId}`;
+  const ogImageUrl = `${BASE_URL}/logo.png`;
+
+  return {
+    title: product?.name ?? 'Product Not Found',
+    description: product?.description ?? 'View this product on Spootfind.',
+    alternates: {
+      canonical: canonicalUrl,
+      languages: Object.fromEntries(
+        (['en', 'zh', 'zh-TW', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'ar'] as const).map((loc) => [
+          loc,
+          `${BASE_URL}/${loc !== 'en' ? loc + '/' : ''}products/${productId}`,
+        ])
+      ),
+    },
+    openGraph: {
+      type: 'product',
+      url: canonicalUrl,
+      siteName: 'Spootfind',
+      title: product?.name ?? 'Spootfind Product',
+      description: product?.description ?? '',
+      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: product?.name ?? 'Product' }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product?.name ?? 'Spootfind Product',
+      description: product?.description ?? '',
+      images: [ogImageUrl],
+    },
+  };
+}
+
+export default async function ProductDetailPage({
+  params,
+}: {
+  params: Promise<{ locale: string; id: string }>;
+}) {
+  const { locale, id } = await params;
+  setRequestLocale(locale);
+
+  return (
+    <>
+      {/* Breadcrumb structured data */}
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Products', url: '/products' },
+          { name: 'Product', url: `/products/${id}` },
+        ]}
+      />
+      {/* Page content — delegated to client component */}
+      <ProductDetailContent productId={id} locale={locale} />
+    </>
+  );
+}
+
+function ProductDetailContent({ productId, locale }: { productId: string; locale: string }) {
+  return (
+    <>
+      <ProductDetailClient productId={productId} locale={locale} />
+    </>
+  );
+}
+
+// Client component placeholder (actual client code imported from original)
+import ProductDetailClient from './ProductDetailClient';

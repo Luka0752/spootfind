@@ -1,0 +1,48 @@
+import { defineRouting } from 'next-intl/routing';
+
+export const routing = defineRouting({
+  locales: ['en', 'zh', 'zh-TW', 'es', 'fr', 'ar', 'pt', 'de', 'ja', 'ko'],
+  defaultLocale: 'en',
+  pathnames: {
+    '/': '/',
+    '/about': {
+      en: '/about',
+      zh: '/about',
+      'zh-TW': '/about',
+      es: '/about',
+      fr: '/about',
+      ar: '/about',
+      pt: '/about',
+      de: '/about',
+      ja: '/about',
+      ko: '/about',
+    },
+    '/products': {
+      en: '/products',
+      zh: '/products',
+      'zh-TW': '/products',
+      es: '/products',
+      fr: '/products',
+      ar: '/products',
+      pt: '/products',
+      de: '/products',
+      ja: '/products',
+      ko: '/products',
+    },
+    '/products/[id]': {
+      en: '/products/[id]',
+      zh: '/products/[id]',
+      'zh-TW': '/products/[id]',
+      es: '/products/[id]',
+      fr: '/products/[id]',
+      ar: '/products/[id]',
+      pt: '/products/[id]',
+      de: '/products/[id]',
+      ja: '/products/[id]',
+      ko: '/products/[id]',
+    },
+    '/cart': '/cart',
+    '/checkout': '/checkout',
+    '/contact': '/contact',
+  },
+});
