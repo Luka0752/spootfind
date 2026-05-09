@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T07:15:00.000+08:00",
+  "lastUpdated": "2026-05-08T06:27:35.690Z",
   "source": "Refreshed: Amazon + TikTok Shop + AliExpress + Etsy curated (May 2026)",
   "products": [
     {
@@ -187,29 +187,6 @@
       }
     },
     {
-      "id": "t9",
-      "name": "LED Camping Lantern Solar",
-      "category": "Outdoor",
-      "price": 12.99,
-      "trend": "rising",
-      "region": "US,AU,CA",
-      "image": "/products/camping-light.jpg",
-      "description": "This solar and USB rechargeable LED camping lantern doubles as a 20000mAh power bank to charge phones and devices during extended outdoor trips—no batteries or fuel needed. Collapsible design collapses flat for easy packing and expands to cast 360° bright white light illuminating a tent, campsite, or outdoor patio. IPX4 water resistant for rainy camping trips and backpacking in unpredictable weather. Essential for Spring 2026 camping season: hikers, overlanders, van-lifers, and emergency preparedness kits alike are adding this to their gear.",
-      "source": "Amazon Bestseller",
-      "procurement": {
-        "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E6%8E%A8%E6%8C%96%E7%81%AFLED%E6%99%BA%E8%83%BD%E5%85%85%E7%94%B5",
-        "moq": 20,
-        "costPriceCny": 22,
-        "domesticFreightCny": 2.5,
-        "forwarderFeeCnyPerKg": 30,
-        "weightKg": 0.45,
-        "shippingDays": 10,
-        "platformFeePct": 5,
-        "profitMarginPct": 70
-      }
-    },
-    {
       "id": "t10",
       "name": "Portable Solar Charger 25000mAh",
       "category": "Tech",
@@ -256,29 +233,6 @@
       }
     },
     {
-      "id": "t12",
-      "name": "Non-Slip Yoga Mat Premium",
-      "category": "Sports",
-      "price": 18.99,
-      "trend": "rising",
-      "region": "US,UK,AU",
-      "image": "/products/yoga-mat.jpg",
-      "description": "This 6mm thick premium yoga mat features alignment lines to guide proper pose positioning and sweat-absorbent polyurethane top layer for non-slip grip even during hot yoga or intense vinyasa flows. Dense eco-friendly TPE or natural rubber core provides optimal joint support and cushioning on hard floors while remaining lightweight at just 2.5 lbs for easy transport to studio or park. Anti-tear surface resists ripping from yoga blocks and sharp nails. Top-rated on Amazon AU and a must-have for #YogaTok creators and studio instructors alike.",
-      "source": "Amazon Bestseller",
-      "procurement": {
-        "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%8E%A9%E9%80%89%E5%9D%90%E9%98%B2%E6%BB%91",
-        "moq": 20,
-        "costPriceCny": 22,
-        "domesticFreightCny": 3,
-        "forwarderFeeCnyPerKg": 25,
-        "weightKg": 1.2,
-        "shippingDays": 10,
-        "platformFeePct": 5,
-        "profitMarginPct": 70
-      }
-    },
-    {
       "id": "t13",
       "name": "Organic Cotton Tote Bag",
       "category": "Fashion",
@@ -322,6 +276,52 @@
         "shippingDays": 8,
         "platformFeePct": 5,
         "profitMarginPct": 80
+      }
+    },
+    {
+      "id": "t15",
+      "name": "Bamboo Paper Towels 6-Pack",
+      "category": "Kitchen",
+      "price": 12.99,
+      "trend": "hot",
+      "region": "US,UK,AU,EU",
+      "image": "/products/bamboo-paper-towels.jpg",
+      "description": "Replace disposable paper towels with these reusable bamboo paper towels—each sheet can be washed and reused 100+ times, replacing a full roll of paper towels per month. Highly absorbent for spills, counters, and general cleaning; dries fast to prevent mold. Set of 6 in a decorative holder turns a zero waste swap into a stylish kitchen accessory. TikTok #ZeroWasteKitchen trending as consumers seek to eliminate single-use paper products from their homes entirely.",
+      "source": "TikTok Shop",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%AB%B9%E5%AD%90%E7%BA%B8%E5%B7%BE+6%E6%94%B6",
+        "moq": 30,
+        "costPriceCny": 14,
+        "domesticFreightCny": 2,
+        "forwarderFeeCnyPerKg": 38,
+        "weightKg": 0.4,
+        "shippingDays": 8,
+        "platformFeePct": 5,
+        "profitMarginPct": 76
+      }
+    },
+    {
+      "id": "t16",
+      "name": "Collapsible Silicone Cup Set 4-Pack",
+      "category": "Kitchen",
+      "price": 9.99,
+      "trend": "hot",
+      "region": "US,EU,UK",
+      "image": "/products/collapsible-cup.jpg",
+      "description": "Take collapsible silicone travel cups on the go for coffee, smoothies, water, and protein shakes—these flat-pack cups expand in seconds and collapse flat to fit in any pocket or bag. Food-grade silicone is BPA-free, temperature resistant from -40°F to 440°F, and dishwasher safe. Set of 4 vibrant colors encourages users to skip single-use coffee cups at cafes. A top seller on TikTok Shop #ZeroWasteOnTheGo as consumers adopt the bring-your-own-cup habit.",
+      "source": "TikTok Shop",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E6%94%9F%E5%8F%91%E7%A3%81%E8%83%B6%E6%8D%9E%E5%AD%904%E8%A7%92",
+        "moq": 40,
+        "costPriceCny": 10,
+        "domesticFreightCny": 1.5,
+        "forwarderFeeCnyPerKg": 40,
+        "weightKg": 0.25,
+        "shippingDays": 8,
+        "platformFeePct": 5,
+        "profitMarginPct": 77
       }
     }
   ]
