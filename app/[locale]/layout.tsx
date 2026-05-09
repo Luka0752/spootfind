@@ -10,7 +10,7 @@ import NewsletterPopup from '@/components/NewsletterPopup';
 import { OrganizationSchema, WebsiteSchema } from '@/components/StructuredData';
 import { WishlistProvider } from '@/components/WishlistButton';
 import { CartProvider } from '@/components/CartContext';
-import './globals.css';
+import '@/app/globals.css';
 
 const poppins = Poppins({
   subsets: ['latin'],
