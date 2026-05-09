@@ -114,6 +114,7 @@ export async function generateMetadata({
   };
 }
 
+// Force rebuild to clear Vercel cache - May 9, 2026
 export default async function LocaleLayout({
   children,
   params,
