@@ -3,17 +3,14 @@ import { prisma } from '@/lib/prisma'
 import bcrypt from 'bcryptjs'
 import nodemailer from 'nodemailer'
 
-// 生成随机密码
 function generateTempPassword(): string {
   return Math.random().toString(36).slice(-8) + Math.random().toString(36).slice(-8)
 }
 
-// 发送邮件通知
 async function sendNotificationEmail(
   userEmail: string,
   userName: string,
-  productName: string,
-  market: string,
+  details: string,
   isNewUser: boolean,
   tempPassword?: string
 ) {
@@ -29,27 +26,25 @@ async function sendNotificationEmail(
 
   const notificationEmail = process.env.NOTIFICATION_EMAIL || 'hao8454@126.com'
 
-  // 给管理员的通知
-  const adminMail = {
+  // Admin notification
+  await transporter.sendMail({
     from: process.env.SMTP_USER,
     to: notificationEmail,
-    subject: `[Spootfind] 新需求提交 - ${productName}`,
+    subject: `[Spootfind] New Request from ${userName}`,
     html: `
-      <h2>新的采购需求</h2>
-      <p><strong>客户:</strong> ${userName} (${userEmail})</p>
-      <p><strong>产品:</strong> ${productName}</p>
-      <p><strong>目标市场:</strong> ${market}</p>
-      <p><strong>新用户:</strong> ${isNewUser ? '是' : '否'}</p>
+      <h2>New Sourcing Request</h2>
+      <p><strong>Customer:</strong> ${userName} (${userEmail})</p>
+      <p><strong>Details:</strong></p>
+      <p>${details.replace(/\n/g, '<br>')}</p>
+      <p><strong>New user:</strong> ${isNewUser ? 'Yes' : 'No'}</p>
       <hr>
-      <p>请登录后台查看详情</p>
+      <p>Check admin panel for details</p>
     `
-  }
+  })
 
-  await transporter.sendMail(adminMail)
-
-  // 如果是新用户，发送账号信息
+  // Welcome email for new users
   if (isNewUser && tempPassword) {
-    const userMail = {
+    await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: userEmail,
       subject: 'Welcome to Spootfind - Your Account Information',
@@ -63,26 +58,23 @@ async function sendNotificationEmail(
         <hr>
         <p>Visit <a href="${process.env.NEXTAUTH_URL}">${process.env.NEXTAUTH_URL}</a> to login</p>
       `
-    }
-
-    await transporter.sendMail(userMail)
+    })
   }
 }
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { email, name, phone, productName, market, images, price, source, expectedTime, notes } = body
+    const { email, name, details } = body
 
-    // 验证必填字段
-    if (!email || !name || !productName || !market) {
+    if (!email || !name || !details) {
       return NextResponse.json(
-        { error: 'Missing required fields' },
+        { error: 'Missing required fields: email, name, details' },
         { status: 400 }
       )
     }
 
-    // 检查用户是否已存在
+    // Check if user exists
     let user = await prisma.user.findUnique({
       where: { email }
     })
@@ -90,7 +82,7 @@ export async function POST(request: NextRequest) {
     let isNewUser = false
     let tempPassword: string | undefined
 
-    // 如果用户不存在，自动创建账号
+    // Auto-create account if new user
     if (!user) {
       tempPassword = generateTempPassword()
       const hashedPassword = await bcrypt.hash(tempPassword, 10)
@@ -99,33 +91,27 @@ export async function POST(request: NextRequest) {
         data: {
           email,
           name,
-          phone: phone || null,
           password: hashedPassword
         }
       })
       isNewUser = true
     }
 
-    // 创建需求
+    // Create request — store details as notes (most flexible field)
     const requestRecord = await prisma.request.create({
       data: {
         userId: user.id,
-        productName,
-        market,
-        images: images || null,
-        price: price || null,
-        source: source || null,
-        expectedTime: expectedTime || null,
-        notes: notes || null
+        productName: details.slice(0, 100), // First 100 chars as summary
+        market: 'TBD', // Will be determined by admin
+        notes: details
       }
     })
 
-    // 发送邮件通知（异步，不阻塞响应）
+    // Send notification email (async, non-blocking)
     sendNotificationEmail(
       email,
       name,
-      productName,
-      market,
+      details,
       isNewUser,
       tempPassword
     ).catch(console.error)
@@ -147,7 +133,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// 获取用户的需求列表
+// GET user's requests
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const userId = searchParams.get('userId')
