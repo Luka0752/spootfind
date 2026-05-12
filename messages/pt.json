@@ -294,5 +294,33 @@
     "browseProducts": "Explorar Produtos",
     "remove": "Remover dos favoritos",
     "viewDetails": "Ver Detalhes"
+  },
+  "Request": {
+    "title": "Submit a Request",
+    "subtitle": "Can't find what you're looking for? Tell us what you need and we'll help source it for you.",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailHint": "Used as your account email. A free account will be created automatically.",
+    "name": "Name / Company",
+    "namePlaceholder": "Your name or company name",
+    "phone": "Phone",
+    "phonePlaceholder": "+1 234 567 8900",
+    "productInfo": "Product Information",
+    "productName": "Product Name",
+    "productNamePlaceholder": "e.g., Wireless Bluetooth Earbuds",
+    "market": "Target Market",
+    "selectMarket": "Select a market",
+    "price": "Target Price / Retail Price",
+    "pricePlaceholder": "e.g., $10-15 wholesale, $29.99 retail",
+    "source": "Where did you see this product?",
+    "sourcePlaceholder": "e.g., Amazon, TikTok Shop, local store",
+    "expectedTime": "Expected Response Time",
+    "expectedTimePlaceholder": "e.g., Within 3 days, ASAP",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Any other details, requirements, or questions...",
+    "autoRegisterHint": "Submitting will automatically create a free account for you to track your requests.",
+    "submit": "Submit Request",
+    "submitting": "Submitting..."
   }
 }

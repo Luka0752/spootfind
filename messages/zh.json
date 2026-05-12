@@ -287,5 +287,33 @@
     "weight": "重量",
     "noProducts": "请选择要对比的商品",
     "selectHint": "点击商品卡片上的对比按钮添加"
+  },
+  "Request": {
+    "title": "提交需求",
+    "subtitle": "没找到想要的产品？告诉我们您的需求，我们来帮您寻找。",
+    "contactInfo": "联系方式",
+    "email": "邮箱",
+    "emailPlaceholder": "your@email.com",
+    "emailHint": "作为账号邮箱使用，提交后自动创建免费账号。",
+    "name": "姓名/公司",
+    "namePlaceholder": "您的姓名或公司名称",
+    "phone": "电话",
+    "phonePlaceholder": "+86 138 0000 0000",
+    "productInfo": "产品信息",
+    "productName": "产品名称",
+    "productNamePlaceholder": "例如：无线蓝牙耳机",
+    "market": "目标市场",
+    "selectMarket": "请选择市场",
+    "price": "目标价格/零售价",
+    "pricePlaceholder": "例如：批发 $10-15，零售 $29.99",
+    "source": "产品来源",
+    "sourcePlaceholder": "例如：Amazon、TikTok Shop、实体店",
+    "expectedTime": "期望反馈时间",
+    "expectedTimePlaceholder": "例如：3天内、越快越好",
+    "notes": "补充说明",
+    "notesPlaceholder": "其他详细信息、要求或问题...",
+    "autoRegisterHint": "提交后将自动创建免费账号，方便您跟踪需求进度。",
+    "submit": "提交需求",
+    "submitting": "提交中..."
   }
 }
