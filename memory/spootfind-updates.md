@@ -1,5 +1,22 @@
 # Spootfind 更新日志
 
+## 2026-05-11
+### 数据刷新尝试（自动心跳）
+- trending.json 最后更新时间仍为 2026-05-08（未刷新）
+- 原因：Amazon/AliExpress/TikTok/Etsy 均无法直接抓取
+  - Amazon: 仅返回通用导航，无产品数据
+  - AliExpress: 重定向至登录墙
+  - TikTok: IP 被封禁
+  - Etsy: 仅返回通用页面
+- 需人工介入或使用 xbrowser 技能手动刷新
+- 网站部署仍阻塞，等待 Vercel token 更新
+
+### 待用户操作
+- 登录 Vercel → Settings → Tokens 重新生成 token
+- 将新 token 告知贰号完成部署
+
+---
+
 ## 2026-05-04
 - **trending.json**：已更新至14款精选产品（5月版）
   - Hot: Bamboo Toothbrush Set, Beeswax Food Wraps, Electric Spin Scrubber, Solar Garden Lights, Silicone Food Bags, Insulated Water Bottle
