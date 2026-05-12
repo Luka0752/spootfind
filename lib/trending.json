@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-08T06:27:35.690Z",
-  "source": "Refreshed: Amazon + TikTok Shop + AliExpress + Etsy curated (May 2026)",
+  "lastUpdated": "2026-05-12T05:36:00.000Z",
+  "source": "Refreshed: Amazon Bestsellers + TikTok Shop + AliExpress + Etsy curated (May 2026)",
   "products": [
     {
       "id": "t1",
       "name": "Bamboo Toothbrush Set 4-Pack",
       "category": "Personal Care",
       "price": 8.99,
-      "trend": "hot",
+      "trend": "stable",
       "region": "US,UK,EU,AU",
       "image": "/products/bamboo-toothbrush.jpg",
       "description": "Switch to plastic-free oral care with this bamboo toothbrush set of 4, featuring charcoal-infused bristles for deeper cleaning and natural whitening. Each compostable handle replaces a traditional plastic toothbrush that takes 400+ years to decompose—making the switch effortless for the whole family. Zero waste bathroom essential that looks great on any sink. #EcoTok essential and Amazon Bestseller in eco personal care.",
@@ -30,7 +30,7 @@
       "name": "Beeswax Food Wraps 5-Pack",
       "category": "Kitchen",
       "price": 14.99,
-      "trend": "hot",
+      "trend": "stable",
       "region": "US,UK,AU",
       "image": "/products/beeswax-wraps.jpg",
       "description": "Replace single-use plastic wrap with these organic cotton beeswax food wraps—a reusable, washable alternative that lasts 12+ months per sheet. Keeps food fresh naturally without petroleum-based plastics; simply use your hands' warmth to seal around bowls, vegetables, cheeses, and sandwiches. Set of 5 in assorted patterns turns your kitchen into a zero waste haven. Amazon and Etsy top seller trending on #ZeroWasteTok as consumers seek sustainable kitchen swaps.",
@@ -76,14 +76,14 @@
       "name": "Solar Garden Lights 8-Pack",
       "category": "Home",
       "price": 19.99,
-      "trend": "hot",
+      "trend": "stable",
       "region": "US,AU",
       "image": "/products/solar-lights.jpg",
       "description": "Illuminate your garden pathways, lawn, patio, deck, or walkway with these 8 solar LED lights that automatically turn on at dusk and off at sunrise—no wiring or electricity bills needed. IP65 waterproof rated to withstand rain, snow, frost, and sun, these outdoor lights stay bright all night after just 6-8 hours of direct sunlight charging. Easy stick-in-ground installation takes seconds with no tools required. Amazon patio and garden bestseller for Spring 2026 as homeowners invest in curb appeal.",
       "source": "Amazon Bestseller",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%A4%AA%E9%98%B3%E8%83%BD%E8%B7%AF%E7%81%AF+8%E7%94%B5+IP65%E9%98%B2%E6%B0%B4",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%A4%AA%E9%98%B3%E8%83%BD%E8%B7%AF%E7%81%AF+8%E7%81%AF+IP65%E9%98%B2%E6%B0%B4",
         "moq": 20,
         "costPriceCny": 35,
         "domesticFreightCny": 4,
@@ -99,14 +99,14 @@
       "name": "Reusable Silicone Food Bags 3-Pack",
       "category": "Kitchen",
       "price": 12.99,
-      "trend": "hot",
+      "trend": "stable",
       "region": "US,EU,UK",
       "image": "/products/silicone-bags.jpg",
       "description": "Store, sous-vide cook, freeze, and marinate food in these platinum silicone food bags that replace disposable Ziploc bags thousands of times over. Leakproof and freezer-safe from -40°F to 440°F, these food-grade BPA-free bags keep fruits, vegetables, meats, and leftovers fresh. A set of 3 versatile sizes (large, medium, snack) fits any fridge or lunchbox. Trending massively on #ZeroWasteTok and #MealPrepTok as consumers reduce single-use plastic kitchen waste.",
       "source": "TikTok Shop",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%A3%97%E8%83%B6%E9%A3%9F%E7%89%A9%E8%A2%8B+3%E8%A7%92%E5%8F%AF%E5%A4%9F%E7%94%A8",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%A1%85%E8%83%B6%E9%A3%9F%E7%89%A9%E8%A2%8B+3%E8%A7%92%E5%8F%AF%E5%A4%9F%E7%94%A8",
         "moq": 30,
         "costPriceCny": 16,
         "domesticFreightCny": 2,
@@ -129,7 +129,7 @@
       "source": "Amazon Bestseller",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E4%B8%8D%E9%94%88%E9%92%A2%E4%BF%B4%E5%86%9C%E5%AD%9032oz%E4%B8%8D%E9%94%88",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E4%B8%8D%E9%94%88%E9%92%A2%E4%BF%B4%E5%86%9A%E5%AD%9032oz%E4%B8%8D%E9%94%88",
         "moq": 24,
         "costPriceCny": 20,
         "domesticFreightCny": 3,
@@ -152,7 +152,7 @@
       "source": "TikTok Shop",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E5%9C%A0%E5%8C%96%E6%89%8B%E6%9C%BA%E5%A3%B3+PLA%E6%9D%90%E8%B4%A8",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E5%A0%86%E5%8C%96%E6%89%8B%E6%9C%BA%E5%A3%B3+PLA%E6%9D%90%E8%B4%A8",
         "moq": 30,
         "costPriceCny": 22,
         "domesticFreightCny": 2,
@@ -168,14 +168,14 @@
       "name": "Bamboo Cutlery Travel Set",
       "category": "Kitchen",
       "price": 7.99,
-      "trend": "rising",
+      "trend": "stable",
       "region": "EU,US",
       "image": "/products/bamboo-cutlery.jpg",
       "description": "Ditch single-use plastic utensils forever with this portable bamboo cutlery set: fork, knife, spoon, chopsticks, and straw in a compact drawstring cotton carrying case. Fits in lunchboxes, backpacks, and purses for zero waste meals on the go—at restaurants, food trucks, campuses, or outdoor picnics. EU single-use plastic ban (SUP Directive) has banned plastic cutlery across Europe, creating massive demand for bamboo alternatives. Zero waste essential for eco-conscious consumers, offices, and businesses looking to comply with plastic regulations.",
       "source": "Amazon Bestseller",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%AB%8B%E6%96%B9%E5%88%87%E5%88%9B%E5%A5%97%E8%A1%8C%E5%A4%9F%E5%A4%9A%E5%85%B7+4%E6%94%AF",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%AB%B9%E6%96%B9%E5%88%87%E5%88%80%E5%A5%97%E8%A1%8C%E5%AD%90%E5%A4%9A%E5%85%B7+4%E6%94%AF",
         "moq": 50,
         "costPriceCny": 8.5,
         "domesticFreightCny": 1,
@@ -184,6 +184,29 @@
         "shippingDays": 8,
         "platformFeePct": 5,
         "profitMarginPct": 79
+      }
+    },
+    {
+      "id": "t9",
+      "name": "Smart Air Purifier with HEPA Filter",
+      "category": "Home",
+      "price": 49.99,
+      "trend": "hot",
+      "region": "US,EU,UK,CA",
+      "image": "/products/air-purifier.jpg",
+      "description": "Breathe cleaner air with this smart HEPA air purifier that removes 99.97% of dust, pollen, smoke, pet dander, and odors from rooms up to 500 sq ft. WiFi-enabled with app control and voice assistant compatibility—set schedules, monitor air quality in real-time, and receive filter replacement alerts from your phone. Ultra-quiet sleep mode operates at just 24dB, quieter than a whisper. Energy Star certified for low power consumption. Amazon's #1 new release in home air quality as health-conscious consumers invest in indoor wellness after wildfire smoke events.",
+      "source": "Amazon New Release",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E6%99%BA%E8%83%BD%E7%A9%BA%E6%B0%94%E5%87%80%E5%8C%96%E5%99%A8+HEPA+WiFi",
+        "moq": 10,
+        "costPriceCny": 120,
+        "domesticFreightCny": 8,
+        "forwarderFeeCnyPerKg": 25,
+        "weightKg": 3.5,
+        "shippingDays": 12,
+        "platformFeePct": 5,
+        "profitMarginPct": 55
       }
     },
     {
@@ -198,7 +221,7 @@
       "source": "TikTok Shop",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%A4%AA%E9%98%B3%E8%93%8D%E5%85%85%E5%99%A825000mAh+%E5%8F%AF%E6%8E%A8%E6%8E%A8",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%A4%AA%E9%98%B3%E8%93%9D%E5%85%85%E5%99%A825000mAh+%E5%8F%AF%E6%8E%A8%E6%8E%A8",
         "moq": 10,
         "costPriceCny": 55,
         "domesticFreightCny": 5,
@@ -221,7 +244,7 @@
       "source": "Amazon Bestseller",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E5%A4%9F%E7%94%A8%E7%94%9F%E9%80%89%E8%B4%A8%E8%A2%8B+10%E4%B8%AA%E7%BD%91%E8%80%8C",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E5%A4%9F%E7%94%A8%E7%94%9F%E9%80%89%E8%B4%A8%E8%A2%8B+10%E4%B8%AA%E7%BD%91%E8%A7%92",
         "moq": 30,
         "costPriceCny": 10,
         "domesticFreightCny": 1.5,
@@ -230,6 +253,29 @@
         "shippingDays": 8,
         "platformFeePct": 5,
         "profitMarginPct": 78
+      }
+    },
+    {
+      "id": "t12",
+      "name": "8-in-1 Magnetic Knife Block Set",
+      "category": "Kitchen",
+      "price": 34.99,
+      "trend": "hot",
+      "region": "US,UK,EU",
+      "image": "/products/knife-block.jpg",
+      "description": "This all-in-one knife set features 8 professional-grade stainless steel knives with magnetic acacia wood block storage—combining a chef's knife, bread knife, carving knife, utility knife, paring knife, kitchen shears, sharpening rod, and a matching acacia magnetic block that keeps blades visible and accessible. Dishwasher-safe design and anti-scratch coating make cleanup effortless. TikTok viral sensation with 15,700+ sets sold in 30 days—knife storage and organization is one of TikTok Shop's fastest-growing kitchen subcategories in May 2026.",
+      "source": "TikTok Shop",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E4%B8%80%E4%BD%93%E5%88%80%E5%85%B7%E5%A5%97%E8%A3%85+8%E5%90%881+%E7%A3%81%E5%90%B8%E5%88%80%E6%9E%B6",
+        "moq": 15,
+        "costPriceCny": 85,
+        "domesticFreightCny": 6,
+        "forwarderFeeCnyPerKg": 22,
+        "weightKg": 3.2,
+        "shippingDays": 12,
+        "platformFeePct": 5,
+        "profitMarginPct": 52
       }
     },
     {
@@ -267,7 +313,7 @@
       "source": "Amazon Bestseller",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E4%B8%8D%E9%94%88%E9%92%A2%E5%90%83%E5%90%83%E7%81%AF%E8%B4%A88%E6%94%AF",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E4%B8%8D%E9%94%88%E9%92%A2%E5%90%B8%E5%90%AD%E7%AE%818%E6%94%AF",
         "moq": 50,
         "costPriceCny": 8,
         "domesticFreightCny": 1,
@@ -313,7 +359,7 @@
       "source": "TikTok Shop",
       "procurement": {
         "supplier": "1688供应商",
-        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E6%94%9F%E5%8F%91%E7%A3%81%E8%83%B6%E6%8D%9E%E5%AD%904%E8%A7%92",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%8F%AF%E6%8A%98%E5%8F%A0%E7%A1%85%E8%83%B6%E6%9D%AF%E5%AD%904%E8%A7%92",
         "moq": 40,
         "costPriceCny": 10,
         "domesticFreightCny": 1.5,
@@ -322,6 +368,98 @@
         "shippingDays": 8,
         "platformFeePct": 5,
         "profitMarginPct": 77
+      }
+    },
+    {
+      "id": "t17",
+      "name": "Eco Dishwasher Detergent Sheets 60-Pack",
+      "category": "Kitchen",
+      "price": 16.99,
+      "trend": "hot",
+      "region": "US,UK,EU,CA",
+      "image": "/products/detergent-sheets.jpg",
+      "description": "Ditch bulky plastic bottles of liquid dishwasher detergent for these ultra-concentrated dissolvable detergent sheets—just toss one in the dispenser, no measuring, no mess, no plastic waste. Plant-based, phosphate-free formula cuts through grease and baked-on food just as effectively as leading brands. Lightweight and compact packaging slashes shipping emissions by 94% vs liquid. Amazon household cleaning #1 new release—eco cleaning products are surging as Amazon Climate Pledge Friendly certification drives 48% year-over-year growth in green household products.",
+      "source": "Amazon Bestseller",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E6%B4%97%E7%A2%97%E6%9C%BA%E6%B8%85%E6%B4%81%E7%89%87+%E7%8E%AF%E4%BF%9D+60%E7%89%87",
+        "moq": 20,
+        "costPriceCny": 22,
+        "domesticFreightCny": 2,
+        "forwarderFeeCnyPerKg": 36,
+        "weightKg": 0.3,
+        "shippingDays": 8,
+        "platformFeePct": 5,
+        "profitMarginPct": 71
+      }
+    },
+    {
+      "id": "t18",
+      "name": "Fabric Pet Hair Remover Roller",
+      "category": "Home",
+      "price": 11.99,
+      "trend": "hot",
+      "region": "US,UK,CA,AU",
+      "image": "/products/pet-hair-roller.jpg",
+      "description": "Remove embedded pet hair from furniture, clothing, car seats, and bedding with this reusable lint roller that uses no adhesive strips—just rinse and reuse thousands of times. Ergonomic handle with self-cleaning base picks up dog and cat hair, dust, and lint in a single pass without sticky residue. Eco-friendly alternative to disposable lint roller sheets that end up in landfills. Amazon top-rated with 125,000+ reviews at 4.6 stars—pet owners call it a game-changer. #CleanTok and #PetTok crossover hit driving explosive demand in household cleaning.",
+      "source": "Amazon Bestseller",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E5%AE%A0%E7%89%A9%E6%AF%9B%E5%8E%BB%E9%99%A4%E5%99%A8+%E5%8F%AF%E6%B0%B4%E6%B4%97%E9%87%8D%E5%A4%8D%E4%BD%BF%E7%94%A8",
+        "moq": 30,
+        "costPriceCny": 12,
+        "domesticFreightCny": 1.5,
+        "forwarderFeeCnyPerKg": 40,
+        "weightKg": 0.18,
+        "shippingDays": 8,
+        "platformFeePct": 5,
+        "profitMarginPct": 77
+      }
+    },
+    {
+      "id": "t19",
+      "name": "Smart WiFi Window Fan with App Control",
+      "category": "Home",
+      "price": 39.99,
+      "trend": "rising",
+      "region": "US,EU",
+      "image": "/products/smart-window-fan.jpg",
+      "description": "This 9-inch twin reversible window fan features WiFi app control and voice assistant compatibility—adjust fan speed, direction (intake/exhaust), and schedule from your phone or with a voice command. 3-speed settings with thermostat auto-regulation maintain your ideal room temperature while reducing AC energy costs by up to 30%. Adjustable width fits 23.5\"–37\" windows with ETL safety certification. Amazon new release #1 in household fans as energy-conscious consumers seek smart cooling alternatives ahead of summer 2026.",
+      "source": "Amazon New Release",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E6%99%BA%E8%83%BD%E7%AA%97%E5%BC%8F%E9%A3%8E%E6%89%87+WiFi+%E5%8F%AF%E6%8E%A7",
+        "moq": 15,
+        "costPriceCny": 85,
+        "domesticFreightCny": 6,
+        "forwarderFeeCnyPerKg": 22,
+        "weightKg": 2.8,
+        "shippingDays": 12,
+        "platformFeePct": 5,
+        "profitMarginPct": 50
+      }
+    },
+    {
+      "id": "t20",
+      "name": "Wool Dryer Balls 6-Pack",
+      "category": "Home",
+      "price": 13.99,
+      "trend": "rising",
+      "region": "US,UK,EU,AU",
+      "image": "/products/wool-dryer-balls.jpg",
+      "description": "Cut drying time by 25% and eliminate the need for chemical-laden dryer sheets with these 100% New Zealand wool dryer balls. Naturally soften fabrics, reduce static, and wrinkle—all without synthetic fragrances, dyes, or plastic. Each set lasts 1,000+ loads, replacing hundreds of single-use dryer sheets. Add essential oils for a natural scent boost. Amazon Climate Pledge Friendly certified and rising in the household cleaning bestseller charts as consumers switch from disposable dryer sheets to sustainable laundry alternatives.",
+      "source": "Amazon CPF Bestseller",
+      "procurement": {
+        "supplier": "1688供应商",
+        "supplierUrl": "https://s.1688.com/youyuan/index.htm?type=search&searchText=%E7%BE%8A%E6%AF%9B%E7%83%98%E5%B9%B2%E7%90%836%E4%B8%AA+%E6%96%B0%E8%A5%BF%E5%85%B0%E7%BE%8A%E6%AF%9B",
+        "moq": 30,
+        "costPriceCny": 15,
+        "domesticFreightCny": 2,
+        "forwarderFeeCnyPerKg": 38,
+        "weightKg": 0.35,
+        "shippingDays": 8,
+        "platformFeePct": 5,
+        "profitMarginPct": 74
       }
     }
   ]
