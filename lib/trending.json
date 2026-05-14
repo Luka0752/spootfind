@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "source": "Amazon Bestseller, TikTok Shop, Amazon New Release (Toys & Games, STEM Toys, Kids Electronics, Outdoor Play)",
   "products": [
     {
@@ -129,7 +129,6 @@
         },
         "ko": {
           "name": "LED 조명 토크랜",
-          "description": "LED 작업 헤드라이트, 360° 팔 회전, 사실적인 굴착음을 갖춘 원격 제어 토크랜 장난감. 4-10세용.",
           "description": "LED 작업 헤드라이트, 360° 팔 회전, 사실적인 굴착음을 갖춘 원격 제어 토크랜 장난감. 4-10세용.",
           "category": "RC 장난감"
         },
@@ -292,7 +291,7 @@
       "name": "LEGO Compatible Superhero Set 500pcs",
       "category": "Building Blocks",
       "price": 22.99,
-      "trend": "rising",
+      "trend": "hot",
       "region": "US/UK/BR/MX",
       "image": "/products/lego-superhero.webp",
       "description": "500-piece superhero-themed building block set that recreates iconic action figures in brick form. Combines two of the world's most popular toy categories — superheroes and building blocks.",
@@ -460,7 +459,7 @@
         },
         "zh-TW": {
           "name": "工程車模擬系列6包裝",
-          "description": "6輛1:50比例合金工程車套裝，包含水泥攪拌車、平板車、起重卡車、挖掘機、推土機和自卸車。工程愛好者的收藏套裝和高端禮品選擇。濟南是中國領先的建築設備製造中心。",
+          "description": "6輛1:50比例合金工程車套裝，包含水泥攪拌車、平板車、起重卡車、挖掘機、推土機和自卸車。工程愛好者的收藏套裝和高端禮品選選擇。濟南是中國領先的建築設備製造中心。",
           "category": "收藏玩具"
         },
         "es": {
@@ -480,7 +479,7 @@
         },
         "ja": {
           "name": "エンジニアリングビークルシミュレーションシリーズ6パック",
-          "description": "1:50スケールのダイカストエンジニアリングビークル6個セット（セメントミキサー、フラ츠ベッド、クレーントラック、掘削機、ブルドーザー、ダンプトラック）。コレクターシリーズ。",
+          "description": "1:50スケールのダイカストエンジニアリングビークル6個セット（セメントミキサー、フラツスベッド、クレーントラック、掘削機、ブルドーザー、ダンプトラック）。コレクターシリーズ。",
           "category": "コレクション玩具"
         },
         "ko": {
@@ -576,7 +575,7 @@
       "name": "360° Flip Stunt RC Car",
       "category": "Remote Control Toys",
       "price": 18.99,
-      "trend": "rising",
+      "trend": "hot",
       "region": "US/ES/IT/AU",
       "image": "/products/stunt-car.webp",
       "description": "The TikTok viral stunt RC car of 2026. Does backflips and barrel rolls on flat surfaces. 2.4GHz technology enables multiple cars to race simultaneously. Kids' top wishlist item across US, Spain, Italy.",
@@ -789,7 +788,7 @@
       "name": "Battery Ride-On Dump Truck XL",
       "category": "Ride-On Toys",
       "price": 79.99,
-      "trend": "rising",
+      "trend": "hot",
       "region": "US/AU",
       "image": "/products/rideon-dump.webp",
       "description": "Large battery-powered ride-on dump truck for ages 3-8 with tilting dump bed, working headlights, and parent remote override. The premium ride-on segment (over $60) is growing fastest as parents upgrade.",
