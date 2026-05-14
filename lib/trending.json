@@ -1,309 +1,96 @@
 {
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-15",
   "source": "Amazon Bestseller, TikTok Shop, Amazon New Release (Toys & Games, STEM Toys, Kids Electronics, Outdoor Play)",
   "products": [
     {
       "id": "t1",
-      "name": "Magnetic Building Set 200pcs",
+      "name": "AI Interactive Storytelling Robot",
       "category": "STEM Toys",
-      "price": 29.99,
-      "trend": "rising",
-      "region": "US/UK/AU",
-      "image": "/products/magnetic-building.webp",
-      "description": "200-piece magnetic building toys for ages 3-8+ with colorful geometric shapes that snap together to build 3D structures like castles, rockets, and cars.",
-      "source": "Amazon Best Seller - Magnetic Toys Category",
+      "price": 49.99,
+      "trend": "hot",
+      "region": "US/UK/EU",
+      "image": "/products/ai-robot.webp",
+      "description": "AI-powered storytelling robot with voice recognition and adaptive learning for ages 3-12. Connects to companion app. 2026 top gift category combining emotional value and educational development.",
+      "source": "Amazon Best Seller - Kids AI Toys",
       "procurement": {
-        "supplier": "汕头磁性积木套装",
+        "supplier": "汕头AI玩具套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 50,
-        "costPriceCny": 38,
-        "domesticFreightCny": 2.5,
+        "moq": 30,
+        "costPriceCny": 68,
+        "domesticFreightCny": 5,
         "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 1.8,
+        "weightKg": 2.0,
         "shippingDays": 7,
         "platformFeePct": 15,
-        "profitMarginPct": 70,
-        "certification": "EN71, ASTM F963"
+        "profitMarginPct": 68,
+        "certification": "CE, FCC, ASTM F963"
       },
       "translations": {
         "zh": {
-          "name": "磁性建构玩具200件套装",
-          "description": "200件磁性建构玩具，适合3-8岁及以上儿童，彩色几何形状可拼装城堡、火箭、汽车等立体结构。STEM教育玩具是全球玩具零售增长最快的品类，年复合增长率28%。",
+          "name": "AI智能互动故事机器人",
+          "description": "具有语音识别和自适应学习功能的AI驱动故事机器人，适合3-12岁。连接配套APP。2026年融合情感价值与教育发展的热门礼品品类。",
           "category": "STEM玩具"
         },
         "zh-TW": {
-          "name": "磁性建構玩具200件套裝",
-          "description": "200件磁性建構玩具，適合3-8歲及以上兒童，彩色幾何形狀可拼裝城堡、火箭、汽車等立體結構。STEM教育玩具是全球玩具零售增長最快的品類，年複合增長率28%。",
+          "name": "AI智能互動故事機器人",
+          "description": "具有語音識別和自適應學習功能的AI驅動故事機器人，適合3-12歲。連接配套APP。2026年融合情感價值與教育發展的熱門禮品品類。",
           "category": "STEM玩具"
         },
         "es": {
-          "name": "Set Magnético de Construcción 200pcs",
-          "description": "Juguetes de construcción magnética de 200 piezas para edades de 3-8+ con formas geométricas coloridas que se unen para construir estructuras 3D como castillos, cohetes y automóviles.",
+          "name": "Robot de Cuentos Interactivo con IA",
+          "description": "Robot narrativo con IA y reconocimiento de voz para edades 3-12. Se conecta a la app complementaria. Categoria de regalos top 2026 combinando valor emocional y desarrollo educativo.",
           "category": "Juguetes STEM"
         },
         "fr": {
-          "name": "Ensemble de Construction Magnétique 200pcs",
-          "description": "Jouets de construction magnétique de 200 pièces pour enfants de 3-8 ans+ avec des formes géométriques colorées qui s'assemblent pour construire des structures 3D comme des châteaux, des fusées et des voitures.",
+          "name": "Robot Conte de Fees Interactif IA",
+          "description": "Robot histoires pilote par IA avec reconnaissance vocale pour enfants de 3-12 ans. Se connecte a lapplication compagnon. Categorie cadeaux top 2026 combinant valeur emotionnelle et developpement educatif.",
           "category": "Jouets STEM"
         },
         "de": {
-          "name": "Magnetisches Bauset 200pcs",
-          "description": "200-teiliges magnetisches Bauspielzeug für Kinder von 3-8+ Jahren mit bunten geometrischen Formen, die zu 3D-Strukturen wie Burgen, Raketen und Autos zusammengefügt werden.",
+          "name": "KI Interaktiver Geschichtenroboter",
+          "description": "KI-gesteuerter Geschichtenroboter mit Spracherkennung fur Kinder von 3-12 Jahren. Verbindet sich mit Begleit-App. Top-Geschenkkategorie 2026 mit emotionalem Wert und Bildungsentwicklung.",
           "category": "Lernspielzeug"
         },
         "ja": {
-          "name": "磁性ビルディングセット200ピース",
-          "description": "3-8歳以上向けの200ピース磁性ビルディング玩具で、城堡・ロケット・車などの3D構造物を構築できるカラフルな幾何学模様が特徴です。",
+          "name": "AIインタラクティブストーリーロボット",
+          "description": "音声認識と適応学習機能を備えたAI物語ロボット、3-12歳向け。コンパニオン appに接続。感情的価値と教育的発展を組み合わせた2026年トップギフトカテゴリー。",
           "category": "STEM玩具"
         },
         "ko": {
-          "name": "자성 건축 세트 200피스",
-          "description": "3-8세 이상을 위한 200피스 자성 건축 장난감으로, 성, 로켓, 자동차 등의 3D 구조물을 만들 수 있는 색상의 기하학적 모양이 특징입니다.",
+          "name": "AI 인터랙티브 스토리 로봇",
+          "description": "음성 인식 및 적응 학습 기능을 갖춘 AI 기반 스토리 로봇, 3-12세용. 동반 앱에 연결. 정서적 가치와 교육적 개발을 결합한 2026년:top 선물 카테고리.",
           "category": "STEM 장난감"
         },
         "pt": {
-          "name": "Conjunto Magnético de Construção 200pcs",
-          "description": "Brinquedos de construção magnética de 200 peças para crianças de 3-8+ anos com formas geométricas coloridas que se encaixam para construir estruturas 3D como castelos, foguetes e carros.",
+          "name": "Robo de Historia Interativo com IA",
+          "description": "Robo de historias com IA e reconhecimento de voz para criancas de 3-12 anos. Conecta-se ao aplicativo companheiro. Categoria de presentes top 2026 combinando valor emocional e desenvolvimento educacional.",
           "category": "Brinquedos STEM"
         },
         "ar": {
-          "name": "مجموعة بناء مغناطيسية 200 قطعة",
-          "description": "ألعاب بناء مغناطيسية 200 قطعة للأطفال من سن 3-8 سنوات بأشكال هندسية ملونة يتم تجميعها لبناء هياكل ثلاثية الأبعاد مثل القلاع والصواريخ والسيارات.",
+          "name": "روبوت قصة تفاعلي ذكي",
+          "description": "روبوت قصة يعمل بالذكاء الاصطناعي مع التعرف على الصوت للأطفال من سن 3-12 سنة. يتصل بتطبيق مصاحب. فئة الهدايا الأعلى في 2026 تجمع بين القيمة العاطفية والتنمية التعليمية.",
           "category": "ألعاب تعليمية"
         }
       }
     },
     {
       "id": "t2",
-      "name": "LED Light Excavator Toy",
-      "category": "Remote Control Toys",
-      "price": 39.99,
-      "trend": "hot",
-      "region": "US/DE/AU/UK/IT",
-      "image": "/products/rc-excavator.webp",
-      "description": "Remote control excavator toy with LED working headlight, 360° arm rotation, and realistic digging sounds. For ages 4-10. Kids love watching heavy machinery content on YouTube and TikTok.",
-      "source": "TikTok Shop - Trending Construction Toys",
-      "procurement": {
-        "supplier": "济宁RC工程车套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 30,
-        "costPriceCny": 65,
-        "domesticFreightCny": 3,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 2.2,
-        "shippingDays": 10,
-        "platformFeePct": 15,
-        "profitMarginPct": 60,
-        "certification": "CE, FCC, ASTM F963"
-      },
-      "translations": {
-        "zh": {
-          "name": "LED灯遥控挖掘机",
-          "description": "LED工作大灯、360度臂旋转、逼真挖掘音效的遥控挖掘机玩具。适合4-10岁儿童。他们在YouTube和TikTok上观看重型机械内容，对这个品类特别感兴趣。",
-          "category": "遥控玩具"
-        },
-        "zh-TW": {
-          "name": "LED燈遙控挖掘機",
-          "description": "LED工作大燈、360度臂旋轉、逼真挖掘音效的遙控挖掘機玩具。適合4-10歲兒童。他們在YouTube和TikTok上觀看重型機械內容，對這個品類特別感興趣。",
-          "category": "遙控玩具"
-        },
-        "es": {
-          "name": "Juguete Excavadora con Luz LED",
-          "description": "Juguete de excavadora a control remoto con faro LED de trabajo, rotación de brazo 360° y sonidos realistas de excavación. Para edades de 4-10.",
-          "category": "Juguetes de Control Remoto"
-        },
-        "fr": {
-          "name": "Jouet Excavatrice à Lumière LED",
-          "description": "Jouet excavatrice télécommandée avec phare LED de travail, rotation du bras à 360° et sons de creusement réalistes. Pour les enfants de 4-10 ans.",
-          "category": "Jouets Télécommandés"
-        },
-        "de": {
-          "name": "LED-Beleuchteter Bagger-Spielzeug",
-          "description": "Ferngesteuertes Bagger-Spielzeug mit LED-Arbeitsscheinwerfer, 360°-Armrotation und realistischen Grabgeräuschen. Für Kinder von 4-10 Jahren.",
-          "category": "Ferngesteuerte Spielzeuge"
-        },
-        "ja": {
-          "name": "LEDライト付きおはつ掘り機",
-          "description": "LED作業用ヘッドライト、360°アーム回転、リアルな掘削音を備えたリモートコントロールおはつ掘り機。4-10歳向け。",
-          "category": "ラジコン玩具"
-        },
-        "ko": {
-          "name": "LED 조명 토크랜",
-          "description": "LED 작업 헤드라이트, 360° 팔 회전, 사실적인 굴착음을 갖춘 원격 제어 토크랜 장난감. 4-10세용.",
-          "category": "RC 장난감"
-        },
-        "pt": {
-          "name": "Brinquedo Escavadeira com Luz LED",
-          "description": "Brinquedo de escavadeira controlado por controle remoto com farol de LED, rotação do braço 360° e sons realistas de escavação. Para crianças de 4-10 anos.",
-          "category": "Brinquedos de Controle Remoto"
-        },
-        "ar": {
-          "name": "لعبة الحفارة ذات إضاءة LED",
-          "description": "لعبة حفارة تعمل عن بُعد مع مصباح LED يعمل ودوران ذراع 360 درجة وأصوات حفر واقعية. للأطفال من سن 4-10 سنوات.",
-          "category": "ألعاب التحكم عن بُعد"
-        }
-      }
-    },
-    {
-      "id": "t3",
-      "name": "DIY Solar Robot 7-in-1",
-      "category": "STEM Toys",
-      "price": 12.99,
+      "name": "3D Printed Custom Toy Set",
+      "category": "Collectible Toys",
+      "price": 16.99,
       "trend": "rising",
-      "region": "US/UK/CA/EU",
-      "image": "/products/solar-robot.webp",
-      "description": "7-in-1 solar-powered robot building kit that teaches children renewable energy and engineering. Transforms into 7 different robot forms: robot, dog, walker, boat, car, plane, and windmill.",
-      "source": "Amazon New Release - Solar Toys",
+      "region": "US/DE/BR",
+      "image": "/products/3d-printed.webp",
+      "description": "3D printed custom toy set with personalized elements. POD (Print on Demand) category growing 40% YoY with $46.2B total market. Highly customizable, appeals to collectors and gift buyers.",
+      "source": "TikTok Shop - #1 Trending POD Toys",
       "procurement": {
-        "supplier": "汕头电动玩具套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 100,
-        "costPriceCny": 12,
-        "domesticFreightCny": 1.5,
-        "forwarderFeeCnyPerKg": 0.3,
-        "weightKg": 0.6,
-        "shippingDays": 7,
-        "platformFeePct": 15,
-        "profitMarginPct": 76,
-        "certification": "EN71, CE, ASTM F963"
-      },
-      "translations": {
-        "zh": {
-          "name": "DIY太阳能机器人7合1",
-          "description": "7合1太阳能机器人制作套装，教孩子可再生能源和工程知识。可变形成7种不同形式：机器人、狗、走路者、船、汽车、飞机和风车。STEM教育在美国、英国、加拿大和欧盟学校都有要求。",
-          "category": "STEM玩具"
-        },
-        "zh-TW": {
-          "name": "DIY太陽能機器人7合1",
-          "description": "7合1太陽能機器人製作套裝，教孩子可再生能源和工程知識。可變形成7種不同形式：機器人、狗走路者、船、汽車、飛機和風車。STEM教育在美國、英國、加拿大和歐盟學校都有要求。",
-          "category": "STEM玩具"
-        },
-        "es": {
-          "name": "Robot Solar DIY 7-en-1",
-          "description": "Kit de construcción de robot solar 7-en-1 que enseña a los niños energía renovable e ingeniería. Se transforma en 7 formas diferentes de robot.",
-          "category": "Juguetes STEM"
-        },
-        "fr": {
-          "name": "Robot Solaire DIY 7-en-1",
-          "description": "Kit de construction de robot solaire 7-en-1 qui enseigne aux enfants les énergies renouvelables et l'ingénierie. Se transforme en 7 formes de robot différentes.",
-          "category": "Jouets STEM"
-        },
-        "de": {
-          "name": "DIY Solar-Roboter 7-in-1",
-          "description": "7-in-1 Solar-Roboter-Bausatz, der Kindern erneuerbare Energien und Ingenieurwissenschaften beibringt. Verwandelt sich in 7 verschiedene Roboterformen.",
-          "category": "Lernspielzeug"
-        },
-        "ja": {
-          "name": "DIYソーラーロボット 7-in-1",
-          "description": "7-in-1ソーラー動力ロボットビルディングキットで，孩子に再生可能エネルギーとエンジニアリングを教えます。7つの異なるロボット形態に変化します。",
-          "category": "STEM玩具"
-        },
-        "ko": {
-          "name": "DIY 솔라 로봇 7-in-1",
-          "description": "아이들에게 재생 에너지와 엔지니어링을 가르치는 7-in-1 솔라 로봇 빌딩 키트입니다. 7가지 다른 로봇 형태로 변형됩니다.",
-          "category": "STEM 장난감"
-        },
-        "pt": {
-          "name": "Robô Solar DIY 7-em-1",
-          "description": "Kit de construção de robô solar 7-em-1 que ensina às crianças energia renovável e engenharia. Transforma-se em 7 formas diferentes de robô.",
-          "category": "Brinquedos STEM"
-        },
-        "ar": {
-          "name": "روبوت شمسي DIY 7 في 1",
-          "description": "مجموعة بناء روبوت شمسي 7 في 1 تعلم الأطفال الطاقة المتجددة والهندسة. يتحول إلى 7 أشكال مختلفة من الروبوت.",
-          "category": "ألعاب تعليمية"
-        }
-      }
-    },
-    {
-      "id": "t4",
-      "name": "Mini Construction Scene Set",
-      "category": "Play Sets",
-      "price": 19.99,
-      "trend": "stable",
-      "region": "US/UK/AU",
-      "image": "/products/mini-construction.webp",
-      "description": "Miniature desktop construction scene toy with working crane, dump truck, and worker figurines. Great for imaginative play on the bedroom floor or playroom table. Ages 3-8.",
-      "source": "Amazon Seasonal Bestseller",
-      "procurement": {
-        "supplier": "济宁玩具工程车套装",
+        "supplier": "汕头3D打印玩具套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
         "moq": 50,
         "costPriceCny": 22,
         "domesticFreightCny": 2,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 0.9,
-        "shippingDays": 10,
-        "platformFeePct": 15,
-        "profitMarginPct": 70,
-        "certification": "CE, ASTM F963"
-      },
-      "translations": {
-        "zh": {
-          "name": "迷你工程场景套装",
-          "description": "迷你桌面工程场景玩具，配有工作起重机、卸货车和工人雕像。适合在卧室地板或游戏室桌子上进行想象游戏，年龄3-8岁。迷你车收藏爱好者是增长中的次级市场。",
-          "category": "游戏套装"
-        },
-        "zh-TW": {
-          "name": "迷你工程場景套裝",
-          "description": "迷你桌面工程場景玩具，配有工作起重機、卸貨車和工人雕像。適合在臥室地板或遊戲室桌子上進行想像遊戲，年齡3-8歲。迷你車收藏愛好者是增長中的次級市場。",
-          "category": "遊戲套裝"
-        },
-        "es": {
-          "name": "Mini Conjunto de Escena de Construcción",
-          "description": "Juguete de escena de construcción de escritorio en miniatura con grúa que funciona, camión de volcado y figuras de trabajadores. Ideal para juego imaginativo.",
-          "category": "Conjuntos de Juego"
-        },
-        "fr": {
-          "name": "Mini Ensemble Scène de Construction",
-          "description": "Jouet de scène de construction de bureau en miniature avec grue fonctionnelle, camion-benne et figurines d'ouvriers. Idéal pour le jeu imaginatif.",
-          "category": "Ensembles de Jeu"
-        },
-        "de": {
-          "name": "Mini-Baustellenset",
-          "description": "Miniatur-Desktop-Baustellenspielzeug mit funktionierendem Kran, Muldenkipper und Arbeiterfiguren. Toll für fantasievolles Spielen.",
-          "category": "Spielzeugsets"
-        },
-        "ja": {
-          "name": "ミニ建设工程シーンセット",
-          "description": "動くクレーン、ダンプトラック、worker人形を備えたミニチナーのデスクトップ建設シーン玩具です。卧室の床やプレイルームのテーブルでの想像遊びに最適です。",
-          "category": "プレイセット"
-        },
-        "ko": {
-          "name": "미니 건설 장면 세트",
-          "description": "작동하는 크레인, 덤프 트럭, 작업자 피규어가 있는 미니 데스크탑 건설 장면 장난감입니다. 침실 바닥이나 놀이방 테이블에서의 상상 놀이에 좋습니다.",
-          "category": "플레이 세트"
-        },
-        "pt": {
-          "name": "Mini Conjunto de Cena de Construção",
-          "description": "Brinquedo de cena de construção de mesa em miniatura com guindaste funcional, caminhão de bascular e figuras de trabalhadores. Ótimo para brincadeira imaginativa.",
-          "category": "Conjuntos de Brincadeira"
-        },
-        "ar": {
-          "name": "مجموعة مشهد البناء المصغر",
-          "description": "لعبة مشهد بناء مصغرة على سطح المكتب مع رافعة تعمل وشاحنة تفريغ وتماثيل عمال. رائعة للعب الخيالي على أرضية غرفة النوم أو طاولة غرفة اللعب.",
-          "category": "مجموعات اللعب"
-        }
-      }
-    },
-    {
-      "id": "t5",
-      "name": "LEGO Compatible Superhero Set 500pcs",
-      "category": "Building Blocks",
-      "price": 22.99,
-      "trend": "hot",
-      "region": "US/UK/BR/MX",
-      "image": "/products/lego-superhero.webp",
-      "description": "500-piece superhero-themed building block set that recreates iconic action figures in brick form. Combines two of the world's most popular toy categories — superheroes and building blocks.",
-      "source": "Amazon Hot New Release - Building Sets",
-      "procurement": {
-        "supplier": "汕头IP积木套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 30,
-        "costPriceCny": 25,
-        "domesticFreightCny": 2,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 1.5,
+        "forwarderFeeCnyPerKg": 0.3,
+        "weightKg": 0.5,
         "shippingDays": 7,
         "platformFeePct": 15,
         "profitMarginPct": 73,
@@ -311,280 +98,422 @@
       },
       "translations": {
         "zh": {
-          "name": "乐高兼容超级英雄套装500片",
-          "description": "500片超级英雄主题建筑积木套装，将标志性的动作人物以积木形式重建。结合了全球最受欢迎的两个玩具品类——超级英雄和建筑积木。IP授权套装比普通套装溢价40%。",
-          "category": "建筑积木"
+          "name": "3D打印定制玩具套装",
+          "description": "3D打印定制玩具套装，可个性化定制元素。POD（按需打印）品类同比增长40%，总市场规模462亿美元。高度可定制，吸引收藏者和礼品买家。",
+          "category": "收藏玩具"
         },
         "zh-TW": {
-          "name": "樂高兼容超級英雄套裝500片",
-          "description": "500片超級英雄主題建築積木套裝，將標誌性的動作人物以積木形式重建。結合了全球最受歡迎的兩個玩具品類——超級英雄和建築積木。IP授權套裝比普通套裝溢價40%。",
-          "category": "建築積木"
+          "name": "3D列印定製玩具套裝",
+          "description": "3D列印定製玩具套裝，可個人化定製元素。POD（按需列印）品類同比增長40%，總市場規模462億美元。高度可定製，吸引收藏者和禮品買家。",
+          "category": "收藏玩具"
         },
         "es": {
-          "name": "Set Compatible con LEGO Superhéroe 500pcs",
-          "description": "Set de bloques de construcción de 500 piezas con temática de superhéroes que recrea figuras de acción icónicas en forma de ladrillo. Combina dos de las categorías de juguetes más populares del mundo.",
-          "category": "Bloques de Construcción"
+          "name": "Set de Juguetes Personalizados Impresos en 3D",
+          "description": "Conjunto de juguetes personalizados impresos en 3D. Categoria POD creciendo 40% YoY con mercado de $46.2B. Altamente personalizable, atrae a coleccionistas y compradores de regalos.",
+          "category": "Juguetes Coleccionables"
         },
         "fr": {
-          "name": "Ensemble Super-héros Compatible LEGO 500pcs",
-          "description": "Ensemble de blocs de construction de 500 pièces à thème super-héros qui recrée des figures d'action emblématiques sous forme de briques. Combine deux des catégories de jouets les plus populaires au monde.",
-          "category": "Blocs de Construction"
+          "name": "Ensemble de Jouets Personnalises Imprimés en 3D",
+          "description": "Ensemble de jouets personalises imprimes en 3D. Categorie POD en croissance de 40% avec un marche total de 46,2 milliards de dollars. Hautement personnalisable.",
+          "category": "Jouets Collectionnables"
         },
         "de": {
-          "name": "LEGO-kompatibles Superhelden-Set 500pcs",
-          "description": "500-teiliges Superhelden-Bausteinset, das ikonische Actionfiguren in Steinform nachbildet. Kombiniert zwei der beliebtesten Spielzeugkategorien der Welt.",
-          "category": "Bausteine"
+          "name": "3D-gedrucktes Custom-Spielzeug-Set",
+          "description": "3D-gedrucktes Custom-Spielzeug-Set mit personalisierbaren Elementen. POD-Kategorie wachst um 40% YoY mit 46,2B-Markt. Hochgradig anpassbar.",
+          "category": "Sammlerstücke"
         },
         "ja": {
-          "name": "レゴ互換スーパーロ英雄セット500ピース",
-          "description": "500ピースのスーパーロ英雄テーマの建築ブロックセットで、時代を象徴するアクションフィギュアをレンガ形式で再構築します。世界で最も普及している2つの玩具カテゴリーを組み合わせています。",
-          "category": "ビルドイングブロック"
+          "name": "3Dプリントカスタムおもちゃセット",
+          "description": "パーソナライズされた要素を備えた3Dプリントカスタムおもちゃセット。PODカテゴリーは前年比40%成長、462億ドルの総市場。",
+          "category": "コレクション玩具"
         },
         "ko": {
-          "name": "레고 호환 슈퍼히어로 세트 500피스",
-          "description": "유명한 액션 피규어를 벽돌 형태로 재현하는 500피스 슈퍼히어로 테마 빌딩 블록 세트입니다. 세계에서 가장 인기 있는 두 가지 장난감 카테고리를 결합합니다.",
-          "category": "빌딩 블록"
+          "name": "3D 프린팅 커스텀 장난감 세트",
+          "description": "개인화된 요소를 갖춘 3D 프린팅 커스텀 장난감 세트입니다. POD 카테고리가 전년 대비 40% 성장하고 있으며 총 462억 달러 시장 규모를 보유하고 있습니다.",
+          "category": "수집 장난감"
         },
         "pt": {
-          "name": "Conjunto Super-herói Compatível com LEGO 500pcs",
-          "description": "Conjunto de blocos de construção de 500 peças com tema de super-herói que recria figuras de ação icônicas em forma de tijolo. Combina duas das categorias de brinquedos mais populares do mundo.",
-          "category": "Blocos de Construção"
+          "name": "Conjunto de Brinquedos Personalizados Impressos em 3D",
+          "description": "Conjunto de brinquedos personalizados impressos em 3D. Categoria POD crescendo 40% no ano com mercado de $46.2B. Altamente personalizavel.",
+          "category": "Brinquedos Colecionáveis"
         },
         "ar": {
-          "name": "مجموعة بناء سوبر هيرو متوافقة مع ليغو 500 قطعة",
-          "description": "مجموعة بناء 500 قطعة بموضوع البطل الخارق تعيد إنشاء شخصيات العمل الأيقونية بشكل طوب. تجمع بين فئتين من أكثر فئات الألعاب شعبية في العالم.",
-          "category": "طوب البناء"
+          "name": "مجموعة ألعاب مخصصة مطبوعة ثلاثية الأبعاد",
+          "description": "مجموعة ألعاب مخصصة مطبوعة ثلاثية الأبعاد مع عناصر قابلة للتخصيص. فئة POD تنمو بنسبة 40% سنوياً مع سوق إجمالي 46.2 مليار دولار.",
+          "category": "ألعاب مقتنيات"
+        }
+      }
+    },
+    {
+      "id": "t3",
+      "name": "Montessori Wooden Puzzle Set",
+      "category": "Baby & Toddler Toys",
+      "price": 12.99,
+      "trend": "stable",
+      "region": "US/UK/AU",
+      "image": "/products/montessori-puzzle.webp",
+      "description": "Montessori wooden puzzle set for 1-5 years with progressive difficulty levels. Sensory learning and fine motor skill development. Eco-friendly materials. Parents prioritize educational value for early childhood.",
+      "source": "Amazon Best Seller - Preschool Puzzles",
+      "procurement": {
+        "supplier": "汕头蒙特梭利木制拼图套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 50,
+        "costPriceCny": 16,
+        "domesticFreightCny": 1.5,
+        "forwarderFeeCnyPerKg": 0.3,
+        "weightKg": 0.6,
+        "shippingDays": 7,
+        "platformFeePct": 15,
+        "profitMarginPct": 74,
+        "certification": "EN71, ASTM"
+      },
+      "translations": {
+        "zh": {
+          "name": "蒙特梭利木制拼图套装",
+          "description": "蒙特梭利木制拼图套装，适合1-5岁，难度递进。感官学习和精细运动技能发展。环保材料。家长重视幼儿教育价值。",
+          "category": "婴儿玩具"
+        },
+        "zh-TW": {
+          "name": "蒙特梭利木製拼圖套裝",
+          "description": "蒙特梭利木製拼圖套裝，適合1-5歲，難度遞進。感官學習和精細運動技能發展。環保材料。家長重視幼兒教育價值。",
+          "category": "嬰兒玩具"
+        },
+        "es": {
+          "name": "Set de Rompecabezas de Madera Montessori",
+          "description": "Set de rompecabezas de madera Montessori para 1-5 anos con niveles de dificultad progresivos. Aprendizaje sensorial y desarrollo de motricidad fina.",
+          "category": "Juguetes para Bebe"
+        },
+        "fr": {
+          "name": "Ensemble de Puzzles en Bois Montessori",
+          "description": "Ensemble de puzzles en bois Montessori pour enfants de 1-5 ans avec niveaux de difficulte progressifs. Apprentissage sensoriel et developpement moteur.",
+          "category": "Jouets pour Bebe"
+        },
+        "de": {
+          "name": "Montessori Holz-Puzzle-Set",
+          "description": "Montessori Holz-Puzzle-Set fur 1-5 Jahre mit progressivem Schwierigkeitsgrad. Sensorisches Lernen und Feinmotorik-Entwicklung.",
+          "category": "Baby-Spielzeug"
+        },
+        "ja": {
+          "name": "モンテッソーリ木製パズルセット",
+          "description": "1-5歳向けのモンテッソーリ木製パズルセットで、難易度 progressively 增加。感官学習と微細運動技能発達。",
+          "category": "ベビー玩具"
+        },
+        "ko": {
+          "name": "몬테소리 우드 퍼즐 세트",
+          "description": "1-5세를 위한蒙特梭利 우드 퍼즐 세트로, 난이도가 점점 올라갑니다. 감각 학습과 미세 운동 기술 발달을 도와줍니다.",
+          "category": "아기 장난감"
+        },
+        "pt": {
+          "name": "Conjunto de Quebra-Cabeca de Madeira Montessori",
+          "description": "Conjunto de quebra-cabeca de madeira Montessori para 1-5 anos com niveis de dificuldade progressivos. Aprendizagem sensorial e desenvolvimento motor fino.",
+          "category": "Brinquedos para Bebe"
+        },
+        "ar": {
+          "name": "مجموعة أحجية خشبية منتسوري",
+          "description": "مجموعة أحجية خشبية منتسوري للأطفال من سن 1-5 سنوات بمستويات صعوبة متصاعدة. التعلم الحسي وتطوير المهارات الحركية الدقيقة.",
+          "category": "ألعاب الأطفال الصغار"
+        }
+      }
+    },
+    {
+      "id": "t4",
+      "name": "Smart Voice Recognition Teddy",
+      "category": "Electronic Toys",
+      "price": 34.99,
+      "trend": "rising",
+      "region": "US/UK",
+      "image": "/products/smart-teddy.webp",
+      "description": "Smart plush teddy bear with voice recognition and AI conversational abilities. Responds to child questions with age-appropriate answers. 2026 hottest crossover between plush toys and smart technology.",
+      "source": "Amazon Hot New Release - Electronic Plush Toys",
+      "procurement": {
+        "supplier": "汕头智能毛绒玩具套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 30,
+        "costPriceCny": 46,
+        "domesticFreightCny": 3,
+        "forwarderFeeCnyPerKg": 0.3,
+        "weightKg": 1.0,
+        "shippingDays": 7,
+        "platformFeePct": 15,
+        "profitMarginPct": 67,
+        "certification": "CE, FCC, ASTM F963"
+      },
+      "translations": {
+        "zh": {
+          "name": "智能语音识别泰迪熊",
+          "description": "具有语音识别和AI对话功能的智能毛绒泰迪熊。用适龄答案回应孩子的问题。2026年毛绒玩具与智能科技最热跨界产品。",
+          "category": "电子玩具"
+        },
+        "zh-TW": {
+          "name": "智能語音識別泰迪熊",
+          "description": "具有語音識別和AI對話功能的智能毛絨泰迪熊。用適齡答案回應孩子的問題。2026年毛絨玩具與智能科技最熱跨界產品。",
+          "category": "電子玩具"
+        },
+        "es": {
+          "name": "Oso de Peluche con Reconocimiento de Voz Inteligente",
+          "description": "Oso de peluche inteligente con reconocimiento de voz y capacidades de conversacion IA. Responde a preguntas de ninos con respuestas apropiadas para su edad.",
+          "category": "Juguetes Electronicos"
+        },
+        "fr": {
+          "name": "Peluche Intelligent avec Reconnaissance Vocale",
+          "description": "Peluche intelligente avec reconnaissance vocale et capacites de conversation IA. Repond aux questions des enfants avec des reponses adaptees a leur age.",
+          "category": "Jouets Electroniques"
+        },
+        "de": {
+          "name": "Smartes Stofftier mit Spracherkennung",
+          "description": "Smartes Kuscheltier-Bar mit Spracherkennung und KI-Gesprachsfahigkeiten. Beantwortet Kinderfragen mit altersgerechten Antworten.",
+          "category": "Elektronisches Spielzeug"
+        },
+        "ja": {
+          "name": "スマート音声認識テディベア",
+          "description": "音声認識とAI会話機能を備えたスマートぬいぐるみテディベア。年相応の答えで子どもの質問に応答します。",
+          "category": "電子玩具"
+        },
+        "ko": {
+          "name": "스마트 음성 인식 테디 베어",
+          "description": "음성 인식 및 AI 대화 기능을 갖춘 스마트 plush 테디 베어입니다. 연령에 맞는 답으로 아이 질문에 응답합니다.",
+          "category": "전자 장난감"
+        },
+        "pt": {
+          "name": "Ursinho de Pelucia Inteligente com Reconhecimento de Voz",
+          "description": "Ursinho de pelucia inteligente com reconhecimento de voz e habilidades de conversacao IA. Responde a perguntas infantis com respostas apropriadas para a idade.",
+          "category": "Brinquedos Eletronicos"
+        },
+        "ar": {
+          "name": "دب محشو ذكي للتعرف على الصوت",
+          "description": "دب محشو ذكي مع التعرف على الصوت وقدرات المحادثة بالذكاء الاصطناعي. يستجيب لأسئلة الأطفال بإجابات مناسبة للعمر.",
+          "category": "ألعاب إلكترونية"
+        }
+      }
+    },
+    {
+      "id": "t5",
+      "name": "Full-Featured AI Robot Toy",
+      "category": "STEM Robots",
+      "price": 49.99,
+      "trend": "hot",
+      "region": "US/EU",
+      "image": "/products/ai-toy-robot.webp",
+      "description": "Full-featured AI robot toy with face recognition, voice commands, and programmable movements. Ages 6-14. Educational STEM robot that teaches coding basics while providing interactive play.",
+      "source": "Amazon Best Seller - Kids Robotics",
+      "procurement": {
+        "supplier": "汕头AI机器人玩具套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 30,
+        "costPriceCny": 68,
+        "domesticFreightCny": 5,
+        "forwarderFeeCnyPerKg": 0.35,
+        "weightKg": 2.2,
+        "shippingDays": 7,
+        "platformFeePct": 15,
+        "profitMarginPct": 68,
+        "certification": "CE, FCC, ASTM F963"
+      },
+      "translations": {
+        "zh": {
+          "name": "全功能AI机器人玩具",
+          "description": "具有人脸识别、语音命令和可编程动作的全功能AI机器人玩具。适合6-14岁。教育STEM机器人，教授编程基础同时提供互动游戏。",
+          "category": "STEM机器人"
+        },
+        "zh-TW": {
+          "name": "全功能AI機器人玩具",
+          "description": "具有人臉識別、語音命令和可編程動作的全功能AI機器人玩具。適合6-14歲。教育STEM機器人，教授編程基礎同時提供互動遊戲。",
+          "category": "STEM機器人"
+        },
+        "es": {
+          "name": "Juguete Robot IA con Todas las Funciones",
+          "description": "Juguete robot IA con reconocimiento facial, comandos de voz y movimientos programables. Edades 6-14. Robot educativo STEM que ensena conceptos de codificacion.",
+          "category": "Robots STEM"
+        },
+        "fr": {
+          "name": "Jouet Robot IA Polyvalent",
+          "description": "Jouet robot IA avec reconnaissance faciale, commandes vocales et mouvements programmables. Pour enfants de 6-14 ans. Robot educatif STEM.",
+          "category": "Robots STEM"
+        },
+        "de": {
+          "name": "Voll funktionsfahiges KI-Roboter-Spielzeug",
+          "description": "Voll funktionsfahiges KI-Roboter-Spielzeug mit Gesichtserkennung, Sprachbefehlen und programmierbaren Bewegungen. Fur Kinder von 6-14 Jahren.",
+          "category": "STEM Roboter"
+        },
+        "ja": {
+          "name": "多功能AIロボット玩具",
+          "description": "顔認識、音声コマンド、プログラム可能な動きを備えた多功能AIロボット玩具。6-14歳向け。コーディング基礎を教える教育STEMロボット。",
+          "category": "STEMロボット"
+        },
+        "ko": {
+          "name": "다기능 AI 로봇 장난감",
+          "description": "얼굴 인식, 음성 명령, 프로그래밍 가능한 움직임을 갖춘 다기능 AI 로봇 장난감입니다. 6-14세용.コーディング basics를教えながらインタラクティブな遊びを提供する 교육용 STEM 로봇.",
+          "category": "STEM 로봇"
+        },
+        "pt": {
+          "name": "Brinquedo Robo IA Completo",
+          "description": "Brinquedo robo IA com reconhecimento facial, comandos de voz e movimentos programaveis. Idades 6-14. Robo educacional STEM que ensena conceitos basicos de codificacao.",
+          "category": "Robots STEM"
+        },
+        "ar": {
+          "name": "لعبة روبوت ذكاء اصطناعي متعددة الوظائف",
+          "description": "لعبة روبوت ذكاء اصطناعي مع التعرف على الوجه والأوامر الصوتية والحركات القابلة للبرمجة. للأعمار 6-14 سنة.",
+          "category": "روبوتات تعليمية"
         }
       }
     },
     {
       "id": "t6",
-      "name": "Outdoor Trike & Ride-On 3-in-1",
-      "category": "Outdoor Play",
-      "price": 49.99,
+      "name": "Electronic Sound Plush Baby Toy",
+      "category": "Baby & Toddler Toys",
+      "price": 18.99,
       "trend": "stable",
-      "region": "US/AU/CA",
-      "image": "/products/outdoor-rideon.webp",
-      "description": "3-in-1 outdoor ride-on set including mini scooter, ride-on truck, and pull wagon for ages 2-6. Outdoor toys category growing 22% YoY in US and Australia as parents prioritize screen-free play.",
-      "source": "Amazon Best Seller - Outdoor Tricycles",
+      "region": "US/UK/AU",
+      "image": "/products/plush-baby.webp",
+      "description": "Soft plush baby toy with built-in sounds, music and tactile textures. For newborns to 3 years. Multiple sensory stimulation through sound, touch and visual contrast. Top baby registry item.",
+      "source": "Amazon Baby Gift Registry Bestseller",
       "procurement": {
-        "supplier": "汕头户外玩具套装",
+        "supplier": "汕头电子毛绒婴儿玩具套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 20,
-        "costPriceCny": 85,
-        "domesticFreightCny": 5,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 6,
-        "shippingDays": 10,
+        "moq": 50,
+        "costPriceCny": 22,
+        "domesticFreightCny": 1.5,
+        "forwarderFeeCnyPerKg": 0.3,
+        "weightKg": 0.5,
+        "shippingDays": 7,
         "platformFeePct": 15,
-        "profitMarginPct": 55,
-        "certification": "ASTM F963, CE, AU/NZ Safety Standard"
+        "profitMarginPct": 73,
+        "certification": "EN71, ASTM"
       },
       "translations": {
         "zh": {
-          "name": "户外玩具三合一",
-          "description": "3合1户外骑乘套装，包含迷你滑板车、骑乘卡车和牵引货车，适合2-6岁儿童。户外玩具品类在美国和澳大利亚同比增长22%，家长优先选择无屏幕的玩耍方式。",
-          "category": "户外玩具"
+          "name": "电子发声毛绒婴儿玩具",
+          "description": "内置声音、音乐和触觉纹理的柔软毛绒婴儿玩具。适合0-3岁新生儿。通过声音、触觉和视觉对比进行多重感官刺激。热门婴儿礼品注册项目。",
+          "category": "婴儿玩具"
         },
         "zh-TW": {
-          "name": "戶外玩具三合一",
-          "description": "3合1戶外騎乘套裝，包含迷你滑板車、騎乘卡車和牽引力貨車，適合2-6歲兒童。戶外玩具品類在美國和澳大利亞同比增長22%，家長優先選擇無屏幕的玩耍方式。",
-          "category": "戶外玩具"
+          "name": "電子發聲毛絨嬰兒玩具",
+          "description": "內置聲音、音樂和觸覺紋理的柔軟毛絨嬰兒玩具。適合0-3歲新生兒。通過聲音、觸覺和視覺對比進行多重感官刺激。熱門嬰兒禮品註冊項目。",
+          "category": "嬰兒玩具"
         },
         "es": {
-          "name": "Trimoto y Montable para Exterior 3-en-1",
-          "description": "Conjunto de montaje al aire libre 3-en-1 que incluye scooter mini, camión montable y wagon de tracción para edades de 2-6. La categoría de juguetes al aire libre crece 22% interanual en EE.UU. y Australia.",
-          "category": "Juguetes para Exterior"
+          "name": "Juguete de Peluche para Bebe con Sonido Electronico",
+          "description": "Juguete de peluche suave para bebe con sonidos integrados, musica y texturas tactiles. Para recien nacidos hasta 3 anos. Estimulacion sensorial multiple.",
+          "category": "Juguetes para Bebe"
         },
         "fr": {
-          "name": "Tricycle et Montable Extérieur 3-en-1",
-          "description": "Ensemble de monte extérieur 3-en-1 comprenant mini scooter, camion à monter et wagonnet de traction pour enfants de 2-6 ans. La catégorie des jouets extérieurs croît de 22% en glissement annuel aux États-Unis et en Australie.",
-          "category": "Jouets d'Extérieur"
+          "name": "Jouet Peluche Bebe avec Son Electronique",
+          "description": "Jouet peluche doux pour bebe avec sons integres, musique et textures tactiles. Pour nouveau-nes jusqua 3 ans. Stimulation sensorielle multiple.",
+          "category": "Jouets pour Bebe"
         },
         "de": {
-          "name": "Outdoor-Dreirad & Reitzeug 3-in-1",
-          "description": "3-in-1 Outdoor-Fahrset mit Mini-Tretroller, Auto zum Aufsitzen und Zugwagen für Kinder von 2-6 Jahren. Die Außenspielzeugkategorie wächst in den USA und Australien um 22% im Jahresvergleich.",
-          "category": "Außenspielzeug"
+          "name": "Elektronisches Plusch Baby-Spielzeug",
+          "description": "Weiches Plusch-Baby-Spielzeug mit eingebauten Sounds, Musik und taktilen Texturen. Fur Neugeborene bis 3 Jahre. Multiple Sinnesanregung.",
+          "category": "Baby-Spielzeug"
         },
         "ja": {
-          "name": "アウトドア三輪車＆乗り物3-in-1",
-          "description": "ミニスクーター、乗車トラック、プル Wagon を含む3-in-1アウトドアライドオンセットで、2-6歳向け。米国とオーストラリアでアウトド玩具カテゴリが前年比22%成長しています。",
-          "category": "外遊び玩具"
+          "name": "電子サウンドプラスベビー玩具",
+          "description": "内置サウンド、、音楽、タクタイルテクスチャーを備えたソフトプラスベビー玩具。新生児から3歳まで。複数の感覚刺激。",
+          "category": "ベビー玩具"
         },
         "ko": {
-          "name": "야외 삼轮车 및 탑승형 3-in-1",
-          "description": "미니 스쿠터, 탑승형 트럭, 당김형 왜건이 포함된 3-in-1 야외 탑승형 세트로, 2-6세용입니다. 미국과 호주에서 야외 장난감 카테고리가 전년 대비 22% 성장하고 있습니다.",
-          "category": "야외 장난감"
+          "name": "전자 사운드 플러시 아기 장난감",
+          "description": "내장 사운드, 음악, 촉각 텍스처를 갖춘 부드러운 플러시 아기 장난감입니다. 신생아에서 3세까지. 다양한 감각 자극.",
+          "category": "아기 장난감"
         },
         "pt": {
-          "name": "Triciclo e Andar ao Ar Livre 3-em-1",
-          "description": "Conjunto de andador ao ar livre 3-em-1 incluindo scooter mini, caminhão de montar e wagon de tração para crianças de 2-6 anos. A categoria de brinquedos ao ar livre cresce 22% no ano nos EUA e Austrália.",
-          "category": "Brinquedos ao Ar Livre"
+          "name": "Brinquedo de Pelucia para Bebe com Som Eletronico",
+          "description": "Brinquedo de pelucia macio para bebe com sons integrados, musica e texturas tatueis. Para recent-nascidos ate 3 anos. Estimulacao sensorial multiplaa.",
+          "category": "Brinquedos para Bebe"
         },
         "ar": {
-          "name": "دراجة ثلاثية و مركبة خارجية 3 في 1",
-          "description": "مجموعة ركوب خارجية 3 في 1 تشمل دراجة نارية صغيرة وشاحنة ركوب ومقطورة سحب للأطفال من سن 2-6 سنوات. تنمو فئة الألعاب الخارجية بنسبة 22% سنوياً في الولايات المتحدة وأستراليا.",
-          "category": "ألعاب خارجية"
+          "name": "لعبة محشوة ناعمة للأطفال مع صوت إلكتروني",
+          "description": "لعبة محشوة ناعمة للأطفال مع أصوات مدمجة وموسيقى وملمس لمسي. للأطفال من المواليد حتى 3 سنوات. تحفيز حسي متعدد.",
+          "category": "ألعاب الأطفال الصغار"
         }
       }
     },
     {
       "id": "t7",
-      "name": "Engineering Vehicle Simulation Series 6-Pack",
+      "name": "Die-Cast Model Series 6-Pack",
       "category": "Collectible Toys",
-      "price": 34.99,
+      "price": 24.99,
       "trend": "stable",
       "region": "US/UK/AU",
-      "image": "/products/engineering-series.webp",
-      "description": "6-piece set of 1:50 scale die-cast engineering vehicles including cement mixer, flatbed, crane truck, excavator, bulldozer, and dump truck. Collector's series and premium gift for engineering enthusiasts.",
+      "image": "/products/diecast-6pack.webp",
+      "description": "6-piece set of 1:50 scale die-cast engineering vehicles: cement mixer, flatbed, crane truck, excavator, bulldozer, and dump truck. Premium collector series from Jining manufacturing hub.",
       "source": "Amazon - Die-Cast Collectibles Category",
       "procurement": {
-        "supplier": "济宁工程车模型系列套装",
+        "supplier": "济宁合金工程车模型系列套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
         "moq": 30,
-        "costPriceCny": 58,
+        "costPriceCny": 38,
         "domesticFreightCny": 4,
         "forwarderFeeCnyPerKg": 0.35,
         "weightKg": 3,
         "shippingDays": 10,
         "platformFeePct": 15,
-        "profitMarginPct": 57,
+        "profitMarginPct": 63,
         "certification": "CE, ASTM F963"
       },
       "translations": {
         "zh": {
-          "name": "工程车模拟系列6包装",
-          "description": "6辆1:50比例合金工程车套装，包含水泥搅拌车、平板车、起重卡车、挖掘机、推土机和自卸车。工程爱好者的收藏套装和高端礼品选择。济宁是中国领先的建筑设备制造中心。",
+          "name": "合金工程车模型系列6件套装",
+          "description": "6辆1:50比例合金工程车套装，包含水泥搅拌车、平板车、起重卡车、挖掘机、推土机和自卸车。来自济宁制造业中心的高端收藏系列。",
           "category": "收藏玩具"
         },
         "zh-TW": {
-          "name": "工程車模擬系列6包裝",
-          "description": "6輛1:50比例合金工程車套裝，包含水泥攪拌車、平板車、起重卡車、挖掘機、推土機和自卸車。工程愛好者的收藏套裝和高端禮品選選擇。濟南是中國領先的建築設備製造中心。",
+          "name": "合金工程車模型系列6件套裝",
+          "description": "6輛1:50比例合金工程車套裝，包含水泥攪拌車、平板車、起重卡車、挖掘機、推土機和自卸車。來自濟南製造業中心的高端收藏系列。",
           "category": "收藏玩具"
         },
         "es": {
-          "name": "Serie de Simulación de Vehículos de Ingeniería 6 Piezas",
-          "description": "Set de 6 piezas de vehículos de ingeniería de fundición a presión a escala 1:50 que incluye mezcladora de cemento, plataforma plana, camión grúa, excavadora, buldócer y volquete.",
+          "name": "Serie de Modelos Fundidos a Presion 6 Piezas",
+          "description": "Set de 6 piezas de vehiculos de ingenieria fundidos a presion a escala 1:50. Serie coleccionable premium del centro de fabricacion de Jining.",
           "category": "Juguetes Coleccionables"
         },
         "fr": {
-          "name": "Série de Simulation de Véhicules d'Ingénierie 6 Pièces",
-          "description": "Ensemble de 6 véhicules de génie civil sous forme de fonderie à l'échelle 1:50 comprenant bétonnière, plateau, camion grue, excavatrice, bulldozer et tombereau.",
+          "name": "Serie de Modeles Moulés sous Pression 6 Pieces",
+          "description": "Ensemble de 6 vehicules de genie civil moules sous pression a leechelle 1:50. Serie de collection premium du centre de fabrication de Jining.",
           "category": "Jouets Collectionnables"
         },
         "de": {
-          "name": "Ingenieurfahrzeug-Simulationsserie 6er-Pack",
-          "description": "6-teiliges Set im Maßstab 1:50 aus Druckguss-Ingenieurfahrzeugen mit Zementmischer, Tieflader, Kranwagen, Bagger, Bulldozer und Muldenkipper.",
+          "name": "Druckguss-Modellserie 6er-Pack",
+          "description": "6-teiliges Set aus Druckguss-Ingenieurfahrzeugen im Massstab 1:50. Premium-Kollektorenserie aus dem Fertigungszentrum Jining.",
           "category": "Sammlerstücke"
         },
         "ja": {
-          "name": "エンジニアリングビークルシミュレーションシリーズ6パック",
-          "description": "1:50スケールのダイカストエンジニアリングビークル6個セット（セメントミキサー、フラツスベッド、クレーントラック、掘削機、ブルドーザー、ダンプトラック）。コレクターシリーズ。",
+          "name": "ダイカストモデルシリーズ6ピースパック",
+          "description": "1:50スケールのダイカストエンジニアリングビークル6個セット。濟南製造ハブからのプレミアムコレクターシリーズ。",
           "category": "コレクション玩具"
         },
         "ko": {
-          "name": "엔지니어링 차량 시뮬레이션 시리즈 6팩",
-          "description": "시멘트 믹서, 플랫베드, 크레인 트럭, Excavator, 불도저, 덤프 트럭을 포함한 1:50 스케일 다이캐스트 엔지니어링 차량 6개 세트입니다.",
+          "name": "다이캐스트 모델 시리즈 6팩",
+          "description": "1:50 스케일 다이캐스트 엔지니어링 차량 6개 세트입니다. 지난 제조 허브의 프리미엄 컬렉터 시리즈.",
           "category": "수집 장난감"
         },
         "pt": {
-          "name": "Série de Simulação de Veículos de Engenharia 6 Peças",
-          "description": "Conjunto de 6 peças de veículos de engenharia em escala 1:50 fundidos sob pressão, incluindo betoneira, caminhão plataforma, caminhão guindaste, escavadeira, trator de esteiras e caminhão basculante.",
+          "name": "Serie de Modelos Fundidos sob Pressao 6 Pecas",
+          "description": "Conjunto de 6 veiculos de engenharia fundidos sob pressao em escala 1:50. Serie de colecionador premium do centro de fabricacao de Jining.",
           "category": "Brinquedos Colecionáveis"
         },
         "ar": {
-          "name": "مجموعة محاكاة المركبات الهندسية 6 قطع",
-          "description": "مجموعة 6 قطع من مركبات الهندسة المصبوبة بمقياس 1:50 تشمل خلاط الأسمنت، والشاحنة المسطحة، وشاحنة الرافعة، والحفارة، والجرافة، وشاحنة التفريغ.",
+          "name": "مجموعة نماذج مصبوبة 6 قطع",
+          "description": "مجموعة 6 قطع من مركبات الهندسة المصبوبة بمقياس 1:50. سلسلة مقتنيات فاخرة من مركز التصنيع جينينغ.",
           "category": "ألعاب مقتنيات"
         }
       }
     },
     {
       "id": "t8",
-      "name": "Montessori Baby Sensory Toy Set",
-      "category": "Baby & Toddler Toys",
-      "price": 16.99,
-      "trend": "stable",
-      "region": "US/UK/AU/CA",
-      "image": "/products/baby-sensory.webp",
-      "description": "Montessori sensory toy set for 6-36 months babies including textured balls, stacking rings, rattles, and fabric books. Global early childhood education spending growing — US, UK, AU parents spend the most.",
-      "source": "Amazon Baby Gift Registry Bestseller",
-      "procurement": {
-        "supplier": "汕头婴童玩具套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 50,
-        "costPriceCny": 18,
-        "domesticFreightCny": 1.5,
-        "forwarderFeeCnyPerKg": 0.3,
-        "weightKg": 0.7,
-        "shippingDays": 7,
-        "platformFeePct": 15,
-        "profitMarginPct": 72,
-        "certification": "EN71, ASTM, AU/NZ Safety Standard"
-      },
-      "translations": {
-        "zh": {
-          "name": "婴儿蒙特梭利感官玩具套装",
-          "description": "适合6-36个月婴儿的蒙特梭利感官玩具套装，包含纹理球、堆叠环、摇铃和布书。全球早期儿童教育支出持续增长，美国、英国、澳大利亚的家长的消费最高。",
-          "category": "婴儿玩具"
-        },
-        "zh-TW": {
-          "name": "嬰兒蒙特梭利感官玩具套裝",
-          "description": "適合6-36個月嬰兒的蒙特梭利感官玩具套裝，包含紋理球、堆疊環、搖鈴和布書。全球早期兒童教育支出持續增長，美國、英國、澳大利亞的家長的消費最高。",
-          "category": "嬰兒玩具"
-        },
-        "es": {
-          "name": "Set de Juguetes Sensoriales Montessori para Bebé",
-          "description": "Conjunto de juguetes sensoriales Montessori para bebés de 6-36 meses que incluye bolas texturizadas, anillos para apilar, sonajas y libros de tela.",
-          "category": "Juguetes para Bebé"
-        },
-        "fr": {
-          "name": "Ensemble de Jouets Sensoriels Montessori pour Bébé",
-          "description": "Ensemble de jouets sensoriels Montessori pour bébé de 6-36 mois comprenant balles texturées, anneaux à empiler, hochets et livres en tissu.",
-          "category": "Jouets pour Bébé"
-        },
-        "de": {
-          "name": "Montessori Baby-Sinnespielzeug-Set",
-          "description": "Montessori-Sinnespielzeugset für Babys von 6-36 Monaten mit strukturierten Bällen, Stapelringen, Rasseln und Stoffbüchern.",
-          "category": "Baby-Spielzeug"
-        },
-        "ja": {
-          "name": "モンテッソーリ乳幼児知覚玩具セット",
-          "description": "6-36ヶ月の乳幼児向けのモンテッソーリ知覚玩具セットで、テクスチャーボール、スタックリング、ラトル、布絵本が含まれます。",
-          "category": "ベビー玩具"
-        },
-        "ko": {
-          "name": "몬테소리 영아 감각 장난감 세트",
-          "description": "6-36개월 영아를 위한 몬테소리 감각 장난감 세트로, 질감 공, 쌓기 고리, 딸랑이, 천 책을 포함합니다.",
-          "category": "아기 장난감"
-        },
-        "pt": {
-          "name": "Conjunto de Brinquedos Sensoriais Montessori para Bebê",
-          "description": "Conjunto de brinquedos sensoriais Montessori para bebê de 6-36 meses, incluindo bolas texturizadas, anéis para empilhar, chocalhos e livros de tecido.",
-          "category": "Brinquedos para Bebê"
-        },
-        "ar": {
-          "name": "مجموعة ألعاب حسية مونتيسوري للأطفال",
-          "description": "مجموعة ألعاب حسية مونتيسوري للأطفال من 6-36 شهراً تشمل كرات محببة، حلقات تراص، أجراس، وكتب قماشية.",
-          "category": "ألعاب الأطفال الصغار"
-        }
-      }
-    },
-    {
-      "id": "t9",
-      "name": "360° Flip Stunt RC Car",
+      "name": "360 Flip Stunt RC Car",
       "category": "Remote Control Toys",
-      "price": 18.99,
+      "price": 21.99,
       "trend": "hot",
       "region": "US/ES/IT/AU",
       "image": "/products/stunt-car.webp",
-      "description": "The TikTok viral stunt RC car of 2026. Does backflips and barrel rolls on flat surfaces. 2.4GHz technology enables multiple cars to race simultaneously. Kids' top wishlist item across US, Spain, Italy.",
+      "description": "The TikTok viral stunt RC car of 2026. Does backflips and barrel rolls on flat surfaces. 2.4GHz technology enables multiple cars to race simultaneously. Kids top wishlist item across US, Spain, Italy.",
       "source": "TikTok Shop - #1 RC Toys Category",
       "procurement": {
         "supplier": "汕头特技遥控套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
         "moq": 50,
-        "costPriceCny": 20,
+        "costPriceCny": 22,
         "domesticFreightCny": 2,
         "forwarderFeeCnyPerKg": 0.35,
         "weightKg": 0.8,
@@ -605,193 +534,122 @@
           "category": "遙控玩具"
         },
         "es": {
-          "name": "Coche RC de Stunt con Voltereta 360°",
-          "description": "El coche RC viral de TikTok en 2026. Hace volteretas hacia atrás y giros de barril en superficies planas. La tecnología de 2.4GHz permite que múltiples coches corran simultáneamente.",
+          "name": "Coche RC de Stunt con Voltereta 360",
+          "description": "El coche RC viral de TikTok en 2026. Hace volteretas hacia atras y giros de barril en superficies planas. La tecnologia 2.4GHz permite que multiples coches corran simultaneamente.",
           "category": "Juguetes de Control Remoto"
         },
         "fr": {
-          "name": "Voiture RC de Stunt avec Flip 360°",
-          "description": "La voiture RC virale TikTok de 2026. Fait des backflips et des tonneaux sur des surfaces plates. La technologie 2.4GHz permet à plusieurs voitures de courir simultanément.",
+          "name": "Voiture RC de Stunt avec Flip 360",
+          "description": "La voiture RC virale TikTok de 2026. Fait des backflips et des tonneaux sur des surfaces plates. La technologie 2.4GHz permet a plusieurs voitures de courir simultanement.",
           "category": "Jouets Télécommandés"
         },
         "de": {
-          "name": "360° Flip Stunt RC Auto",
-          "description": "Das virale TikTok-Stunt-RC-Auto von 2026. Macht Rückwärtssaltos und Fassrollen auf flachen Oberflächen. 2.4GHz-Technologie ermöglicht gleichzeitiges Fahren mehrerer Autos.",
+          "name": "360 Flip Stunt RC Auto",
+          "description": "Das virale TikTok-Stunt-RC-Auto von 2026. Macht Ruckwärtssaltos und Fassrollen auf flachen Oberflachen. 2.4GHz-Technologie ermoglicht gleichzeitiges Fahren mehrerer Autos.",
           "category": "Ferngesteuerte Spielzeuge"
         },
         "ja": {
-          "name": "360°フリップスタントRCカー",
-          "description": "2026年のTikTokバイラルスタントRCカー。平地でバックFlipとバレルロールをします。2.4GHzテクノロジーにより複数の同時走行が可能。",
+          "name": "360フリップスタントRCカー",
+          "description": "2026年のTikTokバイラルスタントRCカー。平地でバック flipとバレルロールをします。2.4GHzテクノロジーにより複数の同時走行が可能。",
           "category": "ラジコン玩具"
         },
         "ko": {
-          "name": "360° 뒤집기 스턴트 RC 자동차",
+          "name": "360 뒤집기 스턴트 RC 자동차",
           "description": "2026년 TikTok 바이럴 스턴트 RC 자동차입니다.平地에서 백플립과 배럴 롤을 합니다. 2.4GHz 기술로 다중 동시 주행을 지원합니다.",
           "category": "RC 장난감"
         },
         "pt": {
-          "name": "Carro RC de Stunt com Flip 360°",
-          "description": "O carro RC viral do TikTok em 2026. Faz flips para trás e barrel rolls em superfícies planas. A tecnologia 2.4GHz permite que vários carros corram simultaneamente.",
+          "name": "Carro RC de Stunt com Flip 360",
+          "description": "O carro RC viral do TikTok em 2026. Faz flips para tras e barrel rolls em superficies planas. A tecnologia 2.4GHz permite que varios carros corram simultaneamente.",
           "category": "Brinquedos de Controle Remoto"
         },
         "ar": {
-          "name": "سيارة距制 عن بعد استعراضية مع قلب 360°",
+          "name": "سيارة距制 عن بعد استعراضية مع قلب 360",
           "description": "سيارة RC الضجة على TikTok في 2026. تقوم بقفزات خلفية ودوران في الاتجاه الأفقي على الأسطح المسطحة. تتيح تقنية 2.4GHz لعدة سيارات السباق في وقت واحد.",
           "category": "ألعاب التحكم عن بُعد"
         }
       }
     },
     {
-      "id": "t10",
-      "name": "Battery-Operated Forklift Toy",
-      "category": "Remote Control Toys",
-      "price": 27.99,
-      "trend": "stable",
-      "region": "US/UK/AU",
-      "image": "/products/forklift-toy.webp",
-      "description": "Battery-operated RC forklift with realistic mast lifting and fork action for warehouse and logistics role-play. Shantou manufacturers replicate real Caterpillar, Komatsu and JCB forklift designs.",
-      "source": "Amazon - Construction Toys Category",
+      "id": "t9",
+      "name": "Creative DIY Art Craft Kit",
+      "category": "Arts & Crafts",
+      "price": 14.99,
+      "trend": "rising",
+      "region": "US/UK",
+      "image": "/products/diy-craft.webp",
+      "description": "Creative DIY art and craft kit for ages 4-12 with beads, stickers, painting and sculpting supplies. Screen-free creative play. DIY craft market growing as parents seek offline activities for children.",
+      "source": "Amazon Best Seller - Kids Art Supplies",
       "procurement": {
-        "supplier": "济宁叉车玩具套装",
+        "supplier": "汕头DIY创意手工套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 30,
-        "costPriceCny": 38,
-        "domesticFreightCny": 3,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 1.6,
-        "shippingDays": 10,
+        "moq": 50,
+        "costPriceCny": 18,
+        "domesticFreightCny": 1.5,
+        "forwarderFeeCnyPerKg": 0.3,
+        "weightKg": 0.6,
+        "shippingDays": 7,
         "platformFeePct": 15,
-        "profitMarginPct": 66,
+        "profitMarginPct": 72,
         "certification": "CE, ASTM F963"
       },
       "translations": {
         "zh": {
-          "name": "电池驱动遥控叉车玩具",
-          "description": "电池驱动的遥控叉车，具有真实的桅杆升降和货叉动作，用于仓储物流角色扮演。汕头制造商复制真实的卡特彼勒、小松和JCB叉车设计。",
-          "category": "遥控玩具"
+          "name": "创意DIY艺术手工套装",
+          "description": "适合4-12岁的创意DIY艺术手工套装，包含珠子、贴纸、绘画和雕塑用品。无屏幕创意游戏。DIY手工艺市场增长，家长寻求离线儿童活动。",
+          "category": "创意手工"
         },
         "zh-TW": {
-          "name": "電池驅動遙控叉車玩具",
-          "description": "電池驅動的遙控叉車，具有真實的桅杆升降和貨叉動作，用於倉儲物流角色扮演汕頭製造商複製真實的卡特彼勒、小松和JCB叉車設計。",
-          "category": "遙控玩具"
+          "name": "創意DIY藝術手工套裝",
+          "description": "適合4-12歲的創意DIY藝術手工套裝，包含珠子、貼紙、繪畫和雕塑用品。無螢幕創意遊戲。DIY手工藝市場增長，家長尋求離線兒童活動。",
+          "category": "創意手工"
         },
         "es": {
-          "name": "Juguete de Montacargas con Batería",
-          "description": "Montacargas RC con batería con elevación de mástil realista y acción de horquilla para juego de rol de almacén y logística. Los fabricantes replican diseños reales de Caterpillar, Komatsu y JCB.",
-          "category": "Juguetes de Control Remoto"
+          "name": "Kit de Manualidades y Arte Creativo DIY",
+          "description": "Kit de arte y manualidades creativas para edades 4-12 con cuentas, pegatinas, pintura y suministros de escultura. Juego creativo sin pantalla.",
+          "category": "Artes y Manualidades"
         },
         "fr": {
-          "name": "Jouet de Chariot Élévateur à Batterie",
-          "description": "Chariot élévateur RC à batterie avec levage de mât réaliste et action de fourche pour le jeu de rôle entrepôt et logistique.",
-          "category": "Jouets Télécommandés"
+          "name": "Kit de Loisirs Creatifs DIY",
+          "description": "Kit de loisirs creatifs pour enfants de 4-12 ans avec perles, autocollants, peinture et fournitures de sculpture. Jeu creatif sans ecran.",
+          "category": "Arts et Bricolage"
         },
         "de": {
-          "name": "Batteriebetriebenes Gabelstapler-Spielzeug",
-          "description": "Batteriebetriebener RC-Gabelstapler mit realistischer Masthebung und Gabenaktion für Lager- und Logistik-Rollenspiel.",
-          "category": "Ferngesteuerte Spielzeuge"
+          "name": "Kreatives DIY Kunsthandwerk-Set",
+          "description": "Kreatives DIY-Kunsthandwerk-Set fur Kinder von 4-12 Jahren mit Perlen, Stickern, Malen und Sculptieren. Kreatives Spielen ohne Bildschirm.",
+          "category": "Kreatives Spielzeug"
         },
         "ja": {
-          "name": "バッテリー式フォークトラック玩具",
-          "description": "リアルなマスト上げとフォークアクションを備えたバッテリー式RCフォークトラック。倉庫と物流のロールプレイング用。",
-          "category": "ラジコン玩具"
+          "name": "クリエイティブDIYアートクラフトキット",
+          "description": "4-12歳向けのクリエイティブDIYアートクラフトキットで、ビーズ、ステッカー、ペインティング、彫刻用品を含みます。スクリーンフリーのクリエイティブ遊び。",
+          "category": "工作・手工"
         },
         "ko": {
-          "name": "배터리식 포크 리프트 장난감",
-          "description": "현실적인 마스트 리프팅과 포크 액션을 갖춘 배터리식 RC 포크 리프트입니다. 창고 및 물류 역할극용.",
-          "category": "RC 장난감"
+          "name": "크리에이티브 DIY 아트 크래프트 키트",
+          "description": "4-12세를 위한 크리에이티브 DIY 아트 및 크래프트 키트로, 비즈, 스티커, 페인팅, 조형 용품을 포함합니다. 화면 없는 창의적 놀이.",
+          "category": "미술·공예"
         },
         "pt": {
-          "name": "Brinquedo de Empilhadeira com Bateria",
-          "description": "Empilhadeira RC com bateria com elevação de mastro realista e ação de garfo para brincadeira de papel de armazém e logística.",
-          "category": "Brinquedos de Controle Remoto"
+          "name": "Kit de Artesanato e Arte Criativa DIY",
+          "description": "Kit de arte e artesanato criativo para criancas de 4-12 anos com micansangas, adesivos, pintura e materiais de escultura. Brincadeira criativa sem tela.",
+          "category": "Artes e Ofícios"
         },
         "ar": {
-          "name": "لعبة رافعة شوكية تعمل بالبطارية",
-          "description": "رافعة شوكية تعمل عن بُعد بالبطارية مع رفع الصاري الواقعي وفعل الشوكة للعب الأدوار في المستودع والخدمات اللوجستية.",
-          "category": "ألعاب التحكم عن بُعد"
+          "name": "مجموعة حرف فنية وإبداعية للقيام بها بنفسك",
+          "description": "مجموعة حرف فنية وإبداعية للأطفال من سن 4-12 سنة مع خرز وورق ملصق ورسم ومستلزمات نحث. لعب إبداعي بدون شاشات.",
+          "category": "ألعاب الحرف"
         }
       }
     },
     {
-      "id": "t11",
-      "name": "120-Project Electronic Circuit STEM Kit",
-      "category": "STEM Toys",
-      "price": 24.99,
-      "trend": "rising",
-      "region": "US/UK/CA",
-      "image": "/products/circuit-kit.webp",
-      "description": "Electronic circuit building kit that teaches children (ages 8-14) electricity, circuits and physics through hands-on experiments. Can build radio, alarm, fan, and lamp projects.",
-      "source": "Amazon Best Seller - STEM Toys",
-      "procurement": {
-        "supplier": "汕头电子玩具套件套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 30,
-        "costPriceCny": 32,
-        "domesticFreightCny": 2,
-        "forwarderFeeCnyPerKg": 0.3,
-        "weightKg": 1.2,
-        "shippingDays": 7,
-        "platformFeePct": 15,
-        "profitMarginPct": 68,
-        "certification": "UL, CE, FCC"
-      },
-      "translations": {
-        "zh": {
-          "name": "STEM电路建构套装120项目",
-          "description": "电子电路建构套件，通过动手实验教8-14岁儿童电学、电路和物理学知识。可制作收音机、报警器、风扇和灯具项目。STEM教育玩具市场预计到2027年将达到450亿美元。",
-          "category": "STEM玩具"
-        },
-        "zh-TW": {
-          "name": "STEM電路建構套裝120項目",
-          "description": "電子電路建構套件，通過動手實驗教8-14歲兒童電學、電路和物理學知識。可製作收音機、報警器、風扇和燈具項目。STEM教育玩具市場預計到2027年將達到450億美元。",
-          "category": "STEM玩具"
-        },
-        "es": {
-          "name": "Kit de Circuito Electrónico STEM 120 Proyectos",
-          "description": "Kit de construcción de circuito electrónico que enseña a niños (8-14 años) electricidad, circuitos y física a través de experimentos prácticos. Puede construir proyectos de radio, alarma, ventilador y lámpara.",
-          "category": "Juguetes STEM"
-        },
-        "fr": {
-          "name": "Kit de Circuit Électronique STEM 120 Projets",
-          "description": "Kit de construction de circuit électronique qui enseigne aux enfants (8-14 ans) l'électricité, les circuits et la physique à travers des expériences pratiques.",
-          "category": "Jouets STEM"
-        },
-        "de": {
-          "name": "120-Projekt Elektronik-Schaltkreis-STEM-Kit",
-          "description": "Elektronischer Schaltkreis-Bausatz, der Kindern (8-14 Jahre) Elektrizität, Schaltkreise und Physik durch praktische Experimente beibringt.",
-          "category": "Lernspielzeug"
-        },
-        "ja": {
-          "name": "120プロジェクト電子回路STEMキット",
-          "description": "手を動かした実験を通じて8-14歳の子どもに電気、回路、物理を教える電子回路ビルディングキットです。ラジオ、アラーム、ファン、ランププロジェクトを構築できます。",
-          "category": "STEM玩具"
-        },
-        "ko": {
-          "name": "120프로젝트 전자 회로 STEM 키트",
-          "description": "손쉬운 실험을 통해 8-14세 아동에게 전기, 회로, 물리를 가르치는 전자 회로 빌딩 키트입니다. 라디오, 알람, 팬, 램프 프로젝트를 만들 수 있습니다.",
-          "category": "STEM 장난감"
-        },
-        "pt": {
-          "name": "Kit de Circuito Eletrônico STEM 120 Projetos",
-          "description": "Kit de construção de circuito eletrônico que ensina às crianças (8-14 anos) eletricidade, circuitos e física através de experimentos práticos.",
-          "category": "Brinquedos STEM"
-        },
-        "ar": {
-          "name": "مجموعة دارة كهربائية إلكترونية STEM 120 مشروع",
-          "description": "مجموعة بناء دائرة إلكترونية تعلم الأطفال (8-14 سنة) الكهرباء والدوائر والفيزياء من خلال التجارب العملية. يمكن بناء مشاريع الراديو والإنذار والمروحة والمصباح.",
-          "category": "ألعاب تعليمية"
-        }
-      }
-    },
-    {
-      "id": "t12",
+      "id": "t10",
       "name": "Battery Ride-On Dump Truck XL",
       "category": "Ride-On Toys",
       "price": 79.99,
       "trend": "hot",
       "region": "US/AU",
       "image": "/products/rideon-dump.webp",
-      "description": "Large battery-powered ride-on dump truck for ages 3-8 with tilting dump bed, working headlights, and parent remote override. The premium ride-on segment (over $60) is growing fastest as parents upgrade.",
+      "description": "Large battery-powered ride-on dump truck for ages 3-8 with tilting dump bed, working headlights, and parent remote override. Premium ride-on segment (over $60) growing fastest as parents upgrade from smaller toys.",
       "source": "Amazon Hot New Release - Ride-On Toys",
       "procurement": {
         "supplier": "济宁骑乘工程车套装",
@@ -808,28 +666,28 @@
       },
       "translations": {
         "zh": {
-          "name": "骑乘电动自卸卡车",
-          "description": "大尺寸电池驱动骑乘自卸卡车，适合3-8岁儿童，具有倾斜卸货斗、工作车头灯和家长遥控替代功能。超过60美元的高端骑乘玩具领域增长最快，因为家长从小玩具升级。",
+          "name": "骑乘电动自卸卡车XL",
+          "description": "大尺寸电池驱动骑乘自卸卡车，适合3-8岁儿童，具有倾斜卸货斗、工作车头灯和家长遥控替代功能。超过60美元的高端骑乘玩具领域增长最快，家长从小玩具升级。",
           "category": "骑乘玩具"
         },
         "zh-TW": {
-          "name": "騎乘電動自卸卡車",
-          "description": "大尺寸電池驅動騎乘自卸卡車，適合3-8歲兒童，具有傾斜卸貨斗、工作車頭燈和家長遙控替代功能超過60美元的高端騎乘玩具領域增長最快。",
+          "name": "騎乘電動自卸卡車XL",
+          "description": "大尺寸電池驅動騎乘自卸卡車，適合3-8歲兒童，具有傾斜卸貨斗、工作車頭燈和家長遙控替代功能。超過60美元的高端騎乘玩具領域增長最快。",
           "category": "騎乘玩具"
         },
         "es": {
-          "name": "Camión Volquete de Montar con Batería XL",
-          "description": "Camión volquete de montar con batería de gran tamaño para edades de 3-8 años con cama volqutable inclinable, faros delanteros que funcionan y control remoto para padres.",
+          "name": "Camion Volquete de Montar con Bateria XL",
+          "description": "Camion volquete de montar con bateria de gran tamano para edades de 3-8 anos con cama volqutable inclinable, faros delanteros que funcionan y control remoto para padres.",
           "category": "Juguetes para Montar"
         },
         "fr": {
-          "name": "Camion Benne à Monter sur Batterie XL",
-          "description": "Grand camion benne à monter sur batterie pour enfants de 3-8 ans avec benne inclinable, phares avant fonctionnels et télécommande parentale.",
-          "category": "Jouets à Monter"
+          "name": "Camion Benne a Monter sur Batterie XL",
+          "description": "Grand camion benne a monter sur batterie pour enfants de 3-8 ans avec benne inclinable, phares avant fonctionnels et telecommande parentale.",
+          "category": "Jouets a Monter"
         },
         "de": {
           "name": "Batteriebetriebener Aufsitz-Kipper XL",
-          "description": "Großer batteriebetriebener Aufsitz-Kipper für Kinder von 3-8 Jahren mit kippbarer Mulde, funktionierenden Scheinwerfern und Eltern-Fernbedienung.",
+          "description": "Grosser batteriebetriebener Aufsitz-Kipper fur Kinder von 3-8 Jahren mit kippbarer Mulde, funktionierenden Scheinwerfern und Eltern-Fernbedienung.",
           "category": "Aufstehende Spielzeuge"
         },
         "ja": {
@@ -839,12 +697,12 @@
         },
         "ko": {
           "name": "배터리식 타는 덤프 트럭 XL",
-          "description": "3-8세용 대형 배터리식 타는 덤프 트럭으로, 틸팅 덤프 베드, 작동하는 헤드라이트, 부모 리모컨 오버라이드를 갖추고 있습니다. 60달러 이상의 프리미엄 라이드온 세그먼트가 가장 빠르게 성장하고 있습니다.",
+          "description": "3-8세용 대형 배터리식 탑승형 덤프 트럭으로, 틸팅 덤프 베드, 작동하는 헤드라이트, 부모 리모컨 오버라이드를 갖추고 있습니다. 60달러 이상의 프리미엄 라이드온 세그먼트가 가장 빠르게 성장하고 있습니다.",
           "category": "탑승 장난감"
         },
         "pt": {
-          "name": "Caminhão de Basculante a Bateria XL",
-          "description": "Caminhão basculante grande com bateria para crianças de 3-8 anos com caçamba inclinável, faróis dianteiros funcionais e controle remoto dos pais.",
+          "name": "Caminhao de Basculante a Bateria XL",
+          "description": "Caminhao basculante grande com bateria para criancas de 3-8 anos com cacamaba inclinavel, farois dianteiros funcionais e controle remoto dos pais.",
           "category": "Brinquedos para Andar"
         },
         "ar": {
@@ -855,12 +713,12 @@
       }
     },
     {
-      "id": "t13",
+      "id": "t11",
       "name": "Kids Electric Excavator Ride-On",
       "category": "Ride-On Toys",
       "price": 89.99,
       "trend": "rising",
-      "region": "US/UK/AU/EU",
+      "region": "US/UK/AU",
       "image": "/products/kids-excavator.webp",
       "description": "Battery-powered ride-on excavator for ages 3-8 with hydraulic working arm and forward/backward drive. Authentic yellow excavator styling. Parents buy as birthday or Christmas gifts to get kids outdoors.",
       "source": "Amazon Best Seller - Kids Ride-On Toys",
@@ -889,18 +747,18 @@
           "category": "騎乘玩具"
         },
         "es": {
-          "name": "Excavadora Eléctrica para Niños",
-          "description": "Excavadora montable con batería para edades de 3-8 años con brazo hidráulico que funciona y conducción adelante/atrás. Estilo auténtico de excavadora amarilla.",
+          "name": "Excavadora Electrica para Ninos",
+          "description": "Excavadora montable con bateria para edades de 3-8 anos con brazo hidraulico que funciona y conduccion adelante/atras. Estilo autentico de excavadora amarilla.",
           "category": "Juguetes para Montar"
         },
         "fr": {
-          "name": "Excavatrice Électrique pour Enfants",
-          "description": "Excavatrice à monter sur batterie pour enfants de 3-8 ans avec bras hydraulique fonctionnel et conduite avant/arrière. Style authentique d'excavatrice jaune.",
-          "category": "Jouets à Monter"
+          "name": "Excavatrice Electrique pour Enfants",
+          "description": "Excavatrice a monter sur batterie pour enfants de 3-8 ans avec bras hydraulique fonctionnel et conduite avant/arriere. Style authentique dexcavatrice jaune.",
+          "category": "Jouets a Monter"
         },
         "de": {
           "name": "Elektrischer Kinder-Bagger",
-          "description": "Batteriebetriebener Aufsitz-Bagger für Kinder von 3-8 Jahren mit funktionierendem hydraulischen Arm und Vorwärts-/Rückwärtsfahrt. Authentischer gelber Bagger-Styling.",
+          "description": "Batteriebetriebener Aufsitz-Bagger fur Kinder von 3-8 Jahren mit funktionierendem hydraulischen Arm und Vorwärts-/Ruckwärtsfahrt. Authentischer gelber Bagger-Styling.",
           "category": "Aufstehende Spielzeuge"
         },
         "ja": {
@@ -914,8 +772,8 @@
           "category": "탑승 장난감"
         },
         "pt": {
-          "name": "Escavadeira Elétrica para Crianças",
-          "description": "Escavadeira montável com bateria para crianças de 3-8 anos com braço hidráulico funcional e condução para frente/trás. Estilo autêntico de escavadeira amarela.",
+          "name": "Escavadeira Eletrica para Criancas",
+          "description": "Escavadeira montavel com bateria para criancas de 3-8 anos com braco hidraulico funcional e conducao para frente/tras. Estilo autentico de escavadeira amarela.",
           "category": "Brinquedos para Andar"
         },
         "ar": {
@@ -926,159 +784,159 @@
       }
     },
     {
-      "id": "t14",
-      "name": "LEGO Compatible City Building Blocks 1200pcs",
-      "category": "Building Blocks",
-      "price": 34.99,
-      "trend": "stable",
-      "region": "US/UK/CA",
-      "image": "/products/city-blocks.webp",
-      "description": "1200-piece city-themed building blocks fully compatible with LEGO and other major building block systems. Includes police station, fire trucks and street scenes — the world's most popular building block theme.",
-      "source": "Amazon Best Seller - Building Sets",
+      "id": "t12",
+      "name": "Kids Wheel Loader Ride-On",
+      "category": "Ride-On Toys",
+      "price": 99.99,
+      "trend": "rising",
+      "region": "US/UK/AU",
+      "image": "/products/wheel-loader.webp",
+      "description": "Battery-powered ride-on wheel loader for ages 3-8 with movable front bucket and forward/backward drive. Authentic construction vehicle design. Growing segment as parents seek educational outdoor toys.",
+      "source": "Amazon Best Seller - Construction Ride-On Toys",
       "procurement": {
-        "supplier": "汕头积木玩具套装",
+        "supplier": "济宁装载机骑乘玩具套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 10,
+        "costPriceCny": 175,
+        "domesticFreightCny": 15,
+        "forwarderFeeCnyPerKg": 0.35,
+        "weightKg": 22,
+        "shippingDays": 14,
+        "platformFeePct": 15,
+        "profitMarginPct": 50,
+        "certification": "ASTM F963, CE, AU/NZ Safety Standard"
+      },
+      "translations": {
+        "zh": {
+          "name": "儿童轮式装载机骑乘玩具",
+          "description": "电池驱动的骑乘轮式装载机，适合3-8岁儿童，具有可动前铲斗和前进/后退行驶功能。正宗工程车辆设计。家长寻求教育性户外玩具的增长领域。",
+          "category": "骑乘玩具"
+        },
+        "zh-TW": {
+          "name": "兒童輪式裝載機騎乘玩具",
+          "description": "電池驅動的騎乘輪式裝載機，適合3-8歲兒童，具有可動前鏟斗和前進/後退行駛功能。正宗工程車輛設計。家長尋求教育性戶外玩具的增長領域。",
+          "category": "騎乘玩具"
+        },
+        "es": {
+          "name": "Cargador de Ruedas para Ninos",
+          "description": "Cargador de ruedas montable con bateria para edades de 3-8 anos con cuchara frontal movible y conduccion adelante/atras. Diseno autentico de vehiculo de construccion.",
+          "category": "Juguetes para Montar"
+        },
+        "fr": {
+          "name": "Chargeur sur Roues pour Enfants",
+          "description": "Chargeur sur roues a monter sur batterie pour enfants de 3-8 ans avec godet avant mobile et conduite avant/arriere. Design authentique de vehicule de construction.",
+          "category": "Jouets a Monter"
+        },
+        "de": {
+          "name": "Kinder-Radlader zum Aufsitzen",
+          "description": "Batteriebetriebener Aufsitz-Radlader fur Kinder von 3-8 Jahren mit beweglicher Frontschaufel und Vorwärts-/Ruckwärtsfahrt. Authentisches Baustellenfahrzeug-Design.",
+          "category": "Aufstehende Spielzeuge"
+        },
+        "ja": {
+          "name": "子ども用ホイールローダー",
+          "description": "3-8歳向けバッテリー式ホイールローダーで、動き回るフロントバケットと前後進走行を備えています。本物の建機デザイン。",
+          "category": "ライドオン玩具"
+        },
+        "ko": {
+          "name": "어린이용 휠 로더",
+          "description": "3-8세용 배터리식 탑승형 휠 로더로, 움직이는 프론트 버킷과 전진/후진 구동을 갖추고 있습니다. 신뢰할 수 있는 건설 차량 디자인.",
+          "category": "탑승 장난감"
+        },
+        "pt": {
+          "name": "Carregador de Rodas para Criancas",
+          "description": "Carregador de rodas montavel com bateria para criancas de 3-8 anos com cacamaba frontal movel e conducao para frente/tras. Design autentico de veiculo de construcao.",
+          "category": "Brinquedos para Andar"
+        },
+        "ar": {
+          "name": "جارافة بعجلات للأطفال للركوب",
+          "description": "جارافة بعجلات تعمل بالبطارية للأطفال من سن 3-8 سنوات مع جرافة أمامية متحركة وقيادة للأمام/للخلف. تصميم مركبات البناء الأصيل.",
+          "category": "ألعاب الركوب"
+        }
+      }
+    },
+    {
+      "id": "t13",
+      "name": "1.8T Mini Hydraulic Bulldozer",
+      "category": "Collectible Toys",
+      "price": 74.99,
+      "trend": "stable",
+      "region": "US/UK/AU",
+      "image": "/products/mini-bulldozer.webp",
+      "description": "1.8T mini hydraulic bulldozer model with working blade and track movement. Scale model for collectors and engineering enthusiasts. Premium die-cast quality from Jining manufacturing hub.",
+      "source": "Amazon - Die-Cast Construction Models",
+      "procurement": {
+        "supplier": "济宁迷你推土机模型套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
         "moq": 20,
-        "costPriceCny": 40,
-        "domesticFreightCny": 3,
+        "costPriceCny": 120,
+        "domesticFreightCny": 10,
         "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 2.5,
-        "shippingDays": 7,
+        "weightKg": 8,
+        "shippingDays": 10,
         "platformFeePct": 15,
-        "profitMarginPct": 71,
+        "profitMarginPct": 50,
         "certification": "CE, ASTM F963"
       },
       "translations": {
         "zh": {
-          "name": "LEGO兼容城市建筑积木1200件套装",
-          "description": "1200件城市主题建筑积木，与乐高及其他主流积木系统完全兼容。包含警察局、消防车和街道场景——全球最受欢迎的建筑积木主题。汕头制造商是兼容积木的全球领先来源。",
-          "category": "建筑积木"
+          "name": "1.8吨迷你液压推土机",
+          "description": "1.8吨迷你液压推土机模型，具有工作铲刀和履带运动功能。收藏者和工程爱好者的比例模型。来自济宁制造业中心的高端合金品质。",
+          "category": "收藏玩具"
         },
         "zh-TW": {
-          "name": "LEGO兼容城市建築積木1200件套裝",
-          "description": "1200件城市主題建築積木，與樂高及其他主流積木系統完全兼容。包含警察局、消防車和街道場景——全球最受歡迎的建築積木主題汕頭製造商是兼容積木的全球領先來源。",
-          "category": "建築積木"
+          "name": "1.8噸迷你液壓推土機",
+          "description": "1.8噸迷你液壓推土機模型，具有工作鏟刀和履帶運動功能。收藏者和工程愛好者的比例模型。來自濟南製造業中心的高端合金品質。",
+          "category": "收藏玩具"
         },
         "es": {
-          "name": "Bloques de Construcción de Ciudad Compatibles con LEGO 1200pcs",
-          "description": "1200 piezas de bloques de construcción con tema de ciudad completamente compatibles con LEGO y otros sistemas principales de bloques. Incluye estación de policía, camiones de bomberos y escenas de calles.",
-          "category": "Bloques de Construcción"
+          "name": "Buldocer Hidraulico Mini 1.8T",
+          "description": "Modelo de buldocer hidraulico mini 1.8T con hoja de trabajo y movimiento de orugas. Modelo a escala para coleccionistas y entusiastas de la ingenieria.",
+          "category": "Juguetes Coleccionables"
         },
         "fr": {
-          "name": "Blocs de Construction de Ville Compatibles LEGO 1200pcs",
-          "description": "1200 pièces de blocs de construction à thème urbain entièrement compatibles avec LEGO et autres systèmes de blocs majeurs. Comprend commissariat, camions de pompiers et scènes de rue.",
-          "category": "Blocs de Construction"
+          "name": "Bulldozer Hydraulique Mini 1.8T",
+          "description": "Modele de bulldozer hydraulique mini 1.8T avec lame de travail et mouvement de chenilles. Modele a echelle pour collectionneurs et passionnes dingenierie.",
+          "category": "Jouets Collectionnables"
         },
         "de": {
-          "name": "LEGO-kompatible Stadt-Bausteine 1200pcs",
-          "description": "1200-teilige stadtthematische Bausteine, vollständig kompatibel mit LEGO und anderen wichtigen Bausteinsystemen. Enthält Polizeistation, Feuerwehrwagen und Straßenszenen.",
-          "category": "Bausteine"
+          "name": "1.8T Mini Hydraulik-Bulldozer",
+          "description": "1.8T Mini-Hydraulik-Bulldozer-Modell mit funktionierender Schaufel und Kettenbewegung. Masstabsmodelle fur Sammler und Ingenieurbegeisterte.",
+          "category": "Sammlerstücke"
         },
         "ja": {
-          "name": "レゴ互換城市建築ブロック1200ピース",
-          "description": "1200ピースの都市テーマ建築ブロックで、レゴや他の主要な建築ブロックシステムと完全に互換性があります。警察署、消防車、ストリートシーンを含みます——世界で最も普及している建築ブロックテーマ。",
-          "category": "ビルドイングブロック"
+          "name": "1.8Tミニ油圧ブルドーザー",
+          "description": "作動するブレードとクローラー movementを備えた1.8Tミニ油圧ブルドーザーモデル。收藏家とエンジニアリング愛好家のためのスケールモデル。",
+          "category": "コレクション玩具"
         },
         "ko": {
-          "name": "레고 호환 도시 건축 블록 1200피스",
-          "description": "1200피스 도시 테마 건축 블록으로, 레고 및 기타 주요 건축 블록 시스템과 완벽히 호환됩니다. 경찰서, 소방차, 거리 장면을 포함합니다——세계에서 가장 인기 있는 건축 블록 테마입니다.",
-          "category": "빌딩 블록"
+          "name": "1.8T 미니 유압 불도저",
+          "description": "작동하는 블레이드와 트랙 움직임을 갖춘 1.8T 미니 유압 불도저 모델입니다. 수집가와 엔지니어링 애호가를 위한 스케일 모델.",
+          "category": "수집 장난감"
         },
         "pt": {
-          "name": "Blocos de Construção de Cidade Compatíveis com LEGO 1200pcs",
-          "description": "1200 peças de blocos de construção com tema de cidade totalmente compatíveis com LEGO e outros sistemas principais de blocos. Inclui delegacia, caminhões de bombeiros e cenas de rua.",
-          "category": "Blocos de Construção"
+          "name": "Trator de Esteiras Hidraulico Mini 1.8T",
+          "description": "Modelo de trator de esteiras hidraulico mini 1.8T com lâmina de trabalho e movimento de esteiras. Modelo em escala para colecionadores e entusiastas de engenharia.",
+          "category": "Brinquedos Colecionáveis"
         },
         "ar": {
-          "name": "طوب بناء مدينة متوافق مع ليغو 1200 قطعة",
-          "description": "1200 قطعة من طوب البناء بموضوع المدينة متوافق تمامًا مع ليغو وأنظمة طوب البناء الرئيسية الأخرى. يتضمن قسم شرطة وشاحنات إطفاء ومشاهد شوارع——الموضوع الأكثر شعبية لطوب البناء في العالم.",
-          "category": "طوب البناء"
+          "name": "جرافة هيدروليكية مصغرة 1.8 طن",
+          "description": "نموذج جرافة هيدروليكية مصغرة 1.8 طن مع شفرة عاملة وحركة المجنزرة. نموذج بمقياس للجمعيين وهواة الهندسة.",
+          "category": "ألعاب مقتنيات"
         }
       }
     },
     {
-      "id": "t15",
-      "name": "2.4GHz High Speed RC Racing Car",
-      "category": "Remote Control Toys",
-      "price": 24.99,
-      "trend": "stable",
-      "region": "US/UK/DE/AU",
-      "image": "/products/rc-racing.webp",
-      "description": "2.4GHz radio-controlled high-speed racing car with all-terrain tires, rechargeable battery, and up to 25 km/h top speed. 2.4GHz technology enables multiple cars to race without frequency interference.",
-      "source": "Amazon Best Seller - RC Cars Category",
-      "procurement": {
-        "supplier": "汕头遥控玩具套装",
-        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
-        "moq": 30,
-        "costPriceCny": 30,
-        "domesticFreightCny": 2.5,
-        "forwarderFeeCnyPerKg": 0.35,
-        "weightKg": 1.2,
-        "shippingDays": 7,
-        "platformFeePct": 15,
-        "profitMarginPct": 69,
-        "certification": "CE, FCC, ASTM F963"
-      },
-      "translations": {
-        "zh": {
-          "name": "儿童玩具遥控车",
-          "description": "2.4GHz无线电控制高速赛车，配备全地形轮胎、可充电电池，最高时速25公里。2.4GHz技术允许多辆车同时竞速且无频率干扰。汕头遥控玩具主导全球出口，获得欧盟CE安全认证。",
-          "category": "遥控玩具"
-        },
-        "zh-TW": {
-          "name": "兒童玩具遙控車",
-          "description": "2.4GHz無線電控制高速賽車，配備全地形輪胎、可充電電池，最高時速25公里。2.4GHz技術允許多輛車同時競速且無頻率干擾汕頭遙控玩具主導全球出口。",
-          "category": "遙控玩具"
-        },
-        "es": {
-          "name": "Coche de Carreras RC de Alta Velocidad 2.4GHz",
-          "description": "Coche de carreras de alta velocidad con control de radio 2.4GHz con neumáticos para todo terreno, batería recargable y velocidad máxima de 25 km/h.",
-          "category": "Juguetes de Control Remoto"
-        },
-        "fr": {
-          "name": "Voiture de Course RC Haute Vitesse 2.4GHz",
-          "description": "Voiture de course haute vitesse RC 2.4GHz avec pneus tout-terrain, batterie rechargeable et vitesse maximale de 25 km/h.",
-          "category": "Jouets Télécommandés"
-        },
-        "de": {
-          "name": "2.4GHz Hochgeschwindigkeits-RC-Rennwagen",
-          "description": "2.4GHz Hochgeschwindigkeits-Rennwagen mit Geländereifen, wiederaufladbarer Batterie und bis zu 25 km/h Höchstgeschwindigkeit.",
-          "category": "Ferngesteuerte Spielzeuge"
-        },
-        "ja": {
-          "name": "2.4GHz高速RCレーシングカー",
-          "description": "2.4GHzラジオコントロール高速レーシングカーで、オールテレレンタイヤ、充電式バッテリー、最大速度25km/hを備えています。",
-          "category": "ラジコン玩具"
-        },
-        "ko": {
-          "name": "2.4GHz 고속 RC 레이싱 자동차",
-          "description": "올터레인 타이어, 충전식 배터리, 최대 속도 25km/h를 갖춘 2.4GHz 라디오 컨트롤 고속 레이싱 자동차입니다.",
-          "category": "RC 장난감"
-        },
-        "pt": {
-          "name": "Carro de Corrida RC de Alta Velocidade 2.4GHz",
-          "description": "Carro de corrida de alta velocidade RC 2.4GHz com pneus para todos os terrenos, bateria recarregável e velocidade máxima de 25 km/h.",
-          "category": "Brinquedos de Controle Remoto"
-        },
-        "ar": {
-          "name": "سيارة سباق距制 عن بعد عالية السرعة 2.4GHz",
-          "description": "سيارة سباق عالية السرعة距制 عن بعد 2.4GHz مع إطارات لجميع التضاريس وبطارية قابلة لإعادة الشحن وسرعة قصوى 25 كم/ساعة.",
-          "category": "ألعاب التحكم عن بُعد"
-        }
-      }
-    },
-    {
-      "id": "t16",
-      "name": "Mini Portable Excavator Desktop Figurine Set",
+      "id": "t14",
+      "name": "Mini Portable Excavator Figurine",
       "category": "Collectible Toys",
       "price": 14.99,
       "trend": "stable",
       "region": "US/UK/AU",
       "image": "/products/mini-excavator.webp",
-      "description": "6-piece set of 1:64 scale die-cast excavator, bulldozer, and dump truck miniatures. Desktop decor for tool enthusiasts and construction fans. Also great as party favors, cake decorations, and collectibles.",
+      "description": "6-piece set of 1:64 scale die-cast excavator, bulldozer, and dump truck miniatures. Desktop decor for tool enthusiasts and construction fans. Great as party favors and collectibles.",
       "source": "Amazon - Collectible Die-Cast Miniatures",
       "procurement": {
-        "supplier": "济宁工程机械配件套装",
+        "supplier": "济宁迷你工程车雕像套装",
         "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
         "moq": 50,
         "costPriceCny": 13,
@@ -1093,47 +951,189 @@
       "translations": {
         "zh": {
           "name": "迷你便携挖掘机桌面雕像套装",
-          "description": "6件1:64比例合金挖掘机、推土机和自卸卡车迷你雕像套装。工具爱好者和建筑迷的桌面装饰品。也可作为派对赠品、蛋糕装饰和收藏品。",
+          "description": "6件1:64比例合金挖掘机、推土机和自卸卡车迷你雕像套装。工具爱好者和建筑迷的桌面装饰品。派对赠品和收藏品佳选。",
           "category": "收藏玩具"
         },
         "zh-TW": {
           "name": "迷你便攜挖掘機桌面雕像套裝",
-          "description": "6件1:64比例合金挖掘機、推土機和自卸卡車迷你雕像套裝。工具愛好者和建築迷的桌面裝飾品。也可作為派對贈品、蛋糕裝飾和收藏品。",
+          "description": "6件1:64比例合金挖掘機、推土機和自卸卡車迷你雕像套裝。工具愛好者和建築迷的桌面裝飾品。派對贈品和收藏品佳選。",
           "category": "收藏玩具"
         },
         "es": {
-          "name": "Mini Excavadora Portátil Figura de Escritorio 6 Piezas",
-          "description": "Set de 6 piezas de miniaturas de excavadora, topadora y camión volquete fundidos a presión a escala 1:64. Decoración de escritorio para entusiastas de herramientas y aficionados a la construcción.",
+          "name": "Mini Excavadora Portatil Figura de Escritorio 6 Piezas",
+          "description": "Set de 6 piezas de miniaturas de excavadora, topadora y camion volquete fundidos a presion a escala 1:64. Decoracion de escritorio para entusiastas y aficionados a la construccion.",
           "category": "Juguetes Coleccionables"
         },
         "fr": {
           "name": "Mini Excavatrice Portable Figurine de Bureau Ensemble",
-          "description": "Ensemble de 6 miniatures de excavatrice, bulldozer et camion-benne à l'échelle 1:64. Décoration de bureau pour les passionnés d'outils et les fans de construction.",
+          "description": "Ensemble de 6 miniatures de excavatrice, bulldozer et camion-benne a leechelle 1:64. Decoration de bureau pour passionnes doutils et fans de construction.",
           "category": "Jouets Collectionnables"
         },
         "de": {
           "name": "Mini Tragbarer Bagger Desktop-Figurinen-Set",
-          "description": "6-teiliges Set aus 1:64 Maßstab-Druckguss-Bagger, Bulldozer und Muldenkipper-Miniaturen. Schreibtisch-Deko für Werkzeug-Enthusiasten und Baubegeisterte.",
+          "description": "6-teiliges Set aus 1:64 Masstab-Druckguss-Bagger, Bulldozer und Muldenkipper-Miniaturen. Schreibtisch-Deko fur Werkzeug-Enthusiasten und Baubegeisterte.",
           "category": "Sammlerstücke"
         },
         "ja": {
           "name": "ミニポータブルおはつ掘り機卓上フィギュアセット",
-          "description": "1:64スケールのダイカストおはつ掘り機、ブラウドーザー、ダンプトラックミニチュアの6個セットです。工具愛好者や建設好きのためのデスクトップ装饰。",
+          "description": "1:64スケールのダイカストおはつ掘り機、ブラウドーザー、ダンプトラックミニチュアの6個セット。工具愛好者や建設好きのためのデスクトップ装飾。",
           "category": "コレクション玩具"
         },
         "ko": {
           "name": "미니 포터블 Excavator 데스크탑 피규어 세트",
-          "description": "1:64 스케일 다이캐스트 excavator, 불도저, 덤프 트럭 미니어처 6개 세트입니다. 도구 애호가와 건설 팬을 위한 데스크탑 장식입니다.",
+          "description": "1:64 스케일 다이캐스트 excavator, 불도저, 덤프 트럭 미니어처 6개 세트입니다. 도구 애호가와 건설 팬을 위한 데스크탑 장식.",
           "category": "수집 장난감"
         },
         "pt": {
-          "name": "Mini Excavadeira Portátil Figura de Mesa Conjunto",
-          "description": "Conjunto de 6 miniaturas de escavadeira, trator de esteiras e caminhão basculante fundidos sob pressão em escala 1:64. Decoração de mesa para entusiastas de ferramentas e fãs de construção.",
+          "name": "Mini Excavadeira Portatil Figura de Mesa Conjunto",
+          "description": "Conjunto de 6 miniaturas de escavadeira, trator de esteiras e caminhao basculante fundidos sob pressao em escala 1:64. Decoracao de mesa para entusiastas de ferramentas e fas de construcao.",
           "category": "Brinquedos Colecionáveis"
         },
         "ar": {
           "name": "مجموعة تماثيل الحفارة المصغرة المحمولة على المكتب",
           "description": "مجموعة 6 قطع من الحفارة والجرافة وشاحنة التفريغ المصغرة المصبوبة بمقياس 1:64. ديكور مكتبي لهواة الأدوات ومحبي البناء.",
+          "category": "ألعاب مقتنيات"
+        }
+      }
+    },
+    {
+      "id": "t15",
+      "name": "New Energy Electric Excavator",
+      "category": "Construction Toys",
+      "price": 119.99,
+      "trend": "rising",
+      "region": "US/UK",
+      "image": "/products/new-energy-excavator.webp",
+      "description": "New energy battery-powered ride-on excavator with zero emissions design. Hydraulic arm and tilting bucket. Eco-friendly construction toy for ages 3-8. Tapping into green construction trends.",
+      "source": "Amazon Best Seller - Eco Construction Toys",
+      "procurement": {
+        "supplier": "济宁新能源电动挖掘机套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 10,
+        "costPriceCny": 220,
+        "domesticFreightCny": 18,
+        "forwarderFeeCnyPerKg": 0.35,
+        "weightKg": 25,
+        "shippingDays": 14,
+        "platformFeePct": 15,
+        "profitMarginPct": 48,
+        "certification": "ASTM F963, CE, UL"
+      },
+      "translations": {
+        "zh": {
+          "name": "新能源电动挖掘机",
+          "description": "零排放设计的新能源电池驱动骑乘挖掘机。液压臂和倾斜铲斗。适合3-8岁的环保建筑玩具。顺应绿色建筑趋势。",
+          "category": "工程玩具"
+        },
+        "zh-TW": {
+          "name": "新能源電動挖掘機",
+          "description": "零排放設計的新能源電池驅動騎乘挖掘機。液壓臂和傾斜鏟斗。適合3-8歲的環保建築玩具。順應綠色建築趨勢。",
+          "category": "工程玩具"
+        },
+        "es": {
+          "name": "Excavadora Electrica de Nueva Energia",
+          "description": "Excavadora montable con bateria de nueva energia con diseno de cero emisiones. Brazo hidraulico y cucharon inclinable. Juguete de construccion ecologico para edades de 3-8.",
+          "category": "Juguetes de Construccion"
+        },
+        "fr": {
+          "name": "Excavatrice Electrique a Nouvelle Energie",
+          "description": "Excavatrice a monter sur batterie a nouvelle energie avec conception zero emission. Bras hydraulique et godet inclinable. Jouet de construction ecologique pour enfants de 3-8 ans.",
+          "category": "Jouets de Construction"
+        },
+        "de": {
+          "name": "Neue-Energie-Elektro-Bagger",
+          "description": "Neue-Energie-Batterie-Aufsitzbagger mit emissionsfreiem Design. Hydraulischer Arm und kippbarer Loffel. Okon-Baustellenspielzeug fur Kinder von 3-8 Jahren.",
+          "category": "Bau-Spielzeug"
+        },
+        "ja": {
+          "name": "新能源電動おはつ掘り機",
+          "description": "ゼロエミッション設計の新エネルギー電池式ライドオンのka excavator。油圧式アームと傾斜バケット。3-8歳向けのエコ建設玩具。",
+          "category": "建設玩具"
+        },
+        "ko": {
+          "name": "신에너지 전동 Excavator",
+          "description": "제로 배출 설계의 신에너지 배터리식 탑승형 excavator입니다. 유압식 팔과 틸팅 버킷. 3-8세용 친환경 건설 장난감.",
+          "category": "건설 장난감"
+        },
+        "pt": {
+          "name": "Escavadeira Eletrica de Nova Energia",
+          "description": "Escavadeira montavel com bateria de nova energia com design de zero emissoes. Braco hidraulico e cacamaba inclinavel. Brinquedo de construcao ecologico para criancas de 3-8 anos.",
+          "category": "Brinquedos de Construcao"
+        },
+        "ar": {
+          "name": "حفارة كهربائية جديدة للطاقة صديقة للبيئة",
+          "description": "حفارة ركوب بالبطارية جديدة للطاقة بتصميم صفري الانبعاثات. ذراع هيدروليكي و جرافة مائلة. لعبة بناء صديقة للبيئة للأطفال من سن 3-8 سنوات.",
+          "category": "ألعاب بناء"
+        }
+      }
+    },
+    {
+      "id": "t16",
+      "name": "Engineering Vehicle Simulation Series",
+      "category": "Collectible Toys",
+      "price": 34.99,
+      "trend": "stable",
+      "region": "US/UK/AU",
+      "image": "/products/engineering-series.webp",
+      "description": "6-piece die-cast engineering vehicle simulation series: cement mixer, flatbed truck, crane, excavator, bulldozer, dump truck. 1:50 scale with authentic details. Collector quality from Jining manufacturing hub.",
+      "source": "Amazon - Die-Cast Collectibles Category",
+      "procurement": {
+        "supplier": "济宁工程车模型系列套装",
+        "supplierUrl": "https://qr.1688.com/share.html?secret=xxxx",
+        "moq": 30,
+        "costPriceCny": 58,
+        "domesticFreightCny": 4,
+        "forwarderFeeCnyPerKg": 0.35,
+        "weightKg": 3,
+        "shippingDays": 10,
+        "platformFeePct": 15,
+        "profitMarginPct": 57,
+        "certification": "CE, ASTM F963"
+      },
+      "translations": {
+        "zh": {
+          "name": "工程车模拟系列6包装",
+          "description": "6辆合金工程车模拟系列：水泥搅拌车、平板车、起重车、挖掘机、推土机、自卸车。1:50比例，细节逼真。济宁制造中心的收藏品质。",
+          "category": "收藏玩具"
+        },
+        "zh-TW": {
+          "name": "工程車模擬系列6包裝",
+          "description": "6輛合金工程車模擬系列：水泥攪拌車、平板車、起重車、挖掘機、推土機、自卸車。1:50比例，細節逼真。濟南製造中心的收藏品質。",
+          "category": "收藏玩具"
+        },
+        "es": {
+          "name": "Serie de Simulacion de Vehiculos de Ingenieria 6 Piezas",
+          "description": "Serie de simulacion de 6 vehiculos de ingenieria fundidos a presion: mezcladora de cemento, camion plataforma, grua, excavadora, buldocer y volquete. Escala 1:50 con detalles autenticos.",
+          "category": "Juguetes Coleccionables"
+        },
+        "fr": {
+          "name": "Serie de Simulation de Vehicules dIngenierie 6 Pieces",
+          "description": "Serie de simulation de 6 vehicules de genie civil sous forme de fonderie: betoniere, plateau, grue, excavatrice, bulldozer et tombereau. Echelle 1:50 avec details autentiques.",
+          "category": "Jouets Collectionnables"
+        },
+        "de": {
+          "name": "Ingenieurfahrzeug-Simulationsserie 6er-Pack",
+          "description": "6-teilige Ingenieurfahrzeug-Simulationsserie: Zementmischer, Tieflader, Kran, Bagger, Bulldozer und Muldenkipper. Massstab 1:50 mit authentischen Details.",
+          "category": "Sammlerstücke"
+        },
+        "ja": {
+          "name": "エンジニアリングビークルシミュレーションシリーズ6パック",
+          "description": "6個の合金エンジニアリングビークルシミュレーションシリーズ：セメントミキサー、フラットベッドトラック、クレーン、おはつ掘り機、ブルドーザー、ダンプトラック。1:50スケール、本物のようなディテール。",
+          "category": "コレクション玩具"
+        },
+        "ko": {
+          "name": "엔지니어링 차량 시뮬레이션 시리즈 6팩",
+          "description": "시멘트 믹서, 플랫베드 트럭, 크레인, excavator, 불도저, 덤프 트럭의 6개 다이캐스트 엔지니어링 차량 시뮬레이션 시리즈입니다. 1:50 스케일, 신뢰할 수 있는 디테일.",
+          "category": "수집 장난감"
+        },
+        "pt": {
+          "name": "Serie de Simulacao de Veiculos de Engenharia 6 Pecas",
+          "description": "Serie de simulacao de 6 veiculos de engenharia fundidos sob pressao: betoneira, caminhao plataforma, guindaste, escavadeira, trator de esteiras e caminhao basculante. Escala 1:50 com detalhes autenticos.",
+          "category": "Brinquedos Colecionáveis"
+        },
+        "ar": {
+          "name": "مجموعة محاكاة المركبات الهندسية 6 قطع",
+          "description": "مجموعة محاكاة 6 مركبات هندسية مصبوبة: خلاط الأسمنت، والشاحنة المسطحة، والرافعة، والحفارة، والجرافة، وشاحنة التفريغ. مقياس 1:50 مع تفاصيل حقيقية.",
           "category": "ألعاب مقتنيات"
         }
       }
