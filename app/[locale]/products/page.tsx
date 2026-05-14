@@ -22,7 +22,7 @@ const BLUR_DATA_URL = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ
 
 function ProductsContent() {
   const t = useTranslations('products');
-  const locale = useLocale();
+  const locale = useLocale() as keyof typeof import('@/lib/trending.json');
   const products = trendingData.products;
 
   return (
@@ -70,9 +70,11 @@ function ProductsContent() {
                   </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-sm text-white/40 mb-1">{product.category}</p>
+                  <p className="text-sm text-white/40 mb-1">
+                    {product.translations?.[locale as string]?.category || product.category}
+                  </p>
                   <h3 className="font-semibold text-white/90 group-hover:text-white transition-colors line-clamp-2">
-                    {product.name}
+                    {product.translations?.[locale as string]?.name || product.name}
                   </h3>
                   <div className="mt-3 flex items-center justify-between">
                     <span className="text-xl font-bold text-brand-blue">${product.price.toFixed(2)}</span>

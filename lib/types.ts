@@ -13,6 +13,16 @@ export interface ProcurementData {
   certification?: string;
 }
 
+// Localized text for a single language
+export interface LocalizedText {
+  name: string;
+  description: string;
+  category: string;
+}
+
+// All supported locales
+export type SupportedLocale = 'en' | 'zh' | 'zh-TW' | 'es' | 'fr' | 'de' | 'ja' | 'ko' | 'pt' | 'ar';
+
 export interface Product {
   id: string;
   name: string;
@@ -24,6 +34,8 @@ export interface Product {
   description: string;
   source: string;
   procurement?: ProcurementData;
+  // Multi-language support
+  translations?: Partial<Record<SupportedLocale, LocalizedText>>;
 }
 
 export interface TrendingData {

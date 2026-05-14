@@ -16,11 +16,12 @@ import type { Product } from '@/lib/data';
 
 // JSON-LD structured data for SEO
 function generateProductJsonLd(product: Product, locale: string) {
+  const translations = (product as any).translations?.[locale];
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: product.name,
-    description: product.description,
+    name: translations?.name || product.name,
+    description: translations?.description || product.description,
     image: product.image,
     offers: {
       '@type': 'Offer',
@@ -44,10 +45,10 @@ const trendBadge: Record<string, { label: string; color: string }> = {
 
 const RATE = 7.2;
 
-export default function ProductDetailPage({ params }: { params: { id: string; locale: string } }) {
+export default async function ProductDetailPage({ params }: { params: Promise<{ id: string; locale: string }> }) {
   const t = useTranslations('product');
-  const locale = useLocale();
-  const product: Product | undefined = trendingData.products.find(p => p.id === `t${params.id}`);
+  const { id, locale } = await params;
+  const product: Product | undefined = trendingData.products.find(p => p.id === `t${id}`);
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
@@ -86,7 +87,7 @@ export default function ProductDetailPage({ params }: { params: { id: string; lo
   const handleAddToCart = () => {
     const item: CartItem = {
       id: parseInt(product.id.replace('t', '')),
-      name: product.name,
+      name: (product as any).translations?.[locale]?.name || product.name,
       price: product.price,
       quantity,
       image: product.image,
@@ -113,7 +114,13 @@ export default function ProductDetailPage({ params }: { params: { id: string; lo
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-8">
           <div className="relative h-80 rounded-2xl overflow-hidden bg-dark-bg">
-            <Image src={product.image} alt={product.name} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+            <Image
+              src={product.image}
+              alt={(product as any).translations?.[locale]?.name || product.name}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
             <span className={`absolute top-4 left-4 text-xs px-3 py-1 rounded-full border ${badge.color}`}>{badge.label}</span>
             <div className="absolute top-4 right-4">
               <WishlistButton productId={product.id} size="md" />
@@ -121,9 +128,15 @@ export default function ProductDetailPage({ params }: { params: { id: string; lo
           </div>
 
           <div>
-            <p className="text-xs text-white/30 uppercase tracking-widest mb-2">{product.category} · {product.region}</p>
-            <h1 className="text-2xl md:text-3xl font-bold font-display mb-3">{product.name}</h1>
-            <p className="text-white/50 text-sm leading-relaxed mb-4">{product.description}</p>
+            <p className="text-xs text-white/30 uppercase tracking-widest mb-2">
+              {(product as any).translations?.[locale]?.category || product.category} · {product.region}
+            </p>
+            <h1 className="text-2xl md:text-3xl font-bold font-display mb-3">
+              {(product as any).translations?.[locale]?.name || product.name}
+            </h1>
+            <p className="text-white/50 text-sm leading-relaxed mb-4">
+              {(product as any).translations?.[locale]?.description || product.description}
+            </p>
 
             <div className="flex items-baseline gap-3 mb-6">
               <span className="text-3xl font-bold text-brand-blue">${product.price.toFixed(2)}</span>
