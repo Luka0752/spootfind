@@ -82,6 +82,42 @@ export function getProductJsonLd(
   return JSON.stringify(jsonLd);
 }
 
+// ─── ItemList JSON-LD (for product listing pages) ────────────────────────────
+export function getItemListJsonLd(
+  products: Product[],
+  locale: string,
+  listName: string = 'Trending Products'
+): string {
+  const listUrl = `${BASE_URL}/${locale !== 'en' ? locale + '/' : ''}products`;
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: listName,
+    url: listUrl,
+    itemListElement: products.map((product, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'Product',
+        name: product.name,
+        description: product.description,
+        image: `${BASE_URL}${product.image}`,
+        url: `${BASE_URL}/${locale !== 'en' ? locale + '/' : ''}products/${product.id.replace('t', '')}`,
+        offers: {
+          '@type': 'Offer',
+          price: product.price.toFixed(2),
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+        },
+        category: product.category,
+      },
+    })),
+  };
+
+  return JSON.stringify(jsonLd);
+}
+
 // ─── Homepage Organization Script ──────────────────────────────────────────────
 export function OrganizationSchema() {
   return (
@@ -105,6 +141,23 @@ export function ProductSchema({ product, locale }: ProductSchemaProps) {
       id={`schema-product-${product.id}`}
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: getProductJsonLd(product, locale) }}
+    />
+  );
+}
+
+// ─── ItemList Schema Script (for product listing) ─────────────────────────────
+interface ItemListSchemaProps {
+  products: Product[];
+  locale: string;
+  listName?: string;
+}
+
+export function ItemListSchema({ products, locale, listName }: ItemListSchemaProps) {
+  return (
+    <Script
+      id="schema-itemlist"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: getItemListJsonLd(products, locale, listName) }}
     />
   );
 }
@@ -154,6 +207,36 @@ export function BreadcrumbSchema({ items, locale }: { items: { name: string; url
       id="schema-breadcrumb"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: breadcrumbJsonLd }}
+    />
+  );
+}
+
+// ─── FAQPage JSON-LD (for FAQ sections) ───────────────────────────────────────
+export function getFaqJsonLd(faqs: { question: string; answer: string }[]): string {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  });
+}
+
+interface FaqSchemaProps {
+  faqs: { question: string; answer: string }[];
+}
+
+export function FaqSchema({ faqs }: FaqSchemaProps) {
+  return (
+    <Script
+      id="schema-faq"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: getFaqJsonLd(faqs) }}
     />
   );
 }

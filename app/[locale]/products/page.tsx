@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import WishlistButton from '@/components/WishlistButton';
 import ProductCompare from '@/components/ProductCompare';
 import CompareWrapper from '@/components/CompareWrapper';
+import { ItemListSchema } from '@/components/StructuredData';
 import { trendingData } from '@/lib/data';
 
 const categoryLabels: Record<string, string> = {
@@ -27,6 +28,9 @@ function ProductsContent() {
 
   return (
     <>
+      {/* JSON-LD ItemList Schema for SEO */}
+      <ItemListSchema products={products} locale={locale} listName={t('title')} />
+      
       <main className="relative z-10 pt-28 pb-32">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-3xl sm:text-4xl font-bold font-display mb-4">{t('title')}</h1>
