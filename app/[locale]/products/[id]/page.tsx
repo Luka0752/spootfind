@@ -14,28 +14,7 @@ import CompareWrapper from '@/components/CompareWrapper';
 import { trendingData } from '@/lib/data';
 import type { Product } from '@/lib/data';
 
-// JSON-LD structured data for SEO
-function generateProductJsonLd(product: Product, locale: string) {
-  const translations = (product as any).translations?.[locale];
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: translations?.name || product.name,
-    description: translations?.description || product.description,
-    image: product.image,
-    offers: {
-      '@type': 'Offer',
-      priceCurrency: 'USD',
-      price: product.price.toFixed(2),
-      availability: 'https://schema.org/InStock',
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.5',
-      reviewCount: '100',
-    },
-  };
-}
+import { ProductSchema, BreadcrumbSchema } from '@/components/StructuredData';
 
 const trendBadge: Record<string, { label: string; color: string }> = {
   hot: { label: '🔥 Hot', color: 'bg-red-500/20 text-red-400 border-red-500/30' },
@@ -57,10 +36,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   if (!product) {
     return (
       <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Product Not Found' }) }}
-        />
+        <ProductSchema product={{ id: 'not-found', name: 'Product Not Found', description: '', image: '', price: 0, category: '', trend: 'stable' as const, region: '', source: '' }} locale={locale} />
         <Navbar />
         <ParticlesCanvas />
         <main className="relative z-10 max-w-7xl mx-auto px-6 py-32">
@@ -97,14 +73,13 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     setTimeout(() => setAdded(false), 2000);
   };
 
-  const jsonLd = generateProductJsonLd(product, locale);
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <ProductSchema product={product} locale={locale} />
+      <BreadcrumbSchema items={[
+        { name: t('products'), url: '/products' },
+        { name: (product as any).translations?.[locale]?.name || product.name, url: `/products/${product.id.replace('t', '')}` },
+      ]} locale={locale} />
       <Navbar />
       <ParticlesCanvas />
       <main className="relative z-10 max-w-5xl mx-auto px-6 py-32">
