@@ -147,7 +147,7 @@
       "price": 9.99,
       "trend": "stable",
       "region": "US,EU",
-      "image": "/products/cat-toy.jpg",
+      "image": "/products/toys.jpg",
       "description": "50k beads + tools. Fine motor skills. Pre-school sensory play.",
       "source": "Amazon Bestseller",
       "procurement": {
@@ -331,7 +331,7 @@
       "price": 599.0,
       "trend": "rising",
       "region": "US,CA,AU",
-      "image": "/products/smart-window-fan.jpg",
+      "image": "/products/engineering-series.webp",
       "description": "36in blade, Honda GX160 engine. Finishing & floating. Construction essential.",
       "source": "Alibaba Top Rated",
       "procurement": {
