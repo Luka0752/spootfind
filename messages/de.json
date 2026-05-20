@@ -67,7 +67,8 @@
     "profitCalculator": "Gewinnrechner",
     "orderQty": "Bestellmenge",
     "totalCost": "Gesamtkosten",
-    "estProfit": "Geschätzter Gewinn"
+    "estProfit": "Geschätzter Gewinn",
+    "requestQuote": "Angebot Anfordern"
   },
   "cart": {
     "title": "Warenkorb",

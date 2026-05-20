@@ -67,7 +67,8 @@
     "profitCalculator": "Calculateur de Profit",
     "orderQty": "Quantité Commandée",
     "totalCost": "Coût Total",
-    "estProfit": "Bénéfice Est."
+    "estProfit": "Bénéfice Est.",
+    "requestQuote": "Demander un Devis"
   },
   "cart": {
     "title": "Panier",

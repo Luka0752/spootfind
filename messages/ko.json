@@ -67,7 +67,8 @@
     "profitCalculator": "이익 계산기",
     "orderQty": "주문 수량",
     "totalCost": "총 비용",
-    "estProfit": "예상 이익"
+    "estProfit": "예상 이익",
+    "requestQuote": "견적 요청"
   },
   "cart": {
     "title": "장바구니",

@@ -67,7 +67,8 @@
     "profitCalculator": "利益計算機",
     "orderQty": "注文数量",
     "totalCost": "総コスト",
-    "estProfit": "推定利益"
+    "estProfit": "推定利益",
+    "requestQuote": "見積りリクエスト"
   },
   "cart": {
     "title": "ショッピングカート",

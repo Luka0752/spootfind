@@ -67,7 +67,8 @@
     "profitCalculator": "Profit Calculator",
     "orderQty": "Order Quantity",
     "totalCost": "Total Cost",
-    "estProfit": "Est. Profit"
+    "estProfit": "Est. Profit",
+    "requestQuote": "Request Quote"
   },
   "cart": {
     "title": "Shopping Cart",

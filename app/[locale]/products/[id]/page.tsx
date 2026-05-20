@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
+import { useRouter } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ParticlesCanvas from '@/components/ParticlesCanvas';
@@ -59,6 +60,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const sellUsd = product.price;
   const profitUsd = sellUsd - totalUsdPerUnit;
   const profitMargin = p ? p.profitMarginPct : 0;
+
+  const router = useRouter();
 
   const handleAddToCart = () => {
     const item: CartItem = {
@@ -135,7 +138,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </div>
             )}
 
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex items-center gap-3 mb-4">
               <div className="flex items-center border border-dark-border rounded-full">
                 <button onClick={() => setQuantity(Math.max(1, quantity - 1))} className="px-4 py-2 text-white/60 hover:text-white transition-colors">−</button>
                 <span className="px-4 text-white">{quantity}</span>
@@ -143,6 +146,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </div>
               <button onClick={handleAddToCart} disabled={added} className={`flex-1 py-3 px-6 rounded-full font-semibold transition-all text-sm ${added ? 'bg-green-500 text-white' : 'bg-brand-blue text-dark-bg hover:bg-brand-blue/80'}`}>
                 {added ? '✓ Added' : 'Add to Cart'}
+              </button>
+              <button onClick={() => router.push(`/${locale}/request?product=${encodeURIComponent(product.name)}`)} className="py-3 px-6 rounded-full font-semibold transition-all text-sm bg-white/10 text-white border border-white/20 hover:bg-white/20 hover:border-brand-blue/40">
+                {t('requestQuote')}
               </button>
             </div>
 
@@ -159,6 +165,29 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             {t('procurement')}
           </button>
         </div>
+
+        {activeTab === 'overview' && (
+          <div className="bg-dark-card/60 rounded-2xl border border-dark-border p-6">
+            <h3 className="text-lg font-bold mb-4">{t('description')}</h3>
+            <div className="text-white/70 leading-relaxed space-y-4">
+              {((product as any).translations?.[locale]?.seoDescription || product.seoDescription || product.description)
+                .split('\n\n')
+                .map((paragraph: string, i: number) => (
+                  <p key={i}>{paragraph}</p>
+                ))}
+            </div>
+            {p?.certification && (
+              <div className="mt-6 pt-4 border-t border-dark-border">
+                <span className="text-xs text-white/30 uppercase tracking-widest">{t('certification')}</span>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {p.certification.split(', ').map((cert: string) => (
+                    <span key={cert} className="px-3 py-1 text-xs bg-brand-green/10 text-brand-green border border-brand-green/20 rounded-full">{cert}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
 
         {activeTab === 'procurement' && p && (
           <div className="bg-dark-card/60 rounded-2xl border border-dark-border p-6">

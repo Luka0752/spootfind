@@ -67,7 +67,8 @@
     "profitCalculator": "Calculadora de Beneficios",
     "orderQty": "Cantidad de Pedido",
     "totalCost": "Costo Total",
-    "estProfit": "Beneficio Est."
+    "estProfit": "Beneficio Est.",
+    "requestQuote": "Solicitar Cotización"
   },
   "cart": {
     "title": "Carrito de Compras",

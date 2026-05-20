@@ -67,7 +67,8 @@
     "profitCalculator": "利润计算器",
     "orderQty": "订购数量",
     "totalCost": "总成本",
-    "estProfit": "预估利润"
+    "estProfit": "预估利润",
+    "requestQuote": "Request Quote"
   },
   "cart": {
     "title": "购物车",

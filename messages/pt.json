@@ -67,7 +67,8 @@
     "profitCalculator": "Calculadora de Lucro",
     "orderQty": "Quantidade do Pedido",
     "totalCost": "Custo Total",
-    "estProfit": "Lucro Est."
+    "estProfit": "Lucro Est.",
+    "requestQuote": "Solicitar Cotação"
   },
   "cart": {
     "title": "Carrinho de Compras",

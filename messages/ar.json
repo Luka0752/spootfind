@@ -67,7 +67,8 @@
     "profitCalculator": "حاسبة الربح",
     "orderQty": "كمية الطلب",
     "totalCost": "التكلفة الإجمالية",
-    "estProfit": "الربح المقدر"
+    "estProfit": "الربح المقدر",
+    "requestQuote": "طلب عرض سعر"
   },
   "cart": {
     "title": "سلة التسوق",

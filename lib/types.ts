@@ -18,6 +18,7 @@ export interface LocalizedText {
   name: string;
   description: string;
   category: string;
+  seoDescription?: string;
 }
 
 // All supported locales
@@ -34,6 +35,8 @@ export interface Product {
   description: string;
   source: string;
   procurement?: ProcurementData;
+  // SEO-rich product description (250-350 words, long-tail keywords)
+  seoDescription?: string;
   // Multi-language support
   translations?: Partial<Record<SupportedLocale, LocalizedText>>;
 }

@@ -67,7 +67,8 @@
     "profitCalculator": "利潤計算機",
     "orderQty": "訂購數量",
     "totalCost": "總成本",
-    "estProfit": "預估利潤"
+    "estProfit": "預估利潤",
+    "requestQuote": "Request Quote"
   },
   "cart": {
     "title": "購物車",
