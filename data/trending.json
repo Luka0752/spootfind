@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T16:52:00+08:00",
+  "lastUpdated": "2026-05-20T14:10:00+08:00",
   "source": "manual-curation",
   "products": [
     {
@@ -53,7 +53,7 @@
       "name": "RC Stunt Car 360° Flip",
       "category": "Toys",
       "price": 32.99,
-      "trend": "rising",
+      "trend": "hot",
       "region": "US,EU,AU",
       "image": "/products/stunt-car.webp",
       "description": "2.4GHz, LED lights, all-terrain. 45min play. Best seller age 8-12.",
@@ -145,7 +145,7 @@
       "name": "Water Beads Sensory Kit",
       "category": "Toys",
       "price": 9.99,
-      "trend": "stable",
+      "trend": "rising",
       "region": "US,EU",
       "image": "/products/toys.jpg",
       "description": "50k beads + tools. Fine motor skills. Pre-school sensory play.",
@@ -214,7 +214,7 @@
       "name": "Road Roller 3T Single Drum",
       "category": "Machinery",
       "price": 4299.0,
-      "trend": "rising",
+      "trend": "hot",
       "region": "AF,ME,SEA",
       "image": "/products/mini-bulldozer.webp",
       "description": "3 ton, hydraulic drive, 0.8m drum width. Compaction force 3.2T. Site ready.",
