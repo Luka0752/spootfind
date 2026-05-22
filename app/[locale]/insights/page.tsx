@@ -15,7 +15,7 @@ const articles = [
   },
 ];
 
-function InsightsContent() {
+function InsightsContent({ locale }: { locale: string }) {
   const t = useTranslations('insights');
 
   return (
@@ -43,7 +43,7 @@ function InsightsContent() {
             {articles.map((article) => (
               <Link
                 key={article.slug}
-                href={`/${useTranslations ? '' : ''}/insights/${article.slug}`}
+                href={`/${locale}/insights/${article.slug}`}
                 className="group bg-dark-card/60 rounded-2xl border border-dark-border overflow-hidden hover:border-brand-blue/40 transition-all"
               >
                 {/* Image */}
@@ -166,7 +166,7 @@ function InsightsContent() {
               </div>
             </div>
             <Link
-              href="/products"
+              href={`/${locale}/products`}
               className="mt-4 inline-flex items-center gap-2 text-brand-blue text-sm font-medium hover:gap-3 transition-all"
             >
               {t('art1_viewProducts')}
@@ -181,7 +181,7 @@ function InsightsContent() {
             <h3 className="text-2xl font-bold mb-3">{t('art1_contactTitle')}</h3>
             <p className="text-white/50 mb-6 max-w-lg mx-auto">{t('art1_contactContent')}</p>
             <Link
-              href="/contact"
+              href={`/${locale}/contact`}
               className="inline-flex items-center gap-2 px-6 py-3 bg-brand-blue hover:bg-brand-blue/80 text-white font-semibold rounded-xl transition-colors"
             >
               {t('art1_contactBtn')}
@@ -199,5 +199,5 @@ function InsightsContent() {
 export default async function InsightsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <InsightsContent />;
+  return <InsightsContent locale={locale} />;
 }
