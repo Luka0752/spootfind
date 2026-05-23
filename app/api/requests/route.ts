@@ -24,7 +24,7 @@ async function sendNotificationEmail(
     }
   })
 
-  const notificationEmail = process.env.NOTIFICATION_EMAIL || 'lukazhang0752@gmail.com'
+  const notificationEmail = process.env.NOTIFICATION_EMAIL || 'hao8454@126.com'
 
   // Admin notification
   await transporter.sendMail({
