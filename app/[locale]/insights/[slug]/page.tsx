@@ -40,6 +40,21 @@ const articles: Record<string, {
       { emoji: '🔨', labelKey: 'art2_category3', ids: ['t15', 't11'] },
     ],
   },
+  'sea-ecommerce-sourcing-guide-may-2026': {
+    titleKey: 'art3_title',
+    subtitleKey: 'art3_subtitle',
+    tagKey: 'art3_tag',
+    region: '🌏 Southeast Asia',
+    date: '2026-05-23',
+    readTime: '8',
+    image: '/products/toys.jpg',
+    linkedProductIds: ['t1', 't4', 't3'],
+    categories: [
+      { emoji: '💆', labelKey: 'art3_category1', ids: ['t1', 't7'] },
+      { emoji: '👗', labelKey: 'art3_category2', ids: ['t8', 't5'] },
+      { emoji: '🏠', labelKey: 'art3_category3', ids: ['t3', 't2'] },
+    ],
+  },
 };
 
 export function generateStaticParams() {

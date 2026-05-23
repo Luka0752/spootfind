@@ -26,6 +26,17 @@ const articles = [
     image: '/products/mini-excavator.webp',
     linkedProductIds: ['t9', 't13', 't15'],
   },
+  {
+    slug: 'sea-ecommerce-sourcing-guide-may-2026',
+    tagKey: 'art3_tag',
+    titleKey: 'art3_title',
+    subtitleKey: 'art3_subtitle',
+    region: '🌏 Southeast Asia',
+    date: '2026-05-23',
+    readTime: '8',
+    image: '/products/toys.jpg',
+    linkedProductIds: ['t1', 't4', 't3'],
+  },
 ];
 
 function InsightsContent({ locale }: { locale: string }) {
@@ -128,11 +139,11 @@ function InsightsContent({ locale }: { locale: string }) {
           {/* Stats Row */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
-              <p className="text-2xl font-bold text-brand-blue mb-1">2</p>
+              <p className="text-2xl font-bold text-brand-blue mb-1">3</p>
               <p className="text-sm text-white/50">{t('hotProducts')}</p>
             </div>
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
-              <p className="text-2xl font-bold text-brand-blue mb-1">2</p>
+              <p className="text-2xl font-bold text-brand-blue mb-1">3</p>
               <p className="text-sm text-white/50">{t('sourcingRegion')}</p>
             </div>
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
