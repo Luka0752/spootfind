@@ -6,12 +6,25 @@ import Image from 'next/image';
 const articles = [
   {
     slug: 'na-tiktok-fidget-toys-may-2026',
-    tag: 'Fidget & Sensory Toys',
+    tagKey: 'art1_tag',
+    titleKey: 'art1_title',
+    subtitleKey: 'art1_subtitle',
     region: '🇺🇸 North America',
     date: '2026-05-22',
     readTime: '8',
     image: '/products/toys.jpg',
     linkedProductIds: ['t1', 't4', 't3'],
+  },
+  {
+    slug: 'china-construction-equipment-may-2026',
+    tagKey: 'art2_tag',
+    titleKey: 'art2_title',
+    subtitleKey: 'art2_subtitle',
+    region: '🏭 Jining, China',
+    date: '2026-05-23',
+    readTime: '10',
+    image: '/products/mini-excavator.webp',
+    linkedProductIds: ['t9', 't13', 't15'],
   },
 ];
 
@@ -57,7 +70,7 @@ function InsightsContent({ locale }: { locale: string }) {
                   />
                   <div className="absolute top-3 left-3">
                     <span className="px-3 py-1 rounded-full bg-dark-bg/80 backdrop-blur-sm text-xs font-medium text-brand-blue border border-brand-blue/30">
-                      {article.tag}
+                      {t(article.tagKey)}
                     </span>
                   </div>
                 </div>
@@ -72,9 +85,9 @@ function InsightsContent({ locale }: { locale: string }) {
                     <span>{article.readTime} {t('minutes')}</span>
                   </div>
                   <h3 className="text-lg font-semibold mb-2 group-hover:text-brand-blue transition-colors">
-                    {t('art1_title')}
+                    {t(article.titleKey)}
                   </h3>
-                  <p className="text-sm text-white/50 line-clamp-2">{t('art1_subtitle')}</p>
+                  <p className="text-sm text-white/50 line-clamp-2">{t(article.subtitleKey)}</p>
 
                   {/* Preview Sections */}
                   <div className="mt-5 pt-5 border-t border-dark-border space-y-3">
@@ -115,11 +128,11 @@ function InsightsContent({ locale }: { locale: string }) {
           {/* Stats Row */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
-              <p className="text-2xl font-bold text-brand-blue mb-1">1</p>
+              <p className="text-2xl font-bold text-brand-blue mb-1">2</p>
               <p className="text-sm text-white/50">{t('hotProducts')}</p>
             </div>
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
-              <p className="text-2xl font-bold text-brand-blue mb-1">3</p>
+              <p className="text-2xl font-bold text-brand-blue mb-1">2</p>
               <p className="text-sm text-white/50">{t('sourcingRegion')}</p>
             </div>
             <div className="bg-dark-card/60 rounded-xl p-5 border border-dark-border text-center">
