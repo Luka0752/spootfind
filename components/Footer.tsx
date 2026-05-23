@@ -35,7 +35,8 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white/80 mb-4">{t('connect')}</h4>
             <div className="flex flex-col gap-2 text-sm text-white/40">
-              <a href="mailto:hello@spootfind.com" className="hover:text-brand-blue transition-colors">hello@spootfind.com</a>
+              <a href="mailto:lukazhang0752@gmail.com" className="hover:text-brand-blue transition-colors">lukazhang0752@gmail.com</a>
+              <a href="tel:+8615588702803" className="hover:text-brand-blue transition-colors">+86 155-8870-2803</a>
               <span>Shanghai, China</span>
             </div>
           </div>
