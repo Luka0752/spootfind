@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T14:10:00+08:00",
+  "lastUpdated": "2026-05-26T09:18:00+08:00",
   "source": "manual-curation",
   "products": [
     {
@@ -33,7 +33,7 @@
       "price": 24.99,
       "trend": "hot",
       "region": "Global",
-      "image": "/products/montessori-puzzle.webp",
+      "image": "/products/t2-stem-blocks.jpg",
       "description": "Compatible with major brands. Creative gears & wheels. Ages 6+.",
       "source": "Amazon Bestseller",
       "procurement": {
@@ -81,7 +81,7 @@
       "price": 14.99,
       "trend": "hot",
       "region": "US,UK,CA",
-      "image": "/products/plush-baby.webp",
+      "image": "/products/t4-squishmallow.jpg",
       "description": "Ultra-soft short plush. 20+ animal designs. TikTok collection trend.",
       "source": "Amazon Bestseller",
       "procurement": {
@@ -105,7 +105,7 @@
       "price": 29.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/diy-craft.webp",
+      "image": "/products/t5-magnetic-tiles.jpg",
       "description": "Strong magnets, 3D building. STEM Montessori certified. Ages 3+.",
       "source": "AliExpress Trending",
       "procurement": {
