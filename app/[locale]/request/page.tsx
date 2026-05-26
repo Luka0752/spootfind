@@ -25,6 +25,10 @@ export default function RequestPage() {
     const data = {
       email: formData.get('email') as string,
       name: formData.get('name') as string,
+      targetMarket: formData.get('targetMarket') as string,
+      orderScale: formData.get('orderScale') as string,
+      targetPrice: formData.get('targetPrice') as string,
+      certification: formData.get('certification') as string,
       details: formData.get('details') as string
     }
 
@@ -55,7 +59,7 @@ export default function RequestPage() {
       <Navbar />
       <ParticlesCanvas />
       <main className="relative z-10 min-h-screen py-12 px-4">
-        <div className="max-w-xl mx-auto">
+        <div className="max-w-2xl mx-auto">
           <h1 className="text-3xl font-bold font-display mb-2">{t('title')}</h1>
           <p className="text-white/50 mb-8">{t('subtitle')}</p>
 
@@ -66,35 +70,121 @@ export default function RequestPage() {
           )}
 
           <form onSubmit={handleSubmit} className="bg-dark-card/60 rounded-2xl border border-dark-border p-8 space-y-6">
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-white/60 mb-1">
-                {t('email')} *
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
-                placeholder={t('emailPlaceholder')}
-              />
-              <p className="text-xs text-white/30 mt-1">{t('emailHint')}</p>
+            {/* Basic Info */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-white/60 mb-1">
+                  {t('email')} *
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
+                  placeholder={t('emailPlaceholder')}
+                />
+                <p className="text-xs text-white/30 mt-1">{t('emailHint')}</p>
+              </div>
+
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-white/60 mb-1">
+                  {t('name')} *
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
+                  placeholder={t('namePlaceholder')}
+                />
+              </div>
             </div>
 
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-white/60 mb-1">
-                {t('name')} *
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
-                placeholder={t('namePlaceholder')}
-              />
+            {/* Sourcing Requirements */}
+            <div className="border-t border-dark-border pt-6">
+              <h3 className="text-lg font-medium text-white/80 mb-4">{t('sourcingRequirements')}</h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="targetMarket" className="block text-sm font-medium text-white/60 mb-1">
+                    {t('targetMarket')} *
+                  </label>
+                  <select
+                    id="targetMarket"
+                    name="targetMarket"
+                    required
+                    defaultValue=""
+                    className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white"
+                  >
+                    <option value="" disabled>{t('selectPlaceholder')}</option>
+                    <option value="Australia">{t('marketAustralia')}</option>
+                    <option value="Southeast Asia">{t('marketSEA')}</option>
+                    <option value="North America">{t('marketNA')}</option>
+                    <option value="Europe">{t('marketEU')}</option>
+                    <option value="Middle East">{t('marketME')}</option>
+                    <option value="South America">{t('marketSA')}</option>
+                    <option value="Africa">{t('marketAfrica')}</option>
+                    <option value="Other">{t('marketOther')}</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="orderScale" className="block text-sm font-medium text-white/60 mb-1">
+                    {t('orderScale')} *
+                  </label>
+                  <select
+                    id="orderScale"
+                    name="orderScale"
+                    required
+                    defaultValue=""
+                    className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white"
+                  >
+                    <option value="" disabled>{t('selectPlaceholder')}</option>
+                    <option value="Sample">{t('scaleSample')}</option>
+                    <option value="Small">{t('scaleSmall')}</option>
+                    <option value="Bulk">{t('scaleBulk')}</option>
+                    <option value="Not Sure">{t('scaleNotSure')}</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="targetPrice" className="block text-sm font-medium text-white/60 mb-1">
+                    {t('targetPrice')}
+                  </label>
+                  <input
+                    type="text"
+                    id="targetPrice"
+                    name="targetPrice"
+                    className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
+                    placeholder={t('targetPricePlaceholder')}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="certification" className="block text-sm font-medium text-white/60 mb-1">
+                    {t('certification')}
+                  </label>
+                  <select
+                    id="certification"
+                    name="certification"
+                    defaultValue=""
+                    className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white"
+                  >
+                    <option value="">{t('selectPlaceholder')}</option>
+                    <option value="None">{t('certNone')}</option>
+                    <option value="CE">{t('certCE')}</option>
+                    <option value="RCM/AS-NZS">{t('certRCM')}</option>
+                    <option value="UL/ETL">{t('certUL')}</option>
+                    <option value="FCC">{t('certFCC')}</option>
+                    <option value="Other">{t('certOther')}</option>
+                  </select>
+                </div>
+              </div>
             </div>
 
+            {/* Product Details */}
             <div>
               <label htmlFor="details" className="block text-sm font-medium text-white/60 mb-1">
                 {t('details')} *
@@ -104,7 +194,7 @@ export default function RequestPage() {
                 name="details"
                 required
                 rows={5}
-                defaultValue={productName ? `I'm interested in: ${productName}\n\nPlease provide pricing and availability details.` : ''}
+                defaultValue={productName ? `Product: ${productName}\n\n` : ''}
                 className="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-transparent text-white placeholder:text-white/20"
                 placeholder={t('detailsPlaceholder')}
               />

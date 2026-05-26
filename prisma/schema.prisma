@@ -43,6 +43,11 @@ model Request {
   expectedTime   String?  // 预期反馈时间
   notes          String?  // 其他备注
   
+  // 新增字段
+  orderScale     String?  // 采购规模：Sample, Small, Bulk, Not Sure
+  targetPrice    String?  // 目标价格区间
+  certification  String?  // 认证需求：None, CE, RCM, UL, FCC, Other
+  
   // 状态管理 (SQLite不支持enum，用String)
   status         String   @default("PENDING")
   
