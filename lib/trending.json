@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-26T09:18:00+08:00",
-  "source": "manual-curation",
+  "lastUpdated": "2026-05-26T14:20:00+08:00",
+  "source": "multi-platform-research",
   "products": [
     {
       "id": "t1",
@@ -12,6 +12,7 @@
       "image": "/products/toys.jpg",
       "description": "60pcs assorted shapes. Stress relief for kids & adults. TikTok viral.",
       "source": "AliExpress Bestseller",
+      "trendTags": ["viral", "stress-relief", "TikTok"],
       "procurement": {
         "costPriceCny": 12.5,
         "moq": 100,
@@ -36,6 +37,7 @@
       "image": "/products/t2-stem-blocks.jpg",
       "description": "Compatible with major brands. Creative gears & wheels. Ages 6+.",
       "source": "Amazon Bestseller",
+      "trendTags": ["STEM", "educational", "construction"],
       "procurement": {
         "costPriceCny": 28,
         "moq": 50,
@@ -60,6 +62,7 @@
       "image": "/products/stunt-car.webp",
       "description": "2.4GHz, LED lights, all-terrain. 45min play. Best seller age 8-12.",
       "source": "TikTok Shop",
+      "trendTags": ["RC-car", "stunt", "LED", "TikTok-viral"],
       "procurement": {
         "costPriceCny": 45,
         "moq": 30,
@@ -84,6 +87,7 @@
       "image": "/products/t4-squishmallow.jpg",
       "description": "Ultra-soft short plush. 20+ animal designs. TikTok collection trend.",
       "source": "Amazon Bestseller",
+      "trendTags": ["plush", "collectible", "TikTok-trend"],
       "procurement": {
         "costPriceCny": 16.8,
         "moq": 60,
@@ -108,6 +112,7 @@
       "image": "/products/t5-magnetic-tiles.jpg",
       "description": "Strong magnets, 3D building. STEM Montessori certified. Ages 3+.",
       "source": "AliExpress Trending",
+      "trendTags": ["STEM", "Montessori", "magnetic", "creative"],
       "procurement": {
         "costPriceCny": 35,
         "moq": 40,
@@ -132,6 +137,7 @@
       "image": "/products/anime-blind-box.jpg",
       "description": "6 designs + 1 secret. Japanese anime style. Collection craze.",
       "source": "TikTok Shop",
+      "trendTags": ["anime", "collectible", "blind-box", "viral"],
       "procurement": {
         "costPriceCny": 9.8,
         "moq": 120,
@@ -156,6 +162,7 @@
       "image": "/products/toys.jpg",
       "description": "50k beads + tools. Fine motor skills. Pre-school sensory play.",
       "source": "Amazon Bestseller",
+      "trendTags": ["sensory-play", "Montessori", "educational"],
       "procurement": {
         "costPriceCny": 8.5,
         "moq": 200,
@@ -171,28 +178,54 @@
       "seoDescription": "Fuel sensory play and early childhood development with this water beads sensory kit, featuring over 50,000 non-toxic polymer beads plus a complete set of fine-motor tools — scoopers, tweezers, sorting cups, and a storage tray. Designed for preschool and kindergarten environments, water beads are one of the fastest-growing categories in educational sensory toys, prized by occupational therapists and Montessori educators for their ability to develop hand-eye coordination, finger strength, and color recognition through open-ended play. The beads expand to approximately 12 mm when hydrated and shrink back for compact storage, making them a practical choice for both classroom and home use. CE and CPC certified, the beads are made from sodium polyacrylate — the same material used in baby diapers — ensuring they are non-toxic and biodegradable. Shantou Oubo, the manufacturer, is a sensory-toy specialist with a clean production record and experience exporting to North American and European educational-supply distributors. The kit format with premium packaging and included accessories differentiates it from bulk-bead commodity listings, supporting higher retail pricing and better margin preservation. Key markets include the US, UK, Germany, and Australia, where sensory-play search volumes have doubled year-over-year."
     },
     {
-      "id": "t8",
-      "name": "LED Slime Making Kit",
-      "category": "Toys",
-      "price": 13.99,
-      "trend": "rising",
-      "region": "US,UK,CA",
-      "image": "/products/led-slime-kit.jpg",
-      "description": "Glow in dark. Non-toxic PVA. 6 colors + storage box. Age 6+.",
-      "source": "TikTok Shop",
+      "id": "t15",
+      "name": "AI Smart Glasses",
+      "category": "Electronics",
+      "price": 89.99,
+      "trend": "hot",
+      "region": "Global",
+      "image": "/products/ai-glasses.jpg",
+      "description": "Voice interaction, real-time translation, photo/video. 6-8h battery. Lightweight 20g.",
+      "source": "TikTok Shop Bestseller",
+      "trendTags": ["AI", "wearable", "translation", "viral-2026"],
       "procurement": {
-        "costPriceCny": 14.2,
-        "moq": 80,
+        "costPriceCny": 168,
+        "moq": 50,
         "shippingDays": 12,
-        "supplier": "Shantou Chenghai District Toy Factory",
+        "supplier": "Shenzhen AI Tech Co.",
         "supplierUrl": "https://shop.1688.com",
-        "certification": "CE, ASTM F963",
-        "profitMarginPct": 77,
-        "weightKg": 0.18,
+        "certification": "CE, FCC, RoHS",
+        "profitMarginPct": 81,
+        "weightKg": 0.05,
         "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 12
+        "domesticFreightCny": 8
       },
-      "seoDescription": "Light up playtime with this LED slime making kit that glows in the dark — six vibrant colors of non-toxic PVA-based slime, complete with storage containers, mixing tools, and glow-in-the-dark powder that transforms every batch into a luminescent masterpiece. Slime continues to rank among the top-selling DIY toy categories on Amazon and TikTok, and this kit adds the glow-in-the-dark twist that stands out in search results and unboxing videos. Every component is CE and ASTM F963 certified, meeting toy-safety requirements for North American and European markets. The PVA formula is borax-free and non-sticky, addressing the two most common parent complaints about slime products. Shantou Chenghai-based manufacturing ensures competitive pricing, reliable lead times, and access to China's deepest toy supply chain. The kit format — pre-portioned ingredients plus tools — eliminates the mess and guesswork that frustrate home-made slime attempts, making it a parent-friendly gift choice. Each color comes in its own sealed container, extending shelf life and enabling partial-use play sessions. Ideal retail channels include toy stores, craft supply shops, online STEM and DIY toy retailers, and holiday gift guides. Custom color palettes, branded packaging, and bulk event-pack configurations are available for volume orders."
+      "seoDescription": "Step into the future with AI Smart Glasses — the hottest tech trend of 2026. These lightweight (20g) glasses feature voice interaction, real-time multi-language translation, hands-free photo/video capture, and GPS navigation display. Perfect for content creators, business travelers, and tech enthusiasts. The 6-8 hour battery life ensures all-day use, while the sleek design looks like regular sunglasses. CE, FCC, and RoHS certified for global markets. Shenzhen AI Tech Co. leads the market with consistent quality and reliable supply chains. Trending massively on TikTok and Instagram, these glasses are perfect for live streaming, travel, and daily tech wear. Target markets: US, EU, Japan, Korea, Australia. OEM branding and custom colors available."
+    },
+    {
+      "id": "t16",
+      "name": "Eco-Friendly Bamboo Toothbrush Set",
+      "category": "Eco-Products",
+      "price": 12.99,
+      "trend": "hot",
+      "region": "US,EU,AU,CA",
+      "image": "/products/bamboo-brush.jpg",
+      "description": "10-pack biodegradable bamboo handles. BPA-free nylon bristles. Plastic-free packaging.",
+      "source": "Amazon Eco Bestseller",
+      "trendTags": ["eco-friendly", "sustainable", "zero-waste", "biodegradable"],
+      "procurement": {
+        "costPriceCny": 15.8,
+        "moq": 200,
+        "shippingDays": 15,
+        "supplier": "Zhejiang Eco Products Co.",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "FDA, CE, BPI Certified Compostable",
+        "profitMarginPct": 84,
+        "weightKg": 0.12,
+        "forwarderFeeCnyPerKg": 28,
+        "domesticFreightCny": 18
+      },
+      "seoDescription": "Join the eco-revolution with this 10-pack of biodegradable bamboo toothbrushes — the perfect plastic-free alternative for conscious consumers. Each brush features a sustainably sourced bamboo handle that's naturally antibacterial and fully biodegradable, paired with BPA-free nylon-4 bristles that are gentle on gums yet effective at cleaning. The plastic-free kraft paper packaging appeals to zero-waste households and aligns with the global ban on single-use plastics. FDA and CE certified, these brushes meet oral-care safety standards in the US, EU, and Australia. Zhejiang Eco Products Co. specializes in sustainable personal-care items with BPI compostable certifications. This 10-pack format drives repeat purchases and subscription models. Trending in eco-living categories across Amazon, Etsy, and specialty zero-waste shops. Target markets: US, UK, Germany, Australia, Canada — wherever plastic-reduction policies are driving consumer behavior. Custom engraving, private labeling, and bulk subscription boxes available."
     },
     {
       "id": "t9",
@@ -204,6 +237,7 @@
       "image": "/products/mini-excavator.webp",
       "description": "1.8 ton, Kubota engine, 2.5m digging depth. 40HQ fits 6 units. CE certified.",
       "source": "Alibaba Top Rated",
+      "trendTags": ["construction", "compact", "Kubota"],
       "procurement": {
         "costPriceCny": 22800,
         "moq": 1,
@@ -228,6 +262,7 @@
       "image": "/products/mini-bulldozer.webp",
       "description": "3 ton, hydraulic drive, 0.8m drum width. Compaction force 3.2T. Site ready.",
       "source": "Alibaba Top Rated",
+      "trendTags": ["construction", "compaction", "hydraulic"],
       "procurement": {
         "costPriceCny": 25800,
         "moq": 1,
@@ -252,6 +287,7 @@
       "image": "/products/concrete-mixer.jpg",
       "description": "350L drum, 14HP diesel engine. 4 wheels, 180° discharge. Construction ready.",
       "source": "AliExpress Industrial",
+      "trendTags": ["construction", "concrete", "diesel"],
       "procurement": {
         "costPriceCny": 11200,
         "moq": 2,
@@ -267,30 +303,6 @@
       "seoDescription": "Mix, pour, and move — this 350-liter diesel concrete mixer is the workhorse that small contractors and rural builders reach for when reliable on-site mixing matters most. Powered by a robust 14 HP diesel engine, it delivers consistent batch quality even in off-grid locations where electricity is unavailable. The four-wheel configuration allows a single operator to reposition the mixer across the job site by hand, while the 180-degree swivel discharge chute enables precise pouring into wheelbarrows, forms, or directly into place. The drum features reinforced steel interior and abrasion-resistant paddles for uniform mixing and long service life, even with abrasive aggregates. CE certified and manufactured by Jining Shengbang — a specialist in small-scale construction equipment with over a decade of export experience — this mixer ships with full compliance documentation for EU and Australian customs clearance. At 350 liters, the drum capacity hits the sweet spot for residential foundations, fence-post footings, and small commercial slabs — large enough for productivity, small enough for easy loading by hand or mini skid-steer. Target markets include sub-Saharan Africa, Southeast Asia, the Middle East, and rural Australia, where diesel-powered equipment is preferred for reliability and fuel availability. OEM branding, electric-start upgrade, and custom drum capacities are available."
     },
     {
-      "id": "t12",
-      "name": "Mini Crane 5T Truck-Mounted",
-      "category": "Machinery",
-      "price": 8999.0,
-      "trend": "rising",
-      "region": "AF,ME,SA",
-      "image": "/products/new-energy-excavator.webp",
-      "description": "5 ton, 12m boom, 360° rotation. Mounts on pickup. Remote control included.",
-      "source": "Alibaba Top Rated",
-      "procurement": {
-        "costPriceCny": 52800,
-        "moq": 1,
-        "shippingDays": 30,
-        "supplier": "Jining Hengfa Heavy Industry",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "CE, ISO9001",
-        "profitMarginPct": 63,
-        "weightKg": 5200,
-        "forwarderFeeCnyPerKg": 7,
-        "domesticFreightCny": 580
-      },
-      "seoDescription": "Lift, reach, and place with precision using this 5-ton truck-mounted mini crane featuring a 12-meter telescopic boom and full 360-degree rotation — mounted directly on a standard pickup chassis for maximum jobsite mobility. This is the crane that small contractors, tree-service companies, and solar-installation crews have been waiting for: serious lifting capacity without the cost and logistics burden of a dedicated crane truck. The remote-control system allows the operator to position loads while maintaining line-of-sight from the ground, improving safety and reducing the need for a second person to direct the lift. CE and ISO 9001 certified, the crane meets European machinery safety directives and is backed by Jining Hengfa's established export-quality management system. The boom extends from 4 to 12 meters in four sections, with a maximum lift capacity of 5 tons at short radius — enough for steel beams, prefabricated panels, HVAC units, and construction materials. Hydraulic outriggers provide stable support on uneven terrain. At under 9 meters overall length when mounted, the crane-pickup combo can navigate urban streets and access restricted sites where full-size cranes cannot operate. Key markets include North American general contractors, Australian mining-support services, and European modular-construction firms. Custom boom lengths, load-moment indicators, and OEM paint schemes are available."
-    },
-    {
       "id": "t13",
       "name": "Skid Steer Loader 0.8T",
       "category": "Machinery",
@@ -300,6 +312,7 @@
       "image": "/products/wheel-loader.webp",
       "description": "0.8 ton, auxiliary hydraulics, rubber tracks. 8 attachments optional. Compact job sites.",
       "source": "AliExpress Industrial",
+      "trendTags": ["compact", "versatile", "construction"],
       "procurement": {
         "costPriceCny": 19500,
         "moq": 1,
@@ -316,54 +329,6 @@
     },
     {
       "id": "t14",
-      "name": "Diecast Excavator Model 1:50",
-      "category": "Machinery",
-      "price": 19.99,
-      "trend": "stable",
-      "region": "US,EU,AU",
-      "image": "/products/diecast-6pack.webp",
-      "description": "Zinc alloy, 1:50 scale. Movable tracks & boom. Collector gift box. Age 14+.",
-      "source": "Amazon Bestseller",
-      "procurement": {
-        "costPriceCny": 22,
-        "moq": 50,
-        "shippingDays": 15,
-        "supplier": "Jining Diecast Factory",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "CE",
-        "profitMarginPct": 75,
-        "weightKg": 0.35,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 25
-      },
-      "seoDescription": "A precision diecast excavator model at 1:50 scale — crafted from heavy zinc alloy with movable tracks, a functional boom, and an articulated bucket that mirror the real machine's hydraulics. This is not a toy; it is a collector-grade replica designed for display cases, executive desks, and construction-industry gift shops. The weight in the hand is satisfying and authentic — zinc alloy construction ensures durability and a premium feel that plastic models simply cannot match. The tracks roll, the boom swings 360 degrees, and the bucket curls and dumps, allowing collectors to pose the model in realistic working positions. Each unit ships in a collector gift box with a clear window, foam insert, and specification card — presentation that justifies premium retail pricing. CE certified and age-rated 14+, the model complies with EU and US collectible-toy safety standards. Manufactured in Jining — the heart of China's construction-equipment industry — the model benefits from proximity to real excavator factories, ensuring accuracy of proportions, details, and branding. Target markets include construction-equipment dealers (for showroom displays and corporate gifts), diecast collectors, and e-commerce hobby retailers. Custom branding, company logos on the cab, and bulk corporate-gift pricing are available."
-    },
-    {
-      "id": "t15",
-      "name": "Power Trowel 36in Concrete Finishing",
-      "category": "Machinery",
-      "price": 599.0,
-      "trend": "rising",
-      "region": "US,CA,AU",
-      "image": "/products/power-trowel.jpg",
-      "description": "36in blade, Honda GX160 engine. Finishing & floating. Construction essential.",
-      "source": "Alibaba Top Rated",
-      "procurement": {
-        "costPriceCny": 3450,
-        "moq": 5,
-        "shippingDays": 18,
-        "supplier": "Jining Construction Equipment Co.",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "CE",
-        "profitMarginPct": 72,
-        "weightKg": 95,
-        "forwarderFeeCnyPerKg": 12,
-        "domesticFreightCny": 85
-      },
-      "seoDescription": "Finish concrete like a professional with this 36-inch power trowel powered by the legendary Honda GX160 engine — the industry benchmark for reliability, easy starting, and fuel efficiency. This machine handles both floating and finishing passes, allowing a single operator to achieve a smooth, flat slab surface on residential floors, warehouse floors, and commercial flatwork in a fraction of the time required by hand finishing. The 36-inch diameter is the sweet spot for small-to-medium pours: wide enough for productive coverage, compact enough to fit through doorways and into tight corners. Adjustable pitch control lets the operator dial in the perfect blade angle — flat for floating, angled for finishing — while the ergonomically positioned handle reduces fatigue during extended operation. CE certified and manufactured in Jining — China's construction-equipment hub — this power trowel ships with full EU compliance documentation. The Honda GX160 powerplant ensures worldwide parts availability and technician familiarity, eliminating the support headaches common with proprietary engines. Key markets include Australian concrete contractors, Middle Eastern developers, and Latin American construction firms seeking professional-grade finishing equipment at competitive pricing. OEM branding, 46-inch upgrade, and rotor-style conversion kits are available for volume orders."
-    },
-    {
-      "id": "t16",
       "name": "Mini Dumper 500kg Tracked",
       "category": "Machinery",
       "price": 1299.0,
@@ -372,6 +337,7 @@
       "image": "/products/rideon-dump.webp",
       "description": "500kg capacity, rubber tracks, 7HP gasoline. 25° climbing. Garden & construction.",
       "source": "AliExpress Industrial",
+      "trendTags": ["compact", "tracked", "hauling"],
       "procurement": {
         "costPriceCny": 7200,
         "moq": 3,
