@@ -1,8 +1,9 @@
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 
 const locales = ['en', 'zh', 'zh-TW', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'ar'];
 
@@ -61,6 +62,50 @@ export function generateStaticParams() {
   return locales.flatMap(locale =>
     Object.keys(articles).map(slug => ({ locale, slug }))
   );
+}
+
+// Metadata generation for SEO
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'insights' });
+  const article = articles[slug];
+
+  if (!article) {
+    return {};
+  }
+
+  const artPrefix = article.titleKey.split('_')[0]; // 'art1' or 'art2' or 'art3'
+  const title = t(article.titleKey);
+  const description = t(`${artPrefix}_metaDesc`) || t(article.subtitleKey);
+  const imageUrl = `\${process.env.NEXT_PUBLIC_BASE_URL || 'https://spootfind.com'}$\{article.image}`;
+
+  return {
+    title: `${title} | Spootfind`,
+    description: description,
+    openGraph: {
+      title,
+      description,
+      url: `/${locale}/insights/${slug}`,
+      siteName: 'Spootfind',
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+      locale,
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [imageUrl],
+    },
+  };
 }
 
 function ArticleContent({ locale, slug }: { locale: string; slug: string }) {
