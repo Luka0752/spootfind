@@ -1,256 +1,164 @@
-import { setRequestLocale, getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
-import Link from 'next/link';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { articles } from '@/lib/articles';
 
-const locales = ['en', 'zh', 'zh-TW', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'ar'];
-
-const articles: Record<string, {
-  titleKey: string; subtitleKey: string; tagKey: string; region: string; date: string; readTime: string; image: string; linkedProductIds: string[];
-  categories: { emoji: string; labelKey: string; ids: string[] }[];
-}> = {
-  'na-tiktok-fidget-toys-may-2026': {
-    titleKey: 'art1_title',
-    subtitleKey: 'art1_subtitle',
-    tagKey: 'art1_tag',
-    region: '🇺🇸 North America',
-    date: '2026-05-22',
-    readTime: '8',
-    image: '/products/toys.jpg',
-    linkedProductIds: ['t1', 't4', 't3'],
-    categories: [
-      { emoji: '🫧', labelKey: 'art1_category1', ids: ['t1', 't7'] },
-      { emoji: '🔬', labelKey: 'art1_category2', ids: ['t8', 't5'] },
-      { emoji: '🚗', labelKey: 'art1_category3', ids: ['t3', 't2'] },
-    ],
-  },
-  'china-construction-equipment-may-2026': {
-    titleKey: 'art2_title',
-    subtitleKey: 'art2_subtitle',
-    tagKey: 'art2_tag',
-    region: '🏭 Jining, China',
-    date: '2026-05-23',
-    readTime: '10',
-    image: '/products/mini-excavator.webp',
-    linkedProductIds: ['t9', 't13', 't15'],
-    categories: [
-      { emoji: '⛏️', labelKey: 'art2_category1', ids: ['t9', 't12'] },
-      { emoji: '🛣️', labelKey: 'art2_category2', ids: ['t10', 't16'] },
-      { emoji: '🔨', labelKey: 'art2_category3', ids: ['t15', 't11'] },
-    ],
-  },
-  'sea-ecommerce-sourcing-guide-may-2026': {
-    titleKey: 'art3_title',
-    subtitleKey: 'art3_subtitle',
-    tagKey: 'art3_tag',
-    region: '🌏 Southeast Asia',
-    date: '2026-05-23',
-    readTime: '8',
-    image: '/products/toys.jpg',
-    linkedProductIds: ['t1', 't4', 't3'],
-    categories: [
-      { emoji: '💆', labelKey: 'art3_category1', ids: ['t1', 't7'] },
-      { emoji: '👗', labelKey: 'art3_category2', ids: ['t8', 't5'] },
-      { emoji: '🏠', labelKey: 'art3_category3', ids: ['t3', 't2'] },
-    ],
-  },
-};
-
+// Generate static params for all articles and all locales
 export function generateStaticParams() {
-  return locales.flatMap(locale =>
-    Object.keys(articles).map(slug => ({ locale, slug }))
-  );
+  const locales = ['en', 'zh', 'zh-TW', 'es', 'fr', 'de', 'ja', 'ko', 'pt', 'ar'];
+  const params: { locale: string; slug: string }[] = [];
+  for (const locale of locales) {
+    for (const article of articles) {
+      params.push({ locale, slug: article.slug });
+    }
+  }
+  return params;
 }
 
-// Metadata generation for SEO
-export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
+// Generate metadata per locale + slug
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
   const { locale, slug } = await params;
-  setRequestLocale(locale);
+  const article = articles.find((a) => a.slug === slug);
+  if (!article) return {};
+
   const t = await getTranslations({ locale, namespace: 'insights' });
-  const article = articles[slug];
+  const titleKey = `${article.titleKey}` as 'art1_title';
+  const descKey = `${article.titleKey.replace('title', 'metaDesc')}` as 'art1_metaDesc';
+  const title = t(titleKey as any) || article.title;
+  const description = t(descKey as any) || article.excerpt;
 
-  if (!article) {
-    return {};
-  }
-
-  const artPrefix = article.titleKey.split('_')[0]; // 'art1' or 'art2' or 'art3'
-  const title = t(article.titleKey);
-  const description = t(`${artPrefix}_metaDesc`) || t(article.subtitleKey);
-  const imageUrl = `\${process.env.NEXT_PUBLIC_BASE_URL || 'https://spootfind.com'}$\{article.image}`;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://spootfind.com';
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
 
   return {
-    title: `${title} | Spootfind`,
-    description: description,
+    title: `${title} | Spootfind Insights`,
+    description,
+    alternates: {
+      languages: {
+        en: `${baseUrl}/en/insights/${slug}`,
+        zh: `${baseUrl}/zh/insights/${slug}`,
+        'zh-TW': `${baseUrl}/zh-TW/insights/${slug}`,
+        es: `${baseUrl}/es/insights/${slug}`,
+        fr: `${baseUrl}/fr/insights/${slug}`,
+        de: `${baseUrl}/de/insights/${slug}`,
+        ja: `${baseUrl}/ja/insights/${slug}`,
+        ko: `${baseUrl}/ko/insights/${slug}`,
+        pt: `${baseUrl}/pt/insights/${slug}`,
+        ar: `${baseUrl}/ar/insights/${slug}`,
+      },
+    },
     openGraph: {
       title,
       description,
-      url: `/${locale}/insights/${slug}`,
-      siteName: 'Spootfind',
-      images: [
-        {
-          url: imageUrl,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-      locale,
+      url,
       type: 'article',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [imageUrl],
+      publishedTime: article.publishedAt,
     },
   };
 }
 
-function ArticleContent({ locale, slug }: { locale: string; slug: string }) {
-  const t = useTranslations('insights');
-  const article = articles[slug];
+export default async function InsightArticlePage({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale, slug } = await params;
+  const article = articles.find((a) => a.slug === slug);
+  if (!article) notFound();
 
-  if (!article) {
-    notFound();
-  }
+  const t = await getTranslations({ locale, namespace: 'insights' });
+  const title = t(`${article.titleKey}` as any) || article.title;
+  const excerpt = t(`${article.titleKey.replace('title', 'subtitle')}` as any) || article.excerpt;
+  // Article content: use hotContent + profitContent + regionContent as body (existing keys)
+  const hotContent = t(`${article.titleKey.replace('title', 'hotContent')}` as any) || '';
+  const profitContent = t(`${article.titleKey.replace('title', 'profitContent')}` as any) || '';
+  const regionContent = t(`${article.titleKey.replace('title', 'regionContent')}` as any) || '';
+  const tipsContent = t(`${article.titleKey.replace('title', 'tipsContent')}` as any) || '';
+  const content = `${hotContent}\n\n${profitContent}\n\n${regionContent}\n\n${tipsContent}`;
+  const publishedAt = article.publishedAt;
+  const readTime = article.readTime;
 
-  const artPrefix = article.titleKey.split('_')[0]; // 'art1' or 'art2'
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://spootfind.com';
+  const url = `${baseUrl}/${locale}/insights/${slug}`;
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description: excerpt,
+    datePublished: publishedAt,
+    dateModified: publishedAt,
+    author: {
+      '@type': 'Organization',
+      name: 'Spootfind',
+      url: baseUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Spootfind',
+      url: baseUrl,
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+  };
 
   return (
     <>
-      <main className="relative z-10 pt-28 pb-32">
-        <div className="max-w-4xl mx-auto px-6">
-          {/* Breadcrumb */}
-          <div className="flex items-center gap-2 text-sm text-white/40 mb-8">
-            <Link href={`/${locale}`} className="hover:text-brand-blue transition-colors">Home</Link>
-            <span>/</span>
-            <Link href={`/${locale}/insights`} className="hover:text-brand-blue transition-colors">{t('title')}</Link>
-            <span>/</span>
-            <span className="text-white/60">{t(article.titleKey)}</span>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+        {/* Header */}
+        <header className="mb-12">
+          <div className="mb-4 flex items-center gap-3 text-sm text-gray-400">
+            <span className="rounded-full bg-cyan-500/10 px-3 py-1 text-cyan-400">
+              {article.category}
+            </span>
+            <time dateTime={publishedAt}>
+              {new Date(publishedAt).toLocaleDateString(locale, {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+            <span>·</span>
+            <span>{readTime}</span>
           </div>
+          <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            {title}
+          </h1>
+          <p className="mt-4 text-lg text-gray-400">{excerpt}</p>
+        </header>
 
-          {/* Header */}
-          <div className="mb-10">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="px-3 py-1 rounded-full bg-brand-blue/10 text-brand-blue text-sm font-medium border border-brand-blue/30">
-                {t(article.tagKey)}
-              </span>
-              <span className="text-white/40 text-sm">{article.region}</span>
-            </div>
-            <h1 className="text-3xl sm:text-4xl font-bold font-display mb-4">{t(article.titleKey)}</h1>
-            <p className="text-white/50 text-lg">{t(article.subtitleKey)}</p>
-            <div className="flex items-center gap-4 mt-6 text-sm text-white/40">
-              <span>{t('publishedOn')} {article.date}</span>
-              <span>•</span>
-              <span>{article.readTime} {t('minutes')}</span>
-            </div>
-          </div>
+        {/* Article content - rendered from translated markdown */}
+        <div
+          className="prose prose-invert prose-cyan max-w-none prose-headings:text-white prose-a:text-cyan-400 prose-strong:text-white prose-code:text-cyan-400"
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
 
-          {/* Hero Image */}
-          <div className="relative aspect-video rounded-2xl overflow-hidden mb-12 border border-dark-border">
-            <Image
-              src={article.image}
-              alt={t(article.titleKey)}
-              fill
-              className="object-cover"
-              sizes="(max-width: 896px) 100vw, 896px"
-              priority
-            />
-          </div>
-
-          {/* Content Blocks */}
-          <div className="space-y-10">
-            {/* Hot Products / What's Trending */}
-            <section className="bg-dark-card/40 rounded-2xl p-6 border border-dark-border">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                {t(`${artPrefix}_hotTitle`)}
-              </h2>
-              <div className="text-white/70 whitespace-pre-line leading-relaxed">
-                {t(`${artPrefix}_hotContent`)}
-              </div>
-            </section>
-
-            {/* Profit Space */}
-            <section className="bg-dark-card/40 rounded-2xl p-6 border border-dark-border">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                {t(`${artPrefix}_profitTitle`)}
-              </h2>
-              <div className="text-white/70 whitespace-pre-line leading-relaxed">
-                {t(`${artPrefix}_profitContent`)}
-              </div>
-            </section>
-
-            {/* Sourcing Region */}
-            <section className="bg-dark-card/40 rounded-2xl p-6 border border-dark-border">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                {t(`${artPrefix}_regionTitle`)}
-              </h2>
-              <div className="text-white/70 whitespace-pre-line leading-relaxed">
-                {t(`${artPrefix}_regionContent`)}
-              </div>
-            </section>
-
-            {/* Sourcing Tips */}
-            <section className="bg-dark-card/40 rounded-2xl p-6 border border-dark-border">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                {t(`${artPrefix}_tipsTitle`)}
-              </h2>
-              <div className="text-white/70 whitespace-pre-line leading-relaxed">
-                {t(`${artPrefix}_tipsContent`)}
-              </div>
-            </section>
-
-            {/* Curated Products */}
-            <section className="bg-dark-card/40 rounded-2xl p-6 border border-dark-border">
-              <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
-                {t(`${artPrefix}_productsTitle`)}
-              </h2>
-              <p className="text-white/50 mb-6">{t(`${artPrefix}_productsDesc`)}</p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-                {article.categories.map((cat, i) => (
-                  <div key={i} className="bg-dark-bg/50 rounded-xl p-4 border border-dark-border">
-                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-2xl mb-3">{cat.emoji}</div>
-                    <p className="font-medium text-sm">{t(cat.labelKey)}</p>
-                    <p className="text-xs text-white/40">{cat.ids.map(id => id).join(' · ')}</p>
-                  </div>
-                ))}
-              </div>
-              <Link
-                href={`/${locale}/products`}
-                className="inline-flex items-center gap-2 text-brand-blue text-sm font-medium hover:gap-3 transition-all"
-              >
-                {t(`${artPrefix}_viewProducts`)}
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-            </section>
-          </div>
-
-          {/* CTA */}
-          <div className="mt-12 bg-gradient-to-r from-brand-blue/10 to-primary/10 rounded-2xl p-8 border border-brand-blue/20 text-center">
-            <h3 className="text-2xl font-bold mb-3">{t(`${artPrefix}_contactTitle`)}</h3>
-            <p className="text-white/50 mb-6 max-w-lg mx-auto">{t(`${artPrefix}_contactContent`)}</p>
-            <Link
-              href={`/${locale}/contact`}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-brand-blue hover:bg-brand-blue/80 text-white font-semibold rounded-xl transition-colors"
-            >
-              {t(`${artPrefix}_contactBtn`)}
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
+        {/* CTA */}
+        <div className="mt-16 rounded-2xl bg-white/5 p-8 text-center">
+          <h3 className="text-xl font-semibold text-white">
+            {t(`${article.titleKey.replace('title', 'contactTitle')}` as any) || 'Ready to Source?'}
+          </h3>
+          <p className="mt-2 text-gray-400">
+            {t(`${article.titleKey.replace('title', 'contactContent')}` as any) || 'Get factory-direct pricing. Contact our sourcing team today.'}
+          </p>
+          <a
+            href={`/${locale}/contact`}
+            className="mt-6 inline-block rounded-lg bg-cyan-500 px-8 py-3 font-semibold text-black hover:bg-cyan-400"
+          >
+            {t(`${article.titleKey.replace('title', 'contactBtn')}` as any) || 'Request a Quote'}
+          </a>
         </div>
-      </main>
+      </article>
     </>
   );
-}
-
-export default async function ArticlePage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
-  const { locale, slug } = await params;
-  setRequestLocale(locale);
-  return <ArticleContent locale={locale} slug={slug} />;
 }
