@@ -44,4 +44,15 @@ export const articles: Article[] = [
     image: '/products/toys.jpg',
     linkedProductIds: ['t1', 't4', 't3'],
   },
+  {
+    slug: 'tiktok-shop-june-2026-trending-products',
+    tagKey: 'art4_tag',
+    titleKey: 'art4_title',
+    subtitleKey: 'art4_subtitle',
+    category: 'Trending',
+    publishedAt: '2026-06-01',
+    readTime: '8 min read',
+    image: '/products/toys.jpg',
+    linkedProductIds: ['t1', 't4', 't3'],
+  },
 ];

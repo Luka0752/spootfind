@@ -20,7 +20,7 @@ const articles = [
     tagKey: 'art2_tag',
     titleKey: 'art2_title',
     subtitleKey: 'art2_subtitle',
-    region: '🏭 Jining, China',
+    region: '🌏 Global',
     date: '2026-05-23',
     readTime: '10',
     image: '/products/mini-excavator.webp',
@@ -116,22 +116,22 @@ function InsightsContent({ locale }: { locale: string }) {
                     <div className="flex items-start gap-2">
                       <span className="text-primary text-sm mt-0.5">🔥</span>
                       <p className="text-xs text-white/60 leading-relaxed">
-                        <span className="text-white/80 font-medium">{t('art1_hotTitle').replace('🔥 ', '')}</span><br />
-                        {t('art1_hotContent').split('\n')[0]}
+                        <span className="text-white/80 font-medium">{t(`${article.titleKey.replace('title', 'hotTitle')}` as any).replace('🔥 ', '')}</span><br />
+                        {t(`${article.titleKey.replace('title', 'hotContent')}` as any).split('\n')[0]}
                       </p>
                     </div>
                     <div className="flex items-start gap-2">
                       <span className="text-primary text-sm mt-0.5">💰</span>
                       <p className="text-xs text-white/60 leading-relaxed">
-                        <span className="text-white/80 font-medium">{t('art1_profitTitle').replace('💰 ', '')}</span><br />
-                        US retail $8.99-$32.99 — from only 1/5 to 1/8 of that
+                        <span className="text-white/80 font-medium">{t(`${article.titleKey.replace('title', 'profitTitle')}` as any).replace('💰 ', '')}</span><br />
+                        {t(`${article.titleKey.replace('title', 'profitContent')}` as any).split('\n')[0]}
                       </p>
                     </div>
                     <div className="flex items-start gap-2">
                       <span className="text-primary text-sm mt-0.5">🏭</span>
                       <p className="text-xs text-white/60 leading-relaxed">
-                        <span className="text-white/80 font-medium">{t('art1_regionTitle').replace('🏭 ', '')}</span><br />
-                        Shantou Chenghai, Guangdong
+                        <span className="text-white/80 font-medium">{t(`${article.titleKey.replace('title', 'regionTitle')}` as any).replace('🏭 ', '')}</span><br />
+                        {t(`${article.titleKey.replace('title', 'regionContent')}` as any).split('\n')[0]}
                       </p>
                     </div>
                   </div>
