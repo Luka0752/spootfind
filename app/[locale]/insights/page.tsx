@@ -37,6 +37,17 @@ const articles = [
     image: '/products/toys.jpg',
     linkedProductIds: ['t1', 't4', 't3'],
   },
+  {
+    slug: 'tiktok-shop-june-2026-trending-products',
+    tagKey: 'art4_tag',
+    titleKey: 'art4_title',
+    subtitleKey: 'art4_subtitle',
+    region: '\U0001f310 Global',
+    date: '2026-06-01',
+    readTime: '9',
+    image: '/products/toys.jpg',
+    linkedProductIds: ['t2', 't3', 't5'],
+  },
 ];
 
 function InsightsContent({ locale }: { locale: string }) {
