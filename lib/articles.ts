@@ -55,4 +55,15 @@ export const articles: Article[] = [
     image: '/products/toys.jpg',
     linkedProductIds: ['t1', 't4', 't3'],
   },
+  {
+    slug: 'prime-day-2026-mid-year-sourcing-guide',
+    tagKey: 'art5_tag',
+    titleKey: 'art5_title',
+    subtitleKey: 'art5_subtitle',
+    category: 'Guide',
+    publishedAt: '2026-06-05',
+    readTime: '10 min read',
+    image: '/products/t18-vibration-plate.jpg',
+    linkedProductIds: ['t17', 't18', 't1', 't4'],
+  },
 ];
