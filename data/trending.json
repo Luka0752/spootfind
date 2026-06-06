@@ -9,7 +9,7 @@
       "price": 8.99,
       "trend": "rising",
       "region": "US,EU,AU",
-      "image": "/products/toys.jpg",
+      "image": "/products/t1-pop-it-fidget.png",
       "description": "60pcs assorted shapes. Stress relief for kids & adults. TikTok viral.",
       "source": "AliExpress Bestseller",
       "procurement": {
@@ -60,7 +60,7 @@
       "price": 32.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/stunt-car.webp",
+      "image": "/products/t3-rc-stunt-car.png",
       "description": "2.4GHz, LED lights, all-terrain. 45min play. Best seller age 8-12.",
       "source": "TikTok Shop",
       "procurement": {
@@ -135,7 +135,7 @@
       "price": 11.99,
       "trend": "hot",
       "region": "US,EU,SEA",
-      "image": "/products/anime-blind-box.jpg",
+      "image": "/products/t6-anime-blind-box.png",
       "description": "6 designs + 1 secret. Japanese anime style. Collection craze.",
       "source": "TikTok Shop",
       "procurement": {
@@ -160,7 +160,7 @@
       "price": 9.99,
       "trend": "stable",
       "region": "US,EU",
-      "image": "/products/toys.jpg",
+      "image": "/products/t7-water-beads.png",
       "description": "50k beads + tools. Fine motor skills. Pre-school sensory play.",
       "source": "Amazon Bestseller",
       "procurement": {
@@ -212,7 +212,7 @@
       "price": 3899,
       "trend": "hot",
       "region": "SEA,AF,Americas",
-      "image": "/products/mini-excavator.webp",
+      "image": "/products/t9-mini-excavator.png",
       "description": "1.8 ton, Kubota engine, 2.5m digging depth. 40HQ fits 6 units. CE certified.",
       "source": "Alibaba Top Rated",
       "procurement": {
@@ -237,7 +237,7 @@
       "price": 4299,
       "trend": "hot",
       "region": "AF,ME,SEA",
-      "image": "/products/mini-bulldozer.webp",
+      "image": "/products/t10-road-roller.png",
       "description": "3 ton, hydraulic drive, 0.8m drum width. Compaction force 3.2T. Site ready.",
       "source": "Alibaba Top Rated",
       "procurement": {
@@ -262,7 +262,7 @@
       "price": 1899,
       "trend": "stable",
       "region": "AF,SA,Americas",
-      "image": "/products/concrete-mixer.jpg",
+      "image": "/products/t11-concrete-mixer.png",
       "description": "350L drum, 14HP diesel engine. 4 wheels, 180° discharge. Construction ready.",
       "source": "AliExpress Industrial",
       "procurement": {
@@ -287,7 +287,7 @@
       "price": 8999,
       "trend": "hot",
       "region": "AF,ME,SA",
-      "image": "/products/new-energy-excavator.webp",
+      "image": "/products/t12-truck-crane.png",
       "description": "5 ton, 12m boom, 360° rotation. Mounts on pickup. Remote control included.",
       "source": "Alibaba Top Rated",
       "procurement": {
@@ -312,7 +312,7 @@
       "price": 3299,
       "trend": "hot",
       "region": "US,AU,UK",
-      "image": "/products/wheel-loader.webp",
+      "image": "/products/t13-skid-steer.png",
       "description": "0.8 ton, auxiliary hydraulics, rubber tracks. 8 attachments optional. Compact job sites.",
       "source": "AliExpress Industrial",
       "procurement": {
@@ -337,7 +337,7 @@
       "price": 19.99,
       "trend": "stable",
       "region": "US,EU,AU",
-      "image": "/products/diecast-6pack.webp",
+      "image": "/products/t14-diecast-excavator.png",
       "description": "Zinc alloy, 1:50 scale. Movable tracks & boom. Collector gift box. Age 14+.",
       "source": "Amazon Bestseller",
       "procurement": {
@@ -363,7 +363,7 @@
       "price": 599,
       "trend": "hot",
       "region": "US,CA,AU",
-      "image": "/products/t15-power-trowel.png",
+      "image": "/products/t15-power-trowel-v2.png",
       "description": "36in blade, Honda GX160 engine. Finishing & floating. Construction essential.",
       "source": "Alibaba Top Rated",
       "procurement": {
@@ -388,7 +388,7 @@
       "price": 1299,
       "trend": "hot",
       "region": "EU,UK,US",
-      "image": "/products/rideon-dump.webp",
+      "image": "/products/t16-mini-dumper.png",
       "description": "500kg capacity, rubber tracks, 7HP gasoline. 25° climbing. Garden & construction.",
       "source": "AliExpress Industrial",
       "procurement": {
@@ -413,7 +413,7 @@
       "price": 19.99,
       "trend": "hot",
       "region": "Global (US, UK, EU)",
-      "image": "/products/t17-jumprope.jpg",
+      "image": "/products/t17-smart-jumprope.png",
       "description": "Smart jump rope with magnetic sensors, calorie tracking, app sync. TikTok viral in UK (7 days, $100k revenue, 4100 orders)",
       "source": "UK TikTok / Amazon",
       "procurement": {
@@ -438,7 +438,7 @@
       "price": 59.99,
       "trend": "hot",
       "region": "US, EU",
-      "image": "/products/t18-vibration-plate.jpg",
+      "image": "/products/t18-vibration-plate.png",
       "description": "Merach brand, whole body vibration plate, 2000 units/day sold on TikTok, total $700k revenue",
       "source": "TikTok US / Amazon",
       "procurement": {
