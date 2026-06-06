@@ -12,7 +12,7 @@ const articles = [
     region: '🇺🇸 North America',
     date: '2026-05-22',
     readTime: '8',
-    image: '/products/toys.jpg',
+    image: '/articles/art1-na-tiktok-fidget.png',
     linkedProductIds: ['t1', 't4', 't3'],
   },
   {
@@ -23,7 +23,7 @@ const articles = [
     region: '🌏 Global',
     date: '2026-05-23',
     readTime: '10',
-    image: '/products/mini-excavator.webp',
+    image: '/articles/art2-china-construction.png',
     linkedProductIds: ['t9', 't13', 't15'],
   },
   {
@@ -34,7 +34,7 @@ const articles = [
     region: '🌏 Southeast Asia',
     date: '2026-05-23',
     readTime: '8',
-    image: '/products/toys.jpg',
+    image: '/articles/art3-sea-ecommerce.png',
     linkedProductIds: ['t1', 't4', 't3'],
   },
   {
@@ -45,7 +45,7 @@ const articles = [
     region: '\U0001f310 Global',
     date: '2026-06-01',
     readTime: '9',
-    image: '/products/toys.jpg',
+    image: '/articles/art4-tiktok-shop-june.png',
     linkedProductIds: ['t2', 't3', 't5'],
   },
 ];
