@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { articles } from '@/lib/articles';
 
 // Generate static params for all articles and all locales
@@ -61,6 +62,84 @@ export async function generateMetadata({
   };
 }
 
+/** Simple markdown-to-HTML: bold, bullet lists, paragraphs */
+function renderMarkdown(text: string): string {
+  if (!text) return '';
+  const lines = text.split('\n');
+  const htmlLines: string[] = [];
+  let inList = false;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+
+    // Empty line → close list if open, add paragraph break
+    if (!trimmed) {
+      if (inList) {
+        htmlLines.push('</ul>');
+        inList = false;
+      }
+      continue;
+    }
+
+    // Bullet list item (• or -)
+    if (/^[•\-]\s/.test(trimmed)) {
+      if (!inList) {
+        htmlLines.push('<ul class="space-y-2 my-4">');
+        inList = true;
+      }
+      const itemContent = trimmed.replace(/^[•\-]\s+/, '');
+      htmlLines.push(
+        `<li class="flex items-start gap-2 text-gray-300"><span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-400"></span><span>${processBold(itemContent)}</span></li>`
+      );
+      continue;
+    }
+
+    // Close list if we were in one
+    if (inList) {
+      htmlLines.push('</ul>');
+      inList = false;
+    }
+
+    // Regular paragraph line
+    htmlLines.push(`<p class="text-gray-300 leading-relaxed">${processBold(trimmed)}</p>`);
+  }
+
+  if (inList) {
+    htmlLines.push('</ul>');
+  }
+
+  return htmlLines.join('\n');
+}
+
+/** Replace **text** with <strong> tags */
+function processBold(text: string): string {
+  return text.replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold text-white">$1</strong>');
+}
+
+/** Section component props */
+interface ContentSectionProps {
+  emoji: string;
+  title: string;
+  content: string;
+  accentColor?: string;
+}
+
+function ContentSection({ emoji, title, content, accentColor = 'cyan' }: ContentSectionProps) {
+  const borderColor = accentColor === 'amber' ? 'border-amber-500/30' : 'border-cyan-500/30';
+  const bgColor = accentColor === 'amber' ? 'bg-amber-500/10' : 'bg-cyan-500/10';
+  const textColor = accentColor === 'amber' ? 'text-amber-400' : 'text-cyan-400';
+
+  return (
+    <section className="space-y-4">
+      <div className="flex items-center gap-3 border-t border-b border-gray-800 py-3">
+        <span className="text-xl">{emoji}</span>
+        <h2 className="text-xl font-bold text-white">{title}</h2>
+      </div>
+      <div dangerouslySetInnerHTML={{ __html: renderMarkdown(content) }} />
+    </section>
+  );
+}
+
 export default async function InsightArticlePage({
   params,
 }: {
@@ -71,14 +150,19 @@ export default async function InsightArticlePage({
   if (!article) notFound();
 
   const t = await getTranslations({ locale, namespace: 'insights' });
+
   const title = t(`${article.titleKey}` as any) || article.title;
   const excerpt = t(`${article.titleKey.replace('title', 'subtitle')}` as any) || article.excerpt;
-  // Article content: use hotContent + profitContent + regionContent as body (existing keys)
+
+  const hotTitle = t(`${article.titleKey.replace('title', 'hotTitle')}` as any) || '';
   const hotContent = t(`${article.titleKey.replace('title', 'hotContent')}` as any) || '';
+  const profitTitle = t(`${article.titleKey.replace('title', 'profitTitle')}` as any) || '';
   const profitContent = t(`${article.titleKey.replace('title', 'profitContent')}` as any) || '';
+  const regionTitle = t(`${article.titleKey.replace('title', 'regionTitle')}` as any) || '';
   const regionContent = t(`${article.titleKey.replace('title', 'regionContent')}` as any) || '';
+  const tipsTitle = t(`${article.titleKey.replace('title', 'tipsTitle')}` as any) || '';
   const tipsContent = t(`${article.titleKey.replace('title', 'tipsContent')}` as any) || '';
-  const content = `${hotContent}\n\n${profitContent}\n\n${regionContent}\n\n${tipsContent}`;
+
   const publishedAt = article.publishedAt;
   const readTime = article.readTime;
 
@@ -107,6 +191,9 @@ export default async function InsightArticlePage({
       '@id': url,
     },
   };
+
+  // Check if article has a hero image (some reuse product images, art5)
+  const hasHeroImage = article.image.startsWith('/articles/');
 
   return (
     <>
@@ -137,14 +224,44 @@ export default async function InsightArticlePage({
           <p className="mt-4 text-lg text-gray-400">{excerpt}</p>
         </header>
 
-        {/* Article content - rendered from translated markdown */}
-        <div
-          className="prose prose-invert prose-cyan max-w-none prose-headings:text-white prose-a:text-cyan-400 prose-strong:text-white prose-code:text-cyan-400"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
+        {/* Article sections */}
+        <div className="space-y-10">
+          {/* Hot / Trending section */}
+          {hotContent && (
+            <ContentSection emoji="🔥" title={hotTitle} content={hotContent} />
+          )}
+
+          {/* In-article image after hot section */}
+          {hasHeroImage && (
+            <div className="relative aspect-video overflow-hidden rounded-2xl border border-gray-800 bg-gray-900">
+              <Image
+                src={article.image}
+                alt={title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 768px"
+              />
+            </div>
+          )}
+
+          {/* Profit section */}
+          {profitContent && (
+            <ContentSection emoji="💰" title={profitTitle} content={profitContent} accentColor="amber" />
+          )}
+
+          {/* Region section */}
+          {regionContent && (
+            <ContentSection emoji="🏭" title={regionTitle} content={regionContent} />
+          )}
+
+          {/* Tips section */}
+          {tipsContent && (
+            <ContentSection emoji="📦" title={tipsTitle} content={tipsContent} />
+          )}
+        </div>
 
         {/* CTA */}
-        <div className="mt-16 rounded-2xl bg-white/5 p-8 text-center">
+        <div className="mt-16 rounded-2xl bg-white/5 p-8 text-center backdrop-blur-sm">
           <h3 className="text-xl font-semibold text-white">
             {t(`${article.titleKey.replace('title', 'contactTitle')}` as any) || 'Ready to Source?'}
           </h3>
@@ -153,7 +270,7 @@ export default async function InsightArticlePage({
           </p>
           <a
             href={`/${locale}/contact`}
-            className="mt-6 inline-block rounded-lg bg-cyan-500 px-8 py-3 font-semibold text-black hover:bg-cyan-400"
+            className="mt-6 inline-block rounded-lg bg-cyan-500 px-8 py-3 font-semibold text-black transition-colors hover:bg-cyan-400"
           >
             {t(`${article.titleKey.replace('title', 'contactBtn')}` as any) || 'Request a Quote'}
           </a>
