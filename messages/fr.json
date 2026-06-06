@@ -69,7 +69,8 @@
     "orderQty": "Quantité Commandée",
     "totalCost": "Coût Total",
     "estProfit": "Bénéfice Est.",
-    "requestQuote": "Demander un Devis"
+    "requestQuote": "Demander un Devis",
+    "products": "Products"
   },
   "cart": {
     "title": "Panier",

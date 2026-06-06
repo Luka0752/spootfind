@@ -69,7 +69,8 @@
     "orderQty": "注文数量",
     "totalCost": "総コスト",
     "estProfit": "推定利益",
-    "requestQuote": "見積りリクエスト"
+    "requestQuote": "見積りリクエスト",
+    "products": "Products"
   },
   "cart": {
     "title": "ショッピングカート",

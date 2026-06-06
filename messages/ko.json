@@ -69,7 +69,8 @@
     "orderQty": "주문 수량",
     "totalCost": "총 비용",
     "estProfit": "예상 이익",
-    "requestQuote": "견적 요청"
+    "requestQuote": "견적 요청",
+    "products": "Products"
   },
   "cart": {
     "title": "장바구니",

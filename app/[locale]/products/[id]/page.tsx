@@ -45,7 +45,7 @@ export async function generateMetadata({
       ),
     },
     openGraph: {
-      type: 'product',
+      type: 'website',
       url: canonicalUrl,
       siteName: 'Spootfind',
       title: product?.name ?? 'Spootfind Product',

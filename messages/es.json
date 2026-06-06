@@ -69,7 +69,8 @@
     "orderQty": "Cantidad de Pedido",
     "totalCost": "Costo Total",
     "estProfit": "Beneficio Est.",
-    "requestQuote": "Solicitar Cotización"
+    "requestQuote": "Solicitar Cotización",
+    "products": "Products"
   },
   "cart": {
     "title": "Carrito de Compras",

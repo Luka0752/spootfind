@@ -69,7 +69,8 @@
     "orderQty": "订购数量",
     "totalCost": "总成本",
     "estProfit": "预估利润",
-    "requestQuote": "Request Quote"
+    "requestQuote": "Request Quote",
+    "products": "Products"
   },
   "cart": {
     "title": "购物车",

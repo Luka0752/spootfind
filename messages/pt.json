@@ -69,7 +69,8 @@
     "orderQty": "Quantidade do Pedido",
     "totalCost": "Custo Total",
     "estProfit": "Lucro Est.",
-    "requestQuote": "Solicitar Cotação"
+    "requestQuote": "Solicitar Cotação",
+    "products": "Products"
   },
   "cart": {
     "title": "Carrinho de Compras",

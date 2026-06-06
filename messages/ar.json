@@ -69,7 +69,8 @@
     "orderQty": "كمية الطلب",
     "totalCost": "التكلفة الإجمالية",
     "estProfit": "الربح المقدر",
-    "requestQuote": "طلب عرض سعر"
+    "requestQuote": "طلب عرض سعر",
+    "products": "Products"
   },
   "cart": {
     "title": "سلة التسوق",

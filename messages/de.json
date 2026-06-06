@@ -69,7 +69,8 @@
     "orderQty": "Bestellmenge",
     "totalCost": "Gesamtkosten",
     "estProfit": "Geschätzter Gewinn",
-    "requestQuote": "Angebot Anfordern"
+    "requestQuote": "Angebot Anfordern",
+    "products": "Products"
   },
   "cart": {
     "title": "Warenkorb",

@@ -69,7 +69,8 @@
     "orderQty": "Order Quantity",
     "totalCost": "Total Cost",
     "estProfit": "Est. Profit",
-    "requestQuote": "Request Quote"
+    "requestQuote": "Request Quote",
+    "products": "Products"
   },
   "cart": {
     "title": "Shopping Cart",
