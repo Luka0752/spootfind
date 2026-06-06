@@ -19,7 +19,7 @@ export const articles: Article[] = [
     category: 'Trending',
     publishedAt: '2026-05-22',
     readTime: '8 min read',
-    image: '/products/toys.jpg',
+    image: '/articles/art1-na-tiktok-fidget.png',
     linkedProductIds: ['t1', 't4', 't3'],
   },
   {
@@ -30,7 +30,7 @@ export const articles: Article[] = [
     category: 'Industrial',
     publishedAt: '2026-05-23',
     readTime: '10 min read',
-    image: '/products/mini-excavator.webp',
+    image: '/articles/art2-china-construction.png',
     linkedProductIds: ['t9', 't13', 't15'],
   },
   {
@@ -41,7 +41,7 @@ export const articles: Article[] = [
     category: 'Guide',
     publishedAt: '2026-05-23',
     readTime: '8 min read',
-    image: '/products/toys.jpg',
+    image: '/articles/art3-sea-ecommerce.png',
     linkedProductIds: ['t1', 't4', 't3'],
   },
   {
@@ -52,7 +52,7 @@ export const articles: Article[] = [
     category: 'Trending',
     publishedAt: '2026-06-01',
     readTime: '8 min read',
-    image: '/products/toys.jpg',
+    image: '/articles/art4-tiktok-shop-june.png',
     linkedProductIds: ['t1', 't4', 't3'],
   },
   {
