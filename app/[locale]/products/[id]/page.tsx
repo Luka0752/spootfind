@@ -9,6 +9,19 @@ import ProductDetailClient from './ProductDetailClient';
 
 const BASE_URL = 'https://spootfind.com';
 
+const LOCALES = ['en', 'zh', 'zh-TW', 'es', 'fr', 'de', 'pt', 'ja', 'ko', 'ar'] as const;
+
+export function generateStaticParams() {
+  const productIds = trendingData.products.map(p => p.id.replace('t', ''));
+  const params: { locale: string; id: string }[] = [];
+  for (const locale of LOCALES) {
+    for (const id of productIds) {
+      params.push({ locale, id });
+    }
+  }
+  return params;
+}
+
 export async function generateMetadata({
   params,
 }: {

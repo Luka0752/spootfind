@@ -10,6 +10,15 @@ function localePath(locale: Locale, path: string): string {
   return locale === 'en' ? path : `/${locale}${path}`;
 }
 
+// Insights article slugs — hardcoded to avoid importing TS module
+const INSIGHT_SLUGS = [
+  'na-tiktok-fidget-toys-may-2026',
+  'china-construction-equipment-may-2026',
+  'sea-ecommerce-sourcing-guide-may-2026',
+  'tiktok-shop-june-2026-trending-products',
+  'prime-day-2026-mid-year-sourcing-guide',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const products = trendingData.products as { id: string }[];
 
@@ -58,5 +67,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticRoutes, ...localeHomepages, ...productPages];
+  // Insights articles — all locales
+  const insightsPages: MetadataRoute.Sitemap = INSIGHT_SLUGS.flatMap((slug) =>
+    LOCALES.map((locale) => ({
+      url: `${BASE_URL}${localePath(locale, `/insights/${slug}`)}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    }))
+  );
+
+  return [...staticRoutes, ...localeHomepages, ...productPages, ...insightsPages];
 }
