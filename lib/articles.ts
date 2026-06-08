@@ -20,7 +20,7 @@ export const articles: Article[] = [
     publishedAt: '2026-05-22',
     readTime: '8 min read',
     image: '/articles/art1-na-tiktok-fidget.png',
-    linkedProductIds: ['t1', 't4', 't3'],
+    linkedProductIds: ['t17', 't18', 't1'],
   },
   {
     slug: 'china-construction-equipment-may-2026',
@@ -42,7 +42,7 @@ export const articles: Article[] = [
     publishedAt: '2026-05-23',
     readTime: '8 min read',
     image: '/articles/art3-sea-ecommerce.png',
-    linkedProductIds: ['t1', 't4', 't3'],
+    linkedProductIds: ['t1', 't2', 't5'],
   },
   {
     slug: 'tiktok-shop-june-2026-trending-products',
@@ -53,7 +53,7 @@ export const articles: Article[] = [
     publishedAt: '2026-06-01',
     readTime: '8 min read',
     image: '/articles/art4-tiktok-shop-june.png',
-    linkedProductIds: ['t1', 't4', 't3'],
+    linkedProductIds: ['t17', 't18', 't1'],
   },
   {
     slug: 'prime-day-2026-mid-year-sourcing-guide',
@@ -63,7 +63,7 @@ export const articles: Article[] = [
     category: 'Guide',
     publishedAt: '2026-06-05',
     readTime: '10 min read',
-    image: '/products/t18-vibration-plate.jpg',
+    image: '/articles/art5-prime-day.png',
     linkedProductIds: ['t17', 't18', 't1', 't4'],
   },
 ];
