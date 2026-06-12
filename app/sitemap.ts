@@ -17,6 +17,7 @@ const INSIGHT_SLUGS = [
   'sea-ecommerce-sourcing-guide-may-2026',
   'tiktok-shop-june-2026-trending-products',
   'prime-day-2026-mid-year-sourcing-guide',
+  'fifa-world-cup-2026-sourcing-guide',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -66,4 +66,15 @@ export const articles: Article[] = [
     image: '/articles/art5-prime-day.png',
     linkedProductIds: ['t17', 't18', 't1', 't4'],
   },
+  {
+    slug: 'fifa-world-cup-2026-sourcing-guide',
+    tagKey: 'art6_tag',
+    titleKey: 'art6_title',
+    subtitleKey: 'art6_subtitle',
+    category: 'Trending',
+    publishedAt: '2026-06-12',
+    readTime: '9 min read',
+    image: '/articles/art6-world-cup-2026.png',
+    linkedProductIds: ['t19', 't20', 't21', 't22', 't23', 't24', 't25', 't26'],
+  },
 ];
