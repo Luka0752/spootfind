@@ -74,7 +74,7 @@ export const articles: Article[] = [
     category: 'Trending',
     publishedAt: '2026-06-12',
     readTime: '9 min read',
-    image: '/articles/art6-world-cup-2026.png',
+    image: '/articles/art6-world-cup-sourcing.png',
     linkedProductIds: ['t19', 't20', 't21', 't22', 't23', 't24', 't25', 't26'],
   },
 ];
