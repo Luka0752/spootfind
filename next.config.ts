@@ -28,4 +28,5 @@ const nextConfig: NextConfig = {
   },
 };
 
+// Trigger redeploy: 1783503461250
 export default withNextIntl(nextConfig);
