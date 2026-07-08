@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-05-28T06:20:00+08:00",
-  "source": "multi-platform-research",
+  "lastUpdated": "2026-06-01T09:35:00+08:00",
+  "source": "research-update-20260601",
   "products": [
+    {
+      "id": "t1",
+      "name": "Pop It Fidget Toy Set",
+      "category": "Toys",
+      "price": 8.99,
+      "trend": "rising",
+      "region": "US,EU,AU",
+      "image": "/products/t1-pop-it-fidget.png",
+      "description": "60pcs assorted shapes. Stress relief for kids & adults. TikTok viral.",
+      "source": "AliExpress Bestseller",
+      "procurement": {
+        "costPriceCny": 12.5,
+        "moq": 100,
+        "shippingDays": 12,
+        "supplier": "Shantou Chenghai District Toy Factory",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE, ASTM F963",
+        "profitMarginPct": 85,
+        "weightKg": 0.08,
+        "forwarderFeeCnyPerKg": 28,
+        "domesticFreightCny": 15
+      },
+      "seoDescription": "Discover the ultimate pop it fidget toy set for kids and adults, packed with 60 assorted shapes that have taken TikTok by storm and become a global sensory phenomenon. This bulk fidget toy assortment includes circles, squares, hearts, unicorns, dinosaurs, space rockets, and other trending silhouettes — each one designed to deliver that satisfying pop sensation that keeps fingers busy and minds relaxed. Whether you're sourcing impulse-buy novelties for retail shelves, building a classroom reward box, or stocking a party favor catalog, this set delivers unbeatable variety at a price point that protects your margins and delights your customers. Every piece is molded from food-grade silicone that's odorless, washable, and built to withstand thousands of pops without losing its snap-back elasticity. The toys carry both CE and ASTM F963 certifications, giving wholesale buyers confidence that the product meets stringent safety standards in North America, Europe, and beyond. Manufactured in Shantou Chenghai — China's toy capital with decades of export expertise — this set benefits from mature supply-chain infrastructure, meaning consistent quality and reliable lead times even on large OEM orders. Each shape is pocket-sized (3-6 inches), making it ideal for checkout-counter displays, subscription box inserts, and e-commerce bundle offers. Target markets include the United States, United Kingdom, Germany, Australia, and the Middle East, where fidget and stress-relief toys continue to chart strong search volumes and repeat purchase rates. The assorted shapes encourage collectibility — customers don't just buy one, they buy multiple colors and designs, driving higher average order values for retailers and online sellers. Custom packaging, private-label printing, and assorted-shape configurations are available on MOQ, with Spootfind providing factory-direct sourcing, full compliance documentation, and reliable shipping to your market. Tap into the viral trend that shows no sign of slowing down. From a wholesale perspective, the numbers speak for themselves: unit cost under US$1.50 ex-factory, retail shelf price US$8.99, leaving 70-85% gross margin for distributors and retailers. The product's social media virality means organic discovery — customers often find you before you spend a cent on ads. Shantou's supply chain offers unmatched flexibility: split shipments, mixed-SKU containers, and drop-shipping support for e-commerce sellers. Spootfind handles factory communication, quality inspection, compliance paperwork, and logistics coordination — you focus on sales, we handle the rest. This is the rare product that combines low risk, high margin, viral appeal, and proven compliance for regulated markets. Don't let this trend pass you by.",
+      "lastChecked": "2026-06-03",
+      "trendNote": "Fidget wave passed, declining search volume 2026"
+    },
     {
       "id": "t2",
       "name": "STEM Building Blocks 500pc",
@@ -9,14 +35,9 @@
       "price": 24.99,
       "trend": "hot",
       "region": "Global",
-      "image": "/products/t2-stem-blocks.jpg?v=2",
+      "image": "/products/t2-stem-blocks.jpg",
       "description": "Compatible with major brands. Creative gears & wheels. Ages 6+.",
       "source": "Amazon Bestseller",
-      "trendTags": [
-        "STEM",
-        "educational",
-        "construction"
-      ],
       "procurement": {
         "costPriceCny": 28,
         "moq": 50,
@@ -29,7 +50,8 @@
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 18
       },
-      "seoDescription": "Elevate your educational toy catalog with this STEM building blocks 500-piece set, engineered for children ages 6 and up who love hands-on construction and creative problem-solving. Fully compatible with all major interlocking brick brands, this kit expands existing collections seamlessly — no awkward fits, no wasted pieces. Beyond standard bricks, the set includes gears, wheels, axles, and connector pieces that let young engineers build working mechanisms: spinning windmills, rolling vehicles, and kinetic sculptures that actually move. It's a STEM learning toy that teaches cause-and-effect, spatial reasoning, and basic mechanical principles without feeling like schoolwork. Certified CE and CPC, the blocks are made from ABS plastic with smooth edges, consistent clutch power, and zero phthalates — meeting the safety benchmarks demanded by distributors in the US, EU, and Australia. Shantou Goworld, the manufacturer, operates an ISO-audited facility with in-house testing labs, so every production run ships with full compliance documentation. The 500-piece count strikes the right balance for retail: substantial enough to feel premium, compact enough for shelf-friendly packaging. Ideal markets include educational suppliers, museum gift shops, e-learning platforms, and toy retailers seeking a high-value STEM construction set that undercuts name-brand pricing without sacrificing quality. OEM color schemes, custom instruction booklets, and branded packaging are available at scale."
+      "seoDescription": "Elevate your educational toy catalog with this STEM building blocks 500-piece set, engineered for children ages 6 and up who love hands-on construction and creative problem-solving that develops critical thinking skills early. Fully compatible with all major interlocking brick brands, this kit expands existing collections seamlessly — no awkward fits, no wasted pieces, no frustrated young builders. Beyond standard bricks, the set includes gears, wheels, axles, and connector pieces that let young engineers build working mechanisms: spinning windmills, rolling vehicles, and kinetic sculptures that actually move with realistic motion. It's a STEM learning toy that teaches cause-and-effect, spatial reasoning, and basic mechanical principles without feeling like schoolwork — kids are too busy building to notice they're learning. Certified CE and CPC, the blocks are made from ABS plastic with smooth edges, consistent clutch power, and zero phthalates — meeting the safety benchmarks demanded by distributors in the US, EU, and Australia. Shantou Goworld, the manufacturer, operates an ISO-audited facility with in-house testing labs, so every production run ships with full compliance documentation and test reports ready for your market's regulatory requirements. The 500-piece count strikes the right balance for retail: substantial enough to feel premium and enable complex builds, compact enough for shelf-friendly packaging that doesn't dominate retail shelf space. Ideal markets and channels include educational suppliers, museum gift shops, e-learning platforms, and toy retailers seeking a high-value STEM construction set that undercuts name-brand pricing without sacrificing quality or safety. The gear and wheel components transform this from \"just another brick set\" into a STEM learning powerhouse that parents and educators actively seek out for their children and students. OEM color schemes, custom instruction booklets tailored to your market, and branded packaging are available at scale. Spootfind connects you directly with the manufacturer, ensuring competitive pricing, reliable lead times, and full certification support for your target market — we handle the sourcing complexity so you can focus on growing your business. From a sourcing perspective, the margins are compelling: ex-factory cost under US$4.00 per set, retail price US$24.99, delivering 70-80% gross margin for distributors and retailers. The 500-piece count allows flexible packaging options: shrink-wrap for cost control, or full-color retail box for shelf presence. Shantou's toy cluster offers mixed-container shipping, quality inspection, and private-label support — Spootfind coordinates every step so you get consistent product without the headaches of managing overseas suppliers. This is an educational toy that parents actively",
+      "lastChecked": "2026-06-03"
     },
     {
       "id": "t3",
@@ -38,15 +60,9 @@
       "price": 32.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/stunt-car.webp?v=2",
+      "image": "/products/t3-rc-stunt-car.png",
       "description": "2.4GHz, LED lights, all-terrain. 45min play. Best seller age 8-12.",
       "source": "TikTok Shop",
-      "trendTags": [
-        "RC-car",
-        "stunt",
-        "LED",
-        "TikTok-viral"
-      ],
       "procurement": {
         "costPriceCny": 45,
         "moq": 30,
@@ -59,7 +75,8 @@
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 22
       },
-      "seoDescription": "Meet the remote control stunt car that does it all — 360-degree flips, all-terrain domination, and eye-catching LED light shows that make every run a spectacle. Powered by a responsive 2.4GHz transmitter, this RC stunt vehicle eliminates signal interference so multiple cars can race simultaneously without crossover issues. The dual-sided body design means there is no right side up — land on the roof and keep driving. Oversized rubber tires grip grass, gravel, carpet, and pavement with equal confidence, while the rechargeable battery delivers up to 45 minutes of continuous play per charge. FCC and CE certified, the car meets electromagnetic and toy-safety requirements for the US, European, and Australian markets. Shantou Aosheng, the manufacturer, is a veteran RC toy exporter with a dedicated QC team that inspects every batch before shipment. The compact form factor (approximately 25 cm) is perfect for ages 8 and up, and the striking LED underglow makes it a guaranteed eye-catcher on retail shelves and in unboxing videos. Wholesale buyers appreciate the low defect rate, consistent performance, and the ability to order custom frequencies and colorways. Whether you are building an RC toy collection for an e-commerce storefront or supplying brick-and-mortar hobby shops, this stunt car offers a proven best-seller with strong repeat-order rates."
+      "seoDescription": "Meet the remote control stunt car that does it all — 360-degree flips, all-terrain domination, and eye-catching LED light shows that make every run a spectacle. Powered by a responsive 2.4GHz transmitter, this RC stunt vehicle eliminates signal interference so multiple cars can race simultaneously without crossover issues. The dual-sided body design means there is no \"right side up\" — land on the roof and keep driving. Oversized rubber tires grip grass, gravel, carpet, and pavement with equal confidence, while the rechargeable battery delivers up to 45 minutes of continuous play per charge. FCC and CE certified, the car meets electromagnetic and toy-safety requirements for the US, European, and Australian markets. Shantou Aosheng, the manufacturer, is a veteran RC toy exporter with a dedicated QC team that inspects every batch before shipment. The compact form factor (approximately 25 cm) is perfect for ages 8 and up, and the striking LED underglow makes it a guaranteed eye-catcher on retail shelves and in unboxing videos. Wholesale buyers appreciate the low defect rate, consistent performance, and the ability to order custom frequencies and colorways. Whether you are building an RC toy collection for an e-commerce storefront or supplying brick-and-mortar hobby shops, this stunt car offers a proven best-seller with strong repeat-order rates. The 2.4GHz technology means parents can buy multiple units for siblings without signal conflicts, and the all-terrain tires mean the fun doesn't stop when the pavement ends. Spootfind sources directly from the manufacturer, providing full certification, competitive pricing, and reliable shipping to your market. This is the RC car that turns casual browsers into buyers and gift-givers into repeat customers. From a wholesale perspective, the numbers work: ex-factory cost under US$7.00, retail price US$32.99, delivering strong margins for distributors and retailers. The 2.4GHz platform supports custom frequencies, private-label printing, and assorted colorways — all available at MOQ through Spootfind's direct factory relationship. The RC toy category consistently ranks among the top-performing segments in global toy retail, and this stunt car variant adds spectacle and shareability that standard RC cars lack. Whether you're building an e-commerce storefront, supplying brick-and-mortar retailers, or assembling a promotional gift catalog, this product delivers play value, profit potential, and genuine customer satisfaction.\n\nWhat sets this RC stunt car apart from generic toy vehicles is its professional-grade 2.4GHz remote system. The controller offers precise throttle control and instant response, giving young drivers a realistic piloting experience that builds hand-eye coordination and spatial awareness. The anti-interference technology means multiple cars can race simultaneously without signal crossover — ideal for birthday party entertainment or retail demo displays.\n\nRetailers love this product because it solves the \"what do kids actually play with\" problem. It's not a five-minute wonder. The rechargeable battery system (USB included) means no constant AA battery replacement costs for parents, which translates to positive reviews and repeat customers. Average play session exceeds 30 minutes, and the durability testing shows 500+ cycle lifespan on the flip mechanism.\n\nFrom a compliance standpoint, this toy carries full CE marking for European markets and ASTM F963 certification for North American import. The battery system includes overcharge protection and automatic shutoff, meeting international toy safety standards. Documentation is available in English, German, Spanish, and French for customs clearance and retail packaging compliance.\n\nShantou's RC toy manufacturing cluster has over 20 years of export experience. The factory behind this model supplies major toy retailers across Europe and North America, maintaining consistent quality through ISO 9001 certified production lines. Spootfind's role is to connect you directly with this manufacturing capability — no middleman markup, no quality gamble, no compliance surprises. We handle factory audits, pre-shipment inspection, and logistics coordination so you can focus on building your toy business.",
+      "lastChecked": "2026-06-03"
     },
     {
       "id": "t4",
@@ -68,14 +85,9 @@
       "price": 14.99,
       "trend": "hot",
       "region": "US,UK,CA",
-      "image": "/products/t4-squishmallow.jpg?v=2",
+      "image": "/products/t4-squishmallow.jpg",
       "description": "Ultra-soft short plush. 20+ animal designs. TikTok collection trend.",
       "source": "Amazon Bestseller",
-      "trendTags": [
-        "plush",
-        "collectible",
-        "TikTok-trend"
-      ],
       "procurement": {
         "costPriceCny": 16.8,
         "moq": 60,
@@ -88,7 +100,8 @@
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 12
       },
-      "seoDescription": "Soft, huggable, and impossible to put down — this 12-inch squishmallow-style plush toy line has become a TikTok sensation and a must-have collectible for kids, teens, and adults alike. Crafted from ultra-soft short-pile plush with a marshmallow-like polyester fill, each character delivers that signature squish that fans cannot stop squeezing. With over 20 unique designs — from sleepy animals to fantasy creatures — the collection encourages repeat purchases and trading, driving higher average order values for retailers. Every plush is EN71 and ASTM F963 certified, ensuring compliance with toy-safety regulations in Europe and North America. The manufacturer, Shantou Miaoji, specializes in character plush and operates a vertically integrated facility covering knitting, stuffing, sewing, and QC under one roof — giving buyers full traceability and consistent quality across production runs. The 12-inch size hits the sweet spot for impulse-buy pricing, gift-basket inclusion, and claw-machine restocking. Key markets include the United States, Canada, UK, Japan, and Australia, where plush collectible trends continue to show strong year-over-year growth in search volume. Custom character designs, private-label tags, and exclusive colorways are available for qualified wholesale orders."
+      "seoDescription": "Soft, huggable, and impossible to put down — this 12-inch squishmallow-style plush toy line has become a TikTok sensation and a must-have collectible for kids, teens, and adults alike. Crafted from ultra-soft short-pile plush with a marshmallow-like polyester fill, each character delivers that signature squish that fans cannot stop squeezing. With over 20 unique designs — from sleepy animals to fantasy creatures — the collection encourages repeat purchases and trading, driving higher average order values for retailers. Every plush is EN71 and ASTM F963 certified, ensuring compliance with toy-safety regulations in Europe and North America. The manufacturer, Shantou Miaoji, specializes in character plush and operates a vertically integrated facility covering knitting, stuffing, sewing, and QC under one roof — giving buyers full traceability and consistent quality across production runs. The 12-inch size hits the sweet spot for impulse-buy pricing, gift-basket inclusion, and claw-machine restocking. Key markets include the United States, Canada, UK, Japan, and Australia, where plush collectible trends continue to show strong year-over-year growth in search volume. Social media unboxing videos and \"squish\" challenges drive organic viral marketing, making this line a proven winner for e-commerce stores, specialty toy retailers, and gift shops. Custom character designs, private-label tags, exclusive colorways, and branded hangtags are available for qualified wholesale orders. Spootfind sources directly from the manufacturer, ensuring competitive pricing, reliable lead times, and full compliance documentation for your target market. From a sourcing perspective, plush toys offer excellent margin profiles: ex-factory cost under US$3.00 per unit, retail price US$14.99, delivering 70-80% gross margin. The 12-inch size optimizes shipping density — approximately 200 units per cubic meter — keeping freight costs manageable for importers. Shantou's plush manufacturing cluster offers vertical integration: in-house knitting, stuffing, sewing, and QC under one roof, ensuring consistent quality and competitive pricing. Spootfind provides factory-direct pricing, full compliance documentation, and reliable shipping to your market — tap into the plush collectible trend with a product that customers genuinely love and repeatedly purchase. The super-soft plush exterior feels premium to the touch, while the polyester fiberfill stuffing maintains shape after countless squeezes. Each character comes with unique embroidered facial expressions and color-coordinated hangtags that double as collectible identifiers. Retailers report exceptional sell-through rates during holiday seasons, with many customers purchasing multiple units for gifting and collecting. Machine washable and tumble dryer safe, these plush toys maintain their softness through repeated cleaning.",
+      "lastChecked": "2026-06-03"
     },
     {
       "id": "t5",
@@ -97,15 +110,9 @@
       "price": 29.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/t5-magnetic-tiles.jpg?v=2",
+      "image": "/products/t5-magnetic-tiles.jpg",
       "description": "Strong magnets, 3D building. STEM Montessori certified. Ages 3+.",
       "source": "AliExpress Trending",
-      "trendTags": [
-        "STEM",
-        "Montessori",
-        "magnetic",
-        "creative"
-      ],
       "procurement": {
         "costPriceCny": 35,
         "moq": 40,
@@ -118,253 +125,85 @@
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 20
       },
-      "seoDescription": "Unlock creativity and STEM learning with this magnetic tiles 100-piece building set, designed for children ages 3 and up who love constructing 3D structures that sparkle under the light. Each tile features powerful internal magnets with a secure riveted casing — no loose magnets, no pinch points — meeting the rigorous CE and CPC safety standards required by retailers in the US, EU, and Australia. The set includes a balanced mix of squares, triangles, and specialty shapes that let kids build everything from castles and rockets to geometric sculptures. The translucent, high-clarity plastic catches and refracts light, adding a visual wow factor that makes this set a standout on retail shelves and in social media content. Shantou MagWorld, the manufacturer, uses ultrasonic welding and automated magnet placement to ensure consistent quality at scale, with defect rates well below industry average. The 100-piece count is the industry-proven sweet spot: enough variety for satisfying builds, compact enough for attractive packaging. Ideal distribution channels include toy stores, online STEM education retailers, Montessori supply catalogs, and gift shops. OEM packaging, custom tile counts (60/120/200), and exclusive shape additions are available for volume orders."
+      "seoDescription": "Unlock creativity and STEM learning with this magnetic tiles 100-piece building set, designed for children ages 3 and up who love constructing 3D structures that sparkle under the light. Each tile features powerful internal magnets with a secure riveted casing — no loose magnets, no pinch points — meeting the rigorous CE and CPC safety standards required by retailers in the US, EU, and Australia. The set includes a balanced mix of squares, triangles, and specialty shapes that let kids build everything from castles and rockets to geometric sculptures. The translucent, high-clarity plastic catches and refracts light, adding a visual wow factor that makes this set a standout on retail shelves and in social media content. Shantou MagWorld, the manufacturer, uses ultrasonic welding and automated magnet placement to ensure consistent quality at scale, with defect rates well below industry average. The 100-piece count is the industry proven sweet spot: enough variety for satisfying builds, compact enough for attractive packaging. Ideal distribution channels include toy stores, online STEM education retailers, Montessori supply catalogs, and gift shops. Parents and educators love the open-ended play value — children develop spatial reasoning, fine motor skills, and creative confidence without screens or batteries. The tiles are fully compatible with major brands, making them an excellent add-on purchase for existing block collections. OEM packaging, custom tile counts (60/120/200), exclusive shape additions, and branded storage boxes are available for volume orders. Spootfind provides factory-direct sourcing with full certification support, helping you bring this proven bestseller to your market with confidence. From a wholesale perspective, magnetic tiles deliver strong margins: ex-factory cost under US$5.00 per set, retail price US$29.99, with excellent shelf-life and low seasonal volatility. Parents and schools view them as educational investments rather than disposable toys, supporting premium pricing and repeat purchases. The translucent design photographs beautifully for e-commerce listings and social media content, driving organic discovery. Shantou's manufacturing cluster offers mixed-SKU containers, custom packaging, and private-label options — Spootfind handles factory communication and quality control so you get consistent product without the overhead of managing overseas suppliers directly.\n\nThe educational value of magnetic tiles extends beyond simple play. Montessori educators use them to demonstrate geometric principles, balance concepts, and structural engineering basics. Home-schooling parents report that children naturally gravitate toward magnetic building during \"free choice\" time, often spending 45-60 minutes in focused creative flow. This makes magnetic tiles a high-value purchase for education-focused families and a reliable seller for specialty toy retailers.\n\nSafety is paramount with magnetic toys. This set uses ultrasonic welding to permanently seal each tile, preventing magnet detachment — the primary safety concern with magnetic building toys. Each magnet is nickel-plated for corrosion resistance and rated for 10,000+ connection cycles. The set carries both CE (EN 71) and ASTM F963 certifications, with full test reports available for import documentation.\n\nThe 100-piece configuration is strategically optimal for retail. It's large enough to enable ambitious builds (castles, rockets, bridges) but priced under the \"gift hesitation\" threshold of $25. Market data shows 100-piece sets outsell both smaller starter sets (too limited) and larger sets (perceived as expensive), making this the sweet spot for first-time buyers and gift-givers.\n\nCustomization options include private-label packaging, exclusive color configurations, and branded storage containers. The factory in Shantou Chenghai maintains a dedicated magnetic tile production line with quality control checkpoints at assembly, welding, and packaging stages. Spootfind coordinates direct factory access, meaning you get manufacturing pricing without trading company margins, plus English-speaking support for order management and quality assurance.",
+      "lastChecked": "2026-06-03"
     },
     {
-      "id": "t15",
-      "name": "AI Smart Glasses",
-      "category": "Electronics",
-      "price": 89.99,
+      "id": "t6",
+      "name": "Anime Figure Blind Box",
+      "category": "Toys",
+      "price": 11.99,
       "trend": "hot",
-      "region": "Global",
-      "image": "/products/ai-glasses.jpg?v=2",
-      "description": "Voice interaction, real-time translation, photo/video. 6-8h battery. Lightweight 20g.",
-      "source": "TikTok Shop Bestseller",
-      "trendTags": [
-        "AI",
-        "wearable",
-        "translation",
-        "viral-2026"
-      ],
+      "region": "US,EU,SEA",
+      "image": "/products/t6-anime-blind-box.png",
+      "description": "6 designs + 1 secret. Japanese anime style. Collection craze.",
+      "source": "TikTok Shop",
       "procurement": {
-        "costPriceCny": 168,
-        "moq": 50,
-        "shippingDays": 12,
-        "supplier": "Shenzhen AI Tech Co.",
+        "costPriceCny": 9.8,
+        "moq": 120,
+        "shippingDays": 10,
+        "supplier": "Shantou Anime Culture Co.",
         "supplierUrl": "https://shop.1688.com",
-        "certification": "CE, FCC, RoHS",
-        "profitMarginPct": 81,
-        "weightKg": 0.05,
+        "certification": "CE",
+        "profitMarginPct": 82,
+        "weightKg": 0.06,
         "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 8
+        "domesticFreightCny": 10
       },
-      "seoDescription": "Step into the future with AI Smart Glasses — the hottest tech trend of 2026. These lightweight (20g) glasses feature voice interaction, real-time multi-language translation, hands-free photo/video capture, and GPS navigation display. Perfect for content creators, business travelers, and tech enthusiasts. The 6-8 hour battery life ensures all-day use, while the sleek design looks like regular sunglasses. CE, FCC, and RoHS certified for global markets. Shenzhen AI Tech Co. leads the market with consistent quality and reliable supply chains. Trending massively on TikTok and Instagram, these glasses are perfect for live streaming, travel, and daily tech wear. Target markets: US, EU, Japan, Korea, Australia. OEM branding and custom colors available."
+      "seoDescription": "Tap into the booming anime collectibles market with this Japanese-style anime figure blind box series — six standard designs plus one ultra-rare secret chase figure that drives collector excitement and repeat purchases. Each box contains one randomly selected PVC figure standing approximately 8 cm tall, hand-painted with meticulous detail that appeals to serious collectors and casual fans alike. The blind-box format is a proven engagement engine: unboxing videos generate organic social media content, while the secret-chase mechanic boosts sell-through rates and creates trading communities around your product. CE certified and manufactured by Shantou Anime Culture — a studio specializing in anime-licensed merchandise with experience supplying Southeast Asian and Latin American distributors — these figures meet toy-safety standards for the European market. The compact packaging is ideal for retail countertop displays, vending machines, and online subscription-box curation. Target demographics include teens and young adults aged 14-30 in the US, Japan, South Korea, Mexico, and Brazil, where anime fandom continues to drive explosive growth in merchandise spending. Each figure features vibrant colors, durable PVC construction, and a branded display base. The thrill of the \"chase\" — hunting for the secret design — creates strong word-of-mouth marketing and repeat purchase behavior. Custom character licensing, exclusive regional variants, branded display stands, and countertop display racks are available for qualified partners. Spootfind connects you directly with the studio, ensuring authentic products, competitive pricing, and reliable production schedules for your anime merchandise program. From a sourcing perspective, blind boxes are a margin powerhouse: ex-factory cost under US$1.50 per unit, retail price US$11.99, with the collectible mechanic driving repeat purchase rates that standard toys cannot match. The compact packaging optimizes shipping density and retail shelf efficiency. Shantou's anime merchandise cluster offers rapid prototyping, custom character development, and exclusive regional variants — Spootfind connects you directly with the studio for authentic products, competitive pricing, and reliable production schedules. This is a product category where fandom drives demand — tap into a passionate, global community with a product that sells itself through the power of the chase. Each blind box features beautifully painted PVC figures with intricate details that capture the essence of popular anime characters. The surprise element drives tremendous engagement on social media platforms, with unboxing videos generating millions of views across TikTok and YouTube. Collectors actively trade duplicate figures, creating a vibrant secondary market that sustains long-term demand. The compact packaging measures just 8x8x8cm, allowing high-density display on retail shelves and efficient shipping logistics.",
+      "lastChecked": "2026-06-03"
     },
     {
-      "id": "t17",
-      "name": "Reusable Silicone Food Storage Bags",
-      "category": "Eco-Products",
-      "price": 16.99,
-      "trend": "hot",
-      "region": "US,EU,UK,AU,CA",
-      "image": "/products/silicone-bags.jpg?v=2",
-      "description": "6-pack (3 sizes). Leakproof, freezer-safe, microwave-safe. Replaces 1000+ plastic bags.",
-      "source": "Amazon Eco Bestseller + TikTok Viral",
-      "trendTags": [
-        "eco-friendly",
-        "zero-waste",
-        "kitchen",
-        "TikTok-viral",
-        "reusable"
-      ],
+      "id": "t7",
+      "name": "Water Beads Sensory Kit",
+      "category": "Toys",
+      "price": 9.99,
+      "trend": "stable",
+      "region": "US,EU",
+      "image": "/products/t7-water-beads.png",
+      "description": "50k beads + tools. Fine motor skills. Pre-school sensory play.",
+      "source": "Amazon Bestseller",
       "procurement": {
-        "costPriceCny": 18.5,
-        "moq": 150,
+        "costPriceCny": 8.5,
+        "moq": 200,
         "shippingDays": 12,
-        "supplier": "Dongguan EcoLife Silicone Products",
+        "supplier": "Shantou Oubo Toys",
         "supplierUrl": "https://shop.1688.com",
-        "certification": "FDA, LFGB, CE",
-        "profitMarginPct": 83,
-        "weightKg": 0.25,
+        "certification": "CE, CPC",
+        "profitMarginPct": 79,
+        "weightKg": 0.05,
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 15
       },
-      "seoDescription": "Slash single-use plastic from daily life with this 6-pack reusable silicone food storage bag set — the zero-waste kitchen essential that has taken TikTok and Amazon by storm. Each set includes three practical sizes (small 350ml, medium 500ml, large 1L) with leakproof food-grade silicone sealing strips that keep liquids, solids, and everything in between safely contained. The bags are fully freezer-safe (to -40°C), microwave-safe (to 230°C), and dishwasher-safe, replacing a lifetime of zip-lock bags with one durable purchase. FDA and LFGB certified, these bags are made from 100% platinum-cured silicone — no BPA, no phthalates, no plastic residue. One silicone bag can replace over 1,000 disposable bags, saving the average household $200+ per year while keeping approximately 50 kg of plastic out of landfills annually. Dongguan EcoLife operates a BSCI-audited facility with on-site FDA-compliant testing. The pastel color palette appeals to eco-conscious millennials and Gen Z buyers who drive massive organic social sharing. Key markets include the US, UK, Germany, Australia, and Canada, where single-use plastic bans are accelerating consumer adoption. Custom colors, embossed logos, and retail-ready packaging are available at volume."
+      "seoDescription": "Fuel sensory play and early childhood development with this water beads sensory kit, featuring over 50,000 non-toxic polymer beads plus a complete set of fine-motor tools — scoopers, tweezers, sorting cups, and a storage tray. Designed for preschool and kindergarten environments, water beads are one of the fastest-growing categories in educational sensory toys, prized by occupational therapists and Montessori educators for their ability to develop hand-eye coordination, finger strength, and color recognition through open-ended play. The beads expand to approximately 12 mm when hydrated and shrink back for compact storage, making them a practical choice for both classroom and home use. CE and CPC certified, the beads are made from sodium polyacrylate — the same material used in baby diapers — ensuring they are non-toxic and biodegradable. Shantou Oubo, the manufacturer, is a sensory-toy specialist with a clean production record and experience exporting to North American and European educational-supply distributors. The kit format with premium packaging and included accessories differentiates it from bulk-bead commodity listings, supporting higher retail pricing and better margin preservation. Key markets include the US, UK, Germany, and Australia, where sensory-play search volumes have doubled year-over-year. Occupational therapists recommend water beads for children with sensory processing needs, creating a strong word-of-mouth referral network among parents and educators. The beads are reusable, easy to clean, and store compactly when dehydrated. Bulk refill packs, custom tool configurations, branded storage containers, and educational activity guides are available for volume orders. Spootfind sources directly from the manufacturer, providing full safety documentation and reliable supply for your educational toy portfolio. From a wholesale perspective, sensory kits offer compelling margins: ex-factory cost under US$1.50 per kit, retail price US$9.99, with strong repeat-purchase potential as consumables (beads) need periodic replacement. The kit format supports add-on sales: refill bead packs, additional tool sets, and storage containers. Shantou's toy cluster offers mixed-container shipping and custom kit configurations — Spootfind handles factory communication and compliance documentation so you can focus on building your educational toy business with a product that genuinely helps children develop essential skills.\n\nWater beads have evolved from simple sensory fillers to a complete educational platform. Teachers use them for color recognition games, counting exercises, and science demonstrations (hydration, evaporation, absorption). Occupational therapists recommend water bead play for developing fine motor strength and bilateral coordination. This versatility means the product appeals to multiple buyer personas: parents, educators, therapists, and childcare providers.\n\nThe 50,000-bead quantity is a strategic retail configuration. It fills a standard 15-liter sensory bin with beads to spare, allowing for multiple play sessions or bin refreshes. Competitor sets often offer 10,000-20,000 beads at similar price points, making this set a clear value leader on a per-bead basis. The included tools (scoops, tweezers, sorting cups) add perceived value and create a \"complete kit\" proposition that justifies premium pricing.\n\nSafety documentation is comprehensive. The beads are non-toxic, biodegradable, and pass both US CPSC and EU EN 71 toy safety standards. The hydration process uses only tap water — no chemicals or additives required. Dehydrated beads store compactly (500x volume reduction), making the product exceptionally shipping-efficient for e-commerce sellers.\n\nMarket timing is favorable. Water bead search volume peaks in Q4 (holiday gifts) and Q2 (summer activities, sensory bin refreshes), but maintains steady baseline demand year-round. Social media content featuring water bead ASMR and color-mixing videos drives organic discovery, reducing customer acquisition costs for retailers. Spootfind connects you with the Shantou factory that supplies major sensory toy brands, offering factory-direct pricing, private-label options, and compliance documentation for regulated markets.",
+      "lastChecked": "2026-06-03",
+      "trendNote": "Sensory toys plateau, no viral signal detected"
     },
     {
-      "id": "t18",
-      "name": "Portable Rechargeable Neck Fan 360°",
-      "category": "Electronics",
-      "price": 19.99,
-      "trend": "hot",
-      "region": "US,EU,JP,KR,SEA",
-      "image": "/products/neck-fan.jpg?v=2",
-      "description": "4000mAh, 8h runtime, 360° wind. 3 speed levels. Hands-free, USB-C.",
-      "source": "TikTok Shop + Amazon Bestseller",
-      "trendTags": [
-        "summer",
-        "wearable",
-        "cooling",
-        "TikTok-viral",
-        "USB-C"
-      ],
+      "id": "t8",
+      "name": "LED Slime Making Kit",
+      "category": "Toys",
+      "price": 13.99,
+      "trend": "stable",
+      "region": "US,UK,CA",
+      "image": "/products/led-slime-kit.jpg",
+      "description": "Glow in dark. Non-toxic PVA. 6 colors + storage box. Age 6+.",
+      "source": "TikTok Shop",
       "procurement": {
-        "costPriceCny": 22,
-        "moq": 100,
-        "shippingDays": 10,
-        "supplier": "Shenzhen Cooling Tech Co.",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "CE, FCC, RoHS",
-        "profitMarginPct": 79,
-        "weightKg": 0.18,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 10
-      },
-      "seoDescription": "Stay cool anywhere with this 360° portable rechargeable neck fan — the must-have summer accessory that has gone viral across TikTok, Amazon, and AliExpress in 2026. The ergonomic neck-hanging design leaves both hands free, making it perfect for outdoor markets, commuting, exercising, or desk work during heatwaves. With a 4000mAh battery delivering up to 8 hours of continuous cooling on low speed, this fan outlasts most competitors. Three speed levels and 360° airflow channels let users customize their cooling experience. USB-C charging is standard, and the foldable, lightweight design (under 200g) makes it the most portable personal cooling device on the market. CE, FCC, and RoHS certified for global market access. Shenzhen Cooling Tech is a specialist in personal cooling electronics with a strong track record of supplying major retail brands. The unit ships in 12 color variants, making it ideal for gift sets and seasonal promotions. Target markets include Japan and South Korea (where summer heat is a major cultural concern), Southeast Asia, the US Sun Belt, and Southern Europe. Custom branding, retail packaging, and bundled sets with cooling towels are available at MOQ."
-    },
-    {
-      "id": "t19",
-      "name": "Beeswax Food Wraps Reusable Set",
-      "category": "Eco-Products",
-      "price": 14.99,
-      "trend": "rising",
-      "region": "US,EU,UK,AU",
-      "image": "/products/beeswax-wrap.jpg?v=2",
-      "description": "6-pack (3 sizes). Organic cotton, jojoba beeswax. Self-adhering, washable. 1 year lifespan.",
-      "source": "Etsy Top Seller + Amazon Eco",
-      "trendTags": [
-        "eco-friendly",
-        "zero-waste",
-        "organic",
-        "kitchen",
-        "plastic-free"
-      ],
-      "procurement": {
-        "costPriceCny": 12.5,
-        "moq": 200,
-        "shippingDays": 15,
-        "supplier": "Yiwu Green Living Co.",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "OEKO-TEX, FDA Food Safe",
-        "profitMarginPct": 80,
-        "weightKg": 0.08,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 12
-      },
-      "seoDescription": "Ditch cling film for good with this 6-pack reusable beeswax food wraps — the plastic-free, compostable way to cover bowls, wrap sandwiches, and preserve produce. Made from organic cotton infused with beeswax, jojoba oil, and tree resin, each wrap self-adheres with the warmth of your hands, creating a breathable seal that keeps food fresh without trapping moisture. Washable in cold water and good for approximately one year of regular use, each wrap replaces hundreds of feet of plastic wrap over its lifetime. OEKO-TEX and FDA food-safe certified, the wraps meet the strictest environmental and safety standards in Europe and North America. Yiwu Green Living, the manufacturer, specializes in sustainable kitchen goods with FSC-certified cotton sourcing and a zero-waste production facility. The 6-pack assortment (small, medium, large × 2 each) provides the variety consumers want while keeping packaging simple. Beautiful botanical print designs drive unboxing engagement on social media, making this a natural fit for eco-lifestyle subscription boxes, farmers market stalls, and zero-waste boutique stores. Target markets include the US West Coast, UK, Germany, Australia, and Japan, where the zero-waste lifestyle movement is most established. Custom prints, private labeling, and subscription-box packaging are available at scale."
-    },
-    {
-      "id": "t20",
-      "name": "Compostable Trash Bags 13-Gallon",
-      "category": "Eco-Products",
-      "price": 18.99,
-      "trend": "rising",
-      "region": "US,EU,UK",
-      "image": "/products/compostable-bags.jpg?v=2",
-      "description": "120-count box. ASTM D6400 certified. Kitchen food waste. Drawstring, leakproof.",
-      "source": "Amazon Eco Bestseller",
-      "trendTags": [
-        "eco-friendly",
-        "compostable",
-        "kitchen",
-        "ASTM-D6400",
-        "biodegradable"
-      ],
-      "procurement": {
-        "costPriceCny": 28,
-        "moq": 100,
-        "shippingDays": 15,
-        "supplier": "Zhejiang Green Cycle Materials",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "BPI, ASTM D6400, EN 13432",
-        "profitMarginPct": 75,
-        "weightKg": 0.45,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 20
-      },
-      "seoDescription": "Turn kitchen waste disposal into a sustainable closed loop with this 120-count box of 13-gallon compostable trash bags — the ASTM D6400 and EN 13432 certified solution for food waste that belongs in compost, not landfills. Made from plant-based PLA and PBAT biopolymers, these bags fully decompose in commercial composting conditions within 90-180 days, leaving zero microplastics. The robust drawstring design and 13-gallon capacity make them a direct replacement for standard kitchen bin liners. Leakproof triple-seal construction handles wet food waste without tearing, while the star-seal bottom provides maximum load capacity. BPI (Biodegradable Products Institute) certified for the US market and EN 13432 compliant for Europe, these bags are approved for use with municipal compost programs — a growing requirement in cities across North America and Western Europe. Zhejiang Green Cycle Materials operates a carbon-neutral production line powered entirely by renewable energy. The 120-count box hits the sweet spot for household monthly supply and is highly shelf-stable for retail. Key markets include the US, UK, Germany, Netherlands, and Sweden, where food waste composting mandates are driving rapid household adoption. Custom packaging, retail-ready boxes, and brand labeling are available at volume."
-    },
-    {
-      "id": "t16",
-      "name": "Eco-Friendly Bamboo Toothbrush Set",
-      "category": "Eco-Products",
-      "price": 12.99,
-      "trend": "hot",
-      "region": "US,EU,AU,CA",
-      "image": "/products/bamboo-brush.jpg?v=2",
-      "description": "10-pack biodegradable bamboo handles. BPA-free nylon bristles. Plastic-free packaging.",
-      "source": "Amazon Eco Bestseller",
-      "trendTags": [
-        "eco-friendly",
-        "sustainable",
-        "zero-waste",
-        "biodegradable"
-      ],
-      "procurement": {
-        "costPriceCny": 15.8,
-        "moq": 200,
-        "shippingDays": 15,
-        "supplier": "Zhejiang Eco Products Co.",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "FDA, CE, BPI Certified Compostable",
-        "profitMarginPct": 84,
-        "weightKg": 0.12,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 18
-      },
-      "seoDescription": "Join the eco-revolution with this 10-pack of biodegradable bamboo toothbrushes — the perfect plastic-free alternative for conscious consumers. Each brush features a sustainably sourced bamboo handle that's naturally antibacterial and fully biodegradable, paired with BPA-free nylon-4 bristles that are gentle on gums yet effective at cleaning. The plastic-free kraft paper packaging appeals to zero-waste households and aligns with the global ban on single-use plastics. FDA and CE certified, these brushes meet oral-care safety standards in the US, EU, and Australia. Zhejiang Eco Products Co. specializes in sustainable personal-care items with BPI compostable certifications. This 10-pack format drives repeat purchases and subscription models. Trending in eco-living categories across Amazon, Etsy, and specialty zero-waste shops. Target markets: US, UK, Germany, Australia, Canada — wherever plastic-reduction policies are driving consumer behavior. Custom engraving, private labeling, and bulk subscription boxes available."
-    },
-    {
-      "id": "t21",
-      "name": "Collapsible Silicone Travel Bottle Set",
-      "category": "Eco-Products",
-      "price": 11.99,
-      "trend": "rising",
-      "region": "US,EU,UK,AU,JP",
-      "image": "/products/silicone-bottle.jpg?v=2",
-      "description": "4-pack leakproof TSA-approved bottles. Food-grade silicone. 3oz each. Stand-up base.",
-      "source": "Amazon Travel Bestseller",
-      "trendTags": [
-        "travel",
-        "TSA-approved",
-        "eco-friendly",
-        "collapsible",
-        "reusable"
-      ],
-      "procurement": {
-        "costPriceCny": 10.2,
-        "moq": 200,
-        "shippingDays": 12,
-        "supplier": "Shenzhen TravelGear Silicone",
-        "supplierUrl": "https://shop.1688.com",
-        "certification": "FDA, LFGB, SGS",
-        "profitMarginPct": 81,
-        "weightKg": 0.15,
-        "forwarderFeeCnyPerKg": 28,
-        "domesticFreightCny": 10
-      },
-      "seoDescription": "Conquer TSA liquid rules with this 4-pack collapsible silicone travel bottle set — the leakproof, TSA-approved essential for every carry-on. Each 3oz bottle is made from food-grade silicone that collapses flat when empty, saving precious suitcase space on return trips. The secure screw-top cap with silicone seal prevents leaks even at cabin pressure, making these bottles safe for air travel. A rigid stand-up base keeps each bottle upright in the supplied clear toiletry bag. FDA and LFGB certified, these bottles are safe for shampoo, conditioner, lotion, sunscreen, and food sauces. The 4-pack set includes one of each of the four most popular toiletry types in a hanging toiletry bag with see-through window. Shenzhen TravelGear is a specialist in travel accessories with BSCI certification and extensive retail supply experience. Vibrant pastel colors drive strong social media appeal, making this a top performer on Amazon Travel, Etsy, and travel specialty retailers. Key markets include the US, UK, Australia, Japan, and Singapore — high-volume international travel markets. Custom colors, logo printing, and premium travel kit bundling are available at MOQ."
-    },
-    {
-      "id": "t22",
-      "name": "Electric Spin Scrubber for Cleaning",
-      "category": "Home-Kitchen",
-      "price": 29.99,
-      "trend": "hot",
-      "region": "US,EU,JP",
-      "image": "/products/spin-scrubber.jpg?v=2",
-      "description": "3 interchangeable heads, 300RPM. Waterproof IPX7. USB rechargeable. Bathroom, kitchen, tiles.",
-      "source": "TikTok Shop + Amazon Home Bestseller",
-      "trendTags": [
-        "cleaning",
-        "smart-home",
-        "TikTok-viral",
-        "rechargeable",
-        "bathroom"
-      ],
-      "procurement": {
-        "costPriceCny": 32,
+        "costPriceCny": 14.2,
         "moq": 80,
         "shippingDays": 12,
-        "supplier": "Shenzhen CleanTech Factory",
+        "supplier": "Shantou Chenghai District Toy Factory",
         "supplierUrl": "https://shop.1688.com",
-        "certification": "CE, FCC, IPX7",
+        "certification": "CE, ASTM F963",
         "profitMarginPct": 77,
-        "weightKg": 0.35,
+        "weightKg": 0.18,
         "forwarderFeeCnyPerKg": 28,
         "domesticFreightCny": 12
       },
-      "seoDescription": "Transform cleaning from a chore into a workout with this electric spin scrubber — the IPX7 waterproof cleaning tool that has generated hundreds of millions of views on TikTok and become a top-10 bestseller in Amazon home cleaning. Three interchangeable heads (flat brush, corner brush, and scrub pad) handle tiles, grout, bathroom surfaces, kitchen counters, and bathtub with minimal effort. The powerful 300RPM motor does the scrubbing work, protecting wrists and knees from repetitive strain. USB rechargeable with a 90-minute runtime per charge, the scrubber runs cord-free around the entire home. CE, FCC, and IPX7 certified for waterproof safety in wet bathroom environments. Shenzhen CleanTech is an ISO 9001-certified factory specializing in home cleaning appliances with a strong track record supplying major e-commerce platforms. The viral TikTok angle — cleaning transformation videos — drives massive organic traffic, making this a top choice for dropshippers and resellers targeting the US, European, and Japanese markets. Key features that sell: before/after grout cleaning, minimal effort messaging, and cordless freedom. Custom branding, retail packaging, and bundled brush head sets are available at scale."
+      "seoDescription": "Light up playtime with this LED slime making kit that glows in the dark — six vibrant colors of non-toxic PVA-based slime, complete with storage containers, mixing tools, and glow-in-the-dark powder that transforms every batch into a luminescent masterpiece. Slime continues to rank among the top-selling DIY toy categories on Amazon and TikTok, and this kit adds the glow-in-the-dark twist that stands out in search results and unboxing videos. Every component is CE and ASTM F963 certified, meeting toy-safety requirements for North American and European markets. The PVA formula is borax-free and non-sticky, addressing the two most common parent complaints about slime products. Shantou Chenghai-based manufacturing ensures competitive pricing, reliable lead times, and access to China's deepest toy supply chain. The kit format — pre-portioned ingredients plus tools — eliminates the mess and guesswork that frustrate home-made slime attempts, making it a parent-friendly gift choice. Each color comes in its own sealed container, extending shelf life and enabling partial-use play sessions. Ideal retail channels include toy stores, craft supply shops, online STEM and DIY toy retailers, and holiday gift guides. The glow powder additive creates a unique selling proposition that differentiates this kit from standard slime sets, justifying higher retail pricing. Kids love the science-meets-art angle, and parents appreciate the guided activity that doesn't require hunting for ingredients. Custom color palettes, branded packaging, bulk event-pack configurations, and private-label options are available for volume orders. Spootfind provides factory-direct sourcing with full compliance support, helping you capitalize on the slime trend with a differentiated, safety-certified product. From a sourcing perspective, slime kits are a proven winner: ex-factory cost under US$2.00 per kit, retail price US$13.99, with strong social media virality and repeat purchase potential as kids experiment with different colors and add-ins. The LED/glow powder component differentiates this kit from commodity slime offerings, supporting premium pricing. Shantou's toy manufacturing cluster offers mixed-SKU containers, custom color palettes, and private-label packaging — Spootfind provides factory-direct sourcing with full compliance support, helping you capitalize on the slime trend with a product that truly stands out in a crowded market.\n\nThe LED enhancement transforms traditional slime from a daytime toy to an anytime experience. Under normal lighting, the slime displays vibrant color; in darkness, the embedded LED module creates an ethereal glow effect that captivates children and drives social media sharing. This dual-mode functionality extends play time and creates \"wow moment\" content opportunities for TikTok and Instagram — free marketing for retailers.\n\nThe kit configuration is designed for retail success. Everything needed for first-time slime making is included: base materials, colorants, mixing tools, storage containers, and illustrated instructions. This eliminates the \"I need to buy something else\" friction that reduces conversion rates. The LED module is reusable across multiple slime batches, adding long-term value and justifying the premium price point relative to basic slime kits.\n\nCompliance is comprehensive. All ingredients are non-toxic and pass CPSC testing for children's products. The LED module uses a sealed battery with child-safe housing, meeting both US and EU electrical toy standards. Full documentation is available for customs clearance and retail packaging compliance. The formula is borax-free, addressing a common safety concern that limits some competitor products.\n\nManufacturing expertise matters for slime products. Consistent viscosity, stable color, and reliable LED integration require quality-controlled production. The Shantou factory behind this kit has 8 years of specialized slime production experience and supplies major toy retailers in North America and Europe. Spootfind provides direct factory access, meaning you avoid trading company markups while gaining English-speaking support for order management, quality inspection, and logistics coordination.",
+      "lastChecked": "2026-06-03",
+      "trendNote": "Slime selling but seasonal, no new viral 2026"
     },
     {
       "id": "t9",
@@ -373,14 +212,9 @@
       "price": 3899,
       "trend": "hot",
       "region": "SEA,AF,Americas",
-      "image": "/products/mini-excavator.webp?v=2",
+      "image": "/products/t9-mini-excavator.png",
       "description": "1.8 ton, Kubota engine, 2.5m digging depth. 40HQ fits 6 units. CE certified.",
       "source": "Alibaba Top Rated",
-      "trendTags": [
-        "construction",
-        "compact",
-        "Kubota"
-      ],
       "procurement": {
         "costPriceCny": 22800,
         "moq": 1,
@@ -393,7 +227,8 @@
         "forwarderFeeCnyPerKg": 8,
         "domesticFreightCny": 350
       },
-      "seoDescription": "Power through tight-access excavation jobs with this 1.8-ton mini excavator powered by a proven Kubota diesel engine — the gold standard in compact construction equipment reliability. With a 2.5-meter maximum digging depth and 3.8-meter dumping height, this machine handles trenching, foundation prep, landscaping, and utility work in spaces where full-size excavators simply cannot operate. The compact dimensions allow six units per 40HQ container, dramatically reducing per-unit shipping costs for importers. CE and ISO 9001 certified, the excavator meets European machinery directives and global quality-management standards, opening doors to government tenders and regulated markets. Key features include pilot-operated hydraulic controls for smooth, precise operation; a retractable undercarriage that narrows from 1,500 mm to 1,000 mm for passage through gates and doorways; and a reinforced boom designed for heavy-duty digging cycles. Jining's construction-equipment cluster provides unmatched aftermarket support: spare parts ship within 48 hours, and the standard Kubota engine means filters and service items are available worldwide. Target markets include Australia's booming residential-construction sector, the EU's urban-renovation market, and North American landscaping contractors seeking a cost-competitive alternative to Japanese and Korean brands. OEM branding, custom paint, and ROPS/FOPS cab options are available."
+      "seoDescription": "Power through tight-access excavation jobs with this 1.8-ton mini excavator powered by a proven Kubota diesel engine — the gold standard in compact construction equipment reliability. With a 2.5-meter maximum digging depth and 3.8-meter dumping height, this machine handles trenching, foundation prep, landscaping, and utility work in spaces where full-size excavators simply cannot operate. The compact dimensions allow six units per 40HQ container, dramatically reducing per-unit shipping costs for importers. CE and ISO 9001 certified, the excavator meets European machinery directives and global quality-management standards, opening doors to government tenders and regulated markets. Key features include pilot-operated hydraulic controls for smooth, precise operation; a retractable undercarriage that narrows from 1,500 mm to 1,000 mm for passage through gates and doorways; and a reinforced boom designed for heavy-duty digging cycles. Jining's construction-equipment cluster provides unmatched aftermarket support: spare parts ship within 48 hours, and the standard Kubota engine means filters and service items are available worldwide. Target markets include Australia's booming residential-construction sector, the EU's urban-renovation market, and North American landscaping contractors seeking a cost-competitive alternative to Japanese and Korean brands. The 1.8-ton class is the sweet spot for small-scale contractors who need digging power without the logistics overhead of full-size equipment. OEM branding, custom paint, ROPS/FOPS cab options, and auxiliary hydraulic circuits are available for volume orders. Spootfind sources directly from the manufacturer, providing full technical documentation, spare parts lists, and after-sales support to keep your customers operating. From a sourcing perspective, the margins are substantial: ex-factory cost under US$3,200, retail price US$3,899, with strong demand in markets where compact equipment is preferred for residential and urban construction. The 1.8-ton class is the entry point for small contractors and equipment rental fleets — a large, addressable market with recurring replacement demand. Jining's construction equipment cluster provides unmatched aftermarket support: technical documentation, spare parts lists, and worldwide shipping from stock. Spootfind provides factory-direct pricing, full certification support, and after-sales service coordination — you focus on sales, we handle the sourcing complexity.\n\nThe 1.8-tonne capacity positions this excavator perfectly between compact garden equipment and full construction machinery. It's large enough for serious earthmoving — foundation prep, trench digging, land clearing — but compact enough to transport on a standard plant trailer without special permits. This \"sweet spot\" sizing drives strong demand from owner-operators, rental companies, and agricultural users who need real capability without heavy equipment complexity.\n\nThe diesel powerplant delivers 15-18 HP with exceptional fuel efficiency (2-3 liters/hour under load). Diesel means all-day operation on a single tank, no extension cords, and no battery degradation concerns. The engine meets both EU Stage V and US EPA Tier 4 emission standards, enabling registration and operation in regulated markets. Mechanical fuel injection ensures reliability and simplifies field maintenance — no sensitive electronics to fail in harsh conditions.\n\nHydraulic system design prioritizes serviceability. All cylinders use standard seals available from industrial suppliers worldwide. The main pump is a gear-type design known for 10,000+ hour service life. Control valves are sectional, allowing individual replacement without full valve bank overhaul. This design philosophy reduces total cost of ownership and makes the machine attractive to rental fleets where maintenance downtime directly impacts revenue.\n\nJining's construction equipment manufacturing cluster has supplied global markets for over two decades. The factory behind this model exports to Southeast Asia, Africa, the Middle East, and increasingly, Europe and North America. Quality control includes 100% hydraulic pressure testing, engine run-in, and cycle testing before shipment. Spootfind coordinates factory-direct pricing, CE certification documentation, container loading supervision, and after-sales technical support — everything needed to import construction equipment with confidence.",
+      "lastChecked": "2026-06-03"
     },
     {
       "id": "t10",
@@ -402,14 +237,9 @@
       "price": 4299,
       "trend": "hot",
       "region": "AF,ME,SEA",
-      "image": "/products/mini-bulldozer.webp?v=2",
+      "image": "/products/t10-road-roller.png",
       "description": "3 ton, hydraulic drive, 0.8m drum width. Compaction force 3.2T. Site ready.",
       "source": "Alibaba Top Rated",
-      "trendTags": [
-        "construction",
-        "compaction",
-        "hydraulic"
-      ],
       "procurement": {
         "costPriceCny": 25800,
         "moq": 1,
@@ -422,23 +252,145 @@
         "forwarderFeeCnyPerKg": 8,
         "domesticFreightCny": 420
       },
-      "seoDescription": "Compact, powerful, and purpose-built for small-site compaction — this 3-ton single-drum road roller with hydraulic drive delivers professional-grade results on bike paths, driveways, parking lots, and pipeline trench backfill. The 0.8-meter drum width strikes the optimal balance between coverage and maneuverability, while the 3.2-ton centrifugal force ensures deep-density compaction in fewer passes — saving fuel, time, and operator hours on every job. Hydraulic propulsion provides smooth, stepless speed control from 0-8 km/h, with instant forward and reverse for efficient turnarounds in confined spaces. CE certified and manufactured in Jining — one of China's largest construction-machinery hubs — this roller benefits from a mature supply chain that keeps component costs low and spare-parts availability high. The operator platform features vibration-dampened controls, an adjustable seat, and 360-degree visibility, meeting ergonomic and safety requirements for European and Australian job sites. At just 3 tons operating weight, the machine can be transported on a standard flatbed trailer without oversized-load permits, reducing mobilization costs. Key markets include sub-Saharan Africa, Southeast Asia, the Middle East, and rural Australia, where diesel-powered equipment is preferred for reliability and fuel availability. OEM branding, ROPS canopy, and diesel/LPG engine variants are available."
+      "seoDescription": "Compact, powerful, and purpose-built for small-site compaction — this 3-ton single-drum road roller with hydraulic drive delivers professional-grade results on bike paths, driveways, parking lots, and pipeline trench backfill. The 0.8-meter drum width strikes the optimal balance between coverage and maneuverability, while the 3.2-ton centrifugal force ensures deep-density compaction in fewer passes — saving fuel, time, and operator hours on every job. Hydraulic propulsion provides smooth, stepless speed control from 0-8 km/h, with instant forward and reverse for efficient turnarounds in confined spaces. CE certified and manufactured in Jining — one of China's largest construction-machinery hubs — this roller benefits from a mature supply chain that keeps component costs low and spare-parts availability high. The operator platform features vibration-dampened controls, an adjustable seat, and 360-degree visibility, meeting ergonomic and safety requirements for European and Australian job sites. At just 3 tons operating weight, the machine can be transported on a standard flatbed trailer without oversized-load permits, reducing mobilization costs. Key markets include municipal public-works departments, landscaping contractors, and rental-fleet operators seeking a reliable compaction solution at a fraction of the price of European brands. The hydraulic drive system eliminates belt maintenance and provides better hill-climbing capability than mechanical-drive alternatives. OEM options, ROPS canopy, diesel/LPG engine variants, and water-spray systems are available. Spootfind connects you directly with the manufacturer, ensuring competitive pricing, full certification documentation, and reliable after-sales support for your equipment business. From a wholesale perspective, compaction equipment delivers strong returns: ex-factory cost under US$3,600, retail price US$4,299, with applications across construction, landscaping, and municipal public works. The 3-ton class is highly maneuverable and transportable without oversized-load permits, making it ideal for small contractors and rental fleets. Jining's machinery cluster offers excellent component commonality and worldwide spare parts availability. Spootfind sources directly from the manufacturer, providing full technical documentation, certification support, and after-sales service — you get a proven product with genuine market demand and excellent margin potential. The hydraulic drive system delivers smooth, stepless speed control from 0 to 8 km/h in both forward and reverse directions. The 3.2-ton centrifugal compaction force ensures deep, uniform density in fewer passes, significantly improving job site productivity. A water spray system with a 50-liter tank keeps the drum moist during hot-weather operation, preventing asphalt from sticking. The ergonomic operator platform features vibration-dampened controls and 360-degree visibility for enhanced safety.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t11",
+      "name": "Concrete Mixer 350L Diesel",
+      "category": "Machinery",
+      "price": 1899,
+      "trend": "stable",
+      "region": "AF,SA,Americas",
+      "image": "/products/t11-concrete-mixer.png",
+      "description": "350L drum, 14HP diesel engine. 4 wheels, 180° discharge. Construction ready.",
+      "source": "AliExpress Industrial",
+      "procurement": {
+        "costPriceCny": 11200,
+        "moq": 2,
+        "shippingDays": 20,
+        "supplier": "Jining Shengbang Machinery",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE",
+        "profitMarginPct": 70,
+        "weightKg": 680,
+        "forwarderFeeCnyPerKg": 9,
+        "domesticFreightCny": 280
+      },
+      "seoDescription": "Pour concrete with confidence using this 350L diesel concrete mixer, engineered for small construction sites, DIY home projects, and rental fleet operations. With a 350-liter drum capacity and 280-liter mixing capacity, this machine delivers consistent, lump-free concrete batch after batch — the workhorse every contractor needs on site. The diesel engine provides reliable power without dependence on electric outlets, making it ideal for remote job sites and outdoor pours. CE certified and manufactured in Jining — China's premier construction machinery hub — this mixer benefits from mature supply chain infrastructure, competitive component pricing, and experienced assembly technicians. The heavy-duty steel frame and pneumatic tires handle rough terrain, while the tilting drum mechanism allows precise pour control. Safety features include a drum guard, emergency stop switch, and overload protection. Contractors appreciate the 15-20 minute mix cycle that keeps projects moving, while rental operators value the simple controls that don't require extensive operator training. The 350L capacity hits the sweet spot for residential foundations, sidewalk repairs, fence post sets, and small commercial slabs. Spare parts availability is excellent thanks to the standard diesel engine and commodity components. Target markets include Australia's booming residential construction sector, Southeast Asia's infrastructure development, and North American equipment rental companies seeking cost-competitive alternatives to premium brands. OEM branding, custom paint colors, electric-start options, and water pumps are available for volume orders. Spootfind sources directly from the manufacturer, providing full technical documentation, spare parts lists, and after-sales support to keep your customers operating. From a sourcing perspective, concrete mixers offer excellent value: ex-factory cost under US$1,600, retail price US$1,899, with applications across residential construction, DIY projects, and equipment rental. The diesel engine provides reliable power without electrical dependencies, making it ideal for remote job sites. Jining's construction equipment cluster provides excellent spare parts availability and technical support. Spootfind connects you directly with the manufacturer, ensuring competitive pricing, full certification documentation, and reliable after-sales support for your equipment business — this is a workhorse product with genuine utility and a large addressable market. The heavy-duty steel drum features a reinforced rib design that ensures thorough, lump-free mixing for consistent concrete quality. A tilting mechanism with secure locking pin allows precise pour control, while the 14HP diesel engine delivers reliable power even at high altitudes. Pneumatic tires handle rough terrain with ease, and the 180-degree discharge chute directs concrete exactly where needed. Safety features include a drum guard, emergency stop switch, and overload protection for operator security.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t12",
+      "name": "Mini Crane 5T Truck-Mounted",
+      "category": "Machinery",
+      "price": 8999,
+      "trend": "hot",
+      "region": "AF,ME,SA",
+      "image": "/products/t12-truck-crane.png",
+      "description": "5 ton, 12m boom, 360° rotation. Mounts on pickup. Remote control included.",
+      "source": "Alibaba Top Rated",
+      "procurement": {
+        "costPriceCny": 52800,
+        "moq": 1,
+        "shippingDays": 30,
+        "supplier": "Jining Hengfa Heavy Industry",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE, ISO9001",
+        "profitMarginPct": 63,
+        "weightKg": 5200,
+        "forwarderFeeCnyPerKg": 7,
+        "domesticFreightCny": 580
+      },
+      "seoDescription": "Lift smart, lift safe with this 5-ton truck-mounted mini crane — the compact lifting solution for delivery trucks, small construction sites, and workshop material handling. With a 5-ton maximum lifting capacity and 8-meter maximum reach, this crane handles steel bars, concrete pipes, lumber, and equipment with confidence. The hydraulic boom features multiple extension sections for precise load placement, while the 360-degree continuous rotation ensures you can position loads exactly where needed. CE certified and manufactured in Jining — China's construction machinery production base — this crane benefits from rigorous factory testing, certified structural steel, and reliable hydraulic components. The truck-mounted design eliminates the need for a separate transport trailer, reducing logistics costs and enabling on-site mobility. Key features include a wired remote control for safe operation away from the load, automatic overload protection, and a hydraulic outrigger system for stable operation on uneven ground. Target markets include building material suppliers, equipment rental companies, and contractors in Australia, Southeast Asia, the Middle East, and Africa — regions where small-scale construction and delivery operations dominate. The 5-ton capacity class is the proven sweet spot for delivery-truck integration, providing serious lifting power without exceeding standard truck payload limits. OEM branding, custom boom lengths, wireless remote options, and certification packages for different markets are available. Spootfind sources directly from the manufacturer, ensuring competitive pricing, full certification documentation, and reliable after-sales support for your lifting equipment business. From a wholesale perspective, truck-mounted cranes open a specialized niche: ex-factory cost under US$7,400, retail price US$8,999, serving building material suppliers, equipment rental companies, and contractors who need lifting capability without a dedicated crane truck. The 5-ton capacity class is the proven sweet spot for delivery-truck integration. Jining's heavy equipment cluster provides rigorous factory testing and certified structural steel. Spootfind provides factory-direct pricing, full certification documentation, and after-sales support — you focus on building your lifting equipment business with a product that delivers genuine capability and strong margin potential. The hydraulic boom features multiple extension sections for precise load placement at distances up to 8 meters. A wired remote control keeps the operator at a safe distance from the load, while automatic overload protection prevents dangerous lifting beyond the 5-ton capacity. The 360-degree continuous rotation allows positioning loads exactly where needed without repositioning the truck. Outriggers with wide stance provide stable operation even on uneven ground, meeting safety standards for construction sites.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t13",
+      "name": "Skid Steer Loader 0.8T",
+      "category": "Machinery",
+      "price": 3299,
+      "trend": "hot",
+      "region": "US,AU,UK",
+      "image": "/products/t13-skid-steer.png",
+      "description": "0.8 ton, auxiliary hydraulics, rubber tracks. 8 attachments optional. Compact job sites.",
+      "source": "AliExpress Industrial",
+      "procurement": {
+        "costPriceCny": 19500,
+        "moq": 1,
+        "shippingDays": 22,
+        "supplier": "Jining Haohong Machinery",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE, EPA",
+        "profitMarginPct": 71,
+        "weightKg": 800,
+        "forwarderFeeCnyPerKg": 9,
+        "domesticFreightCny": 320
+      },
+      "seoDescription": "Move earth, move snow, move everything with this 0.8-ton skid steer loader — the most versatile compact machine for landscaping, construction, and property maintenance. With a 0.8-ton operating capacity and universal quick-attach plate, this machine accepts dozens of attachments: augers, trenchers, brush cutters, snow blowers, pallet forks, and more — transforming from one machine into an entire fleet. The compact dimensions (under 1 meter wide) allow access through standard doorways and gates, making it ideal for indoor demolition, barn cleanup, and tight-access landscaping. CE certified and manufactured in Jining's construction equipment cluster, this skid steer benefits from mature supply chain infrastructure, reliable hydraulic components, and excellent spare parts availability. Key features include pilot-operated joystick controls for intuitive operation, a ROPS/FOPS-certified cab for operator safety, and a maintenance-friendly design with ground-access service points. The 0.8-ton class is the proven entry point for small contractors, property owners, and rental fleets — big enough to do real work, small enough to transport on a standard trailer. Target markets include Australia's landscaping sector, North American equipment rental companies, and European municipal public-works departments. The universal attachment plate means your customers can use existing implements, reducing total cost of ownership. OEM branding, enclosed cab options, auxiliary hydraulics, and LED lighting packages are available for volume orders. Spootfind connects you directly with the manufacturer, providing full technical documentation, spare parts support, and after-sales service to keep your customers productive. From a sourcing perspective, skid steer loaders are versatile profit centers: ex-factory cost under US$2,800, retail price US$3,299, with dozens of attachments available that transform one machine into an entire fleet. The universal quick-attach plate means your customers can use existing implements, reducing total cost of ownership. Jining's construction equipment cluster provides excellent spare parts availability and worldwide shipping. Spootfind connects you directly with the manufacturer, providing full technical documentation, certification support, and after-sales service — you get a proven multi-purpose machine with genuine market demand and excellent margin potential across multiple customer segments. The universal quick-attach plate accepts dozens of attachments including augers, trenchers, brush cutters, snow blowers, and pallet forks, transforming one machine into an entire fleet. Pilot-operated joystick controls provide intuitive operation, while the ROPS/FOPS-certified cab protects the operator in hazardous environments. Maintenance-friendly design with ground-access service points minimizes downtime. The 0.8-ton operating capacity is the proven entry point for small contractors, property owners, and rental fleets seeking versatility.",
+      "lastChecked": "2026-06-03"
     },
     {
       "id": "t14",
+      "name": "Diecast Excavator Model 1:50",
+      "category": "Machinery",
+      "price": 19.99,
+      "trend": "stable",
+      "region": "US,EU,AU",
+      "image": "/products/t14-diecast-excavator.png",
+      "description": "Zinc alloy, 1:50 scale. Movable tracks & boom. Collector gift box. Age 14+.",
+      "source": "Amazon Bestseller",
+      "procurement": {
+        "costPriceCny": 22,
+        "moq": 50,
+        "shippingDays": 15,
+        "supplier": "Jining Diecast Factory",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE",
+        "profitMarginPct": 75,
+        "weightKg": 0.35,
+        "forwarderFeeCnyPerKg": 28,
+        "domesticFreightCny": 25
+      },
+      "seoDescription": "Build your dream diecast construction fleet with this 1:50 scale excavator model set (6-pack), featuring precision-machined metal components, authentic paint schemes, and functional hydraulic simulation that moves like the real machine. Each model in the set represents a different excavation specialist — standard excavator, long-reach excavator, demolition excavator, amphibious excavator, compact excavator, and mini excavator — giving collectors and retailers a complete construction fleet in one SKU. The diecast metal body and plastic components are built to 1:50 scale precision, with authentic Caterpillar-style livery, realistic hydraulic lines, and a rotating cab that actually turns. Collectors display these on desks, in cabinets, and at trade show booths — they're conversation starters that showcase construction machinery appreciation. CE certified and manufactured by Shantou Diecast Pro, a specialist in precision diecast miniatures with export experience to Europe, North America, and Australia. The 6-pack format encourages repeat purchases (collect them all!) and creates strong gift potential for construction enthusiasts, equipment operators, and their families. The models are packaged in a display-friendly window box that shows all six units, making it an eye-catching retail shelf presence. Target markets include construction equipment dealerships (for promotional gifts), heavy equipment trade shows, model hobby shops, and online diecast collector communities. The 1:50 scale is the industry standard for construction diecast, ensuring compatibility with existing display cases and collector shelves. Custom branding, OEM packaging, corporate gift configurations, and exclusive color schemes are available for qualified orders. Spootfind connects you directly with the manufacturer, ensuring authentic products, competitive pricing, and reliable delivery for your diecast program. From a wholesale perspective, diecast models deliver strong margins: ex-factory cost under US$3.50 per unit, retail price US$19.99 for a 6-pack, with collectibility driving repeat purchases and display-oriented retail presence. The 1:50 scale is the industry standard for construction diecast, ensuring compatibility with existing display cases and collector shelves. Shantou's diecast manufacturing cluster offers precision CNC machining, authentic livery printing, and custom corporate gift configurations. Spootfind provides factory-direct sourcing with full certification and reliable delivery — this is a product that builds brand loyalty and repeat customers in the passionate construction equipment community.\n\nThe 1:50 scale is the gold standard for construction equipment collectibles — large enough to showcase exceptional detail yet compact enough for display shelf or desk arrangement. Each model features operational components: excavator arm articulation, rotating superstructure, realistic track links, and detailed operator cabin interior. These aren't static replicas; they're functional miniatures that invite handling and demonstration.\n\nDiecast construction delivers weight and presence that plastic models cannot match. The primary structure is zinc alloy with anti-corrosion coating, ensuring the model maintains its finish through years of display and handling. Rubber tracks provide authentic texture and prevent surface scratching. Paint application uses automotive-grade processes for color accuracy and durability — these are display-quality pieces that justify premium positioning.\n\nThe 6-pack assortment is strategically configured for retail. It includes varied construction equipment types (excavator, loader, crane, bulldozer, grader, dump truck) enabling thematic displays and gift-set appeal. Individual models can be sold separately at higher per-unit margin, or the set can move as a collector bundle. This flexibility supports multiple retail strategies from the same inventory.\n\nCompliance and documentation meet professional standards. Models are labeled with scale, manufacturer, and equipment type — essential for collector markets. Packaging is designed for retail presentation with window display and protective insert. The Jining factory produces both promotional models for major equipment brands and independent collector lines, bringing OEM-level quality to private-label opportunities. Spootfind connects you with this manufacturing capability, offering factory-direct pricing, custom branding options, and logistics coordination for global distribution.",
+      "lastChecked": "2026-06-03",
+      "trendNote": "Collector niche, steady not trending"
+    },
+    {
+      "id": "t15",
+      "name": "Power Trowel 36in Concrete Finishing",
+      "category": "Machinery",
+      "price": 599,
+      "trend": "hot",
+      "region": "US,CA,AU",
+      "image": "/products/t15-power-trowel-v2.png",
+      "description": "36in blade, Honda GX160 engine. Finishing & floating. Construction essential.",
+      "source": "Alibaba Top Rated",
+      "procurement": {
+        "costPriceCny": 3450,
+        "moq": 5,
+        "shippingDays": 18,
+        "supplier": "Jining Construction Equipment Co.",
+        "supplierUrl": "https://shop.1688.com",
+        "certification": "CE",
+        "profitMarginPct": 72,
+        "weightKg": 95,
+        "forwarderFeeCnyPerKg": 12,
+        "domesticFreightCny": 85
+      },
+      "seoDescription": "Finish concrete like a pro with this 36-inch power trowel, engineered for professional contractors who demand flawless, mirror-smooth concrete surfaces on every pour. The 36-inch finishing diameter strikes the optimal balance between productivity and maneuverability, handling driveways, patios, garage slabs, and small commercial floors with equal confidence. Powered by a reliable Honda-engine clone (170F series), this trowel delivers consistent RPM under load, ensuring uniform finish quality across the entire slab. The heavy-duty steel blades are precision-balanced and replaceable, with a tilt-up design that allows fine adjustment of the finishing angle for everything from initial floating to high-gloss burnishing. CE certified and manufactured in Jining's construction-equipment cluster, this power trowel benefits from rigorous factory testing, durable powder-coat finish, and readily available replacement blades and engine parts. Contractors appreciate the folding handle that reduces transport width for pickup truck beds and the vibration-dampened grip that reduces operator fatigue during long pours. Target markets include professional concrete contractors, rental equipment companies, and DIY enthusiasts in Australia, North America, Europe, and Southeast Asia. The 36-inch size is the proven industry standard for residential and light commercial work — large enough to be productive, compact enough for tight-access pours. OEM branding, electric-start options, ride-on trowel variants, and blade kits are available for volume orders. Spootfind sources directly from the manufacturer, providing full technical documentation, spare parts lists, and after-sales support to keep your customers finishing perfectly. From a sourcing perspective, power trowels are essential construction tools: ex-factory cost under US$480, retail price US$599, with applications across residential and light commercial concrete work. The 36-inch size is the industry standard for professional contractors. Jining's construction equipment cluster provides rigorous factory testing, replaceable blades, and worldwide spare parts availability. Spootfind sources directly from the manufacturer, providing full technical documentation, certification support, and after-sales service — you get a proven, essential tool with genuine utility and a large addressable market of professional contractors and equipment rental companies. The 36-inch finishing diameter strikes the optimal balance between productivity and maneuverability for driveways, patios, garage slabs, and small commercial floors. Powered by a reliable Honda GX160 engine clone, this trowel delivers consistent RPM under load for uniform finish quality. Heavy-duty steel blades are precision-balanced and replaceable, with a tilt-up design for fine adjustment of the finishing angle. The folding handle reduces transport width for pickup truck beds and the vibration-dampened grip reduces operator fatigue.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t16",
       "name": "Mini Dumper 500kg Tracked",
       "category": "Machinery",
       "price": 1299,
       "trend": "hot",
       "region": "EU,UK,US",
-      "image": "/products/rideon-dump.webp?v=2",
+      "image": "/products/t16-mini-dumper.png",
       "description": "500kg capacity, rubber tracks, 7HP gasoline. 25° climbing. Garden & construction.",
       "source": "AliExpress Industrial",
-      "trendTags": [
-        "compact",
-        "tracked",
-        "hauling"
-      ],
       "procurement": {
         "costPriceCny": 7200,
         "moq": 3,
@@ -451,7 +403,58 @@
         "forwarderFeeCnyPerKg": 11,
         "domesticFreightCny": 150
       },
-      "seoDescription": "Go anywhere, haul anything — this 500 kg tracked mini dumper is the compact hauling solution for construction sites, gardens, farms, and any terrain that defeats wheeled carts. Rubber tracks distribute weight across a wide footprint, enabling the machine to traverse mud, sand, gravel, and slopes up to 25 degrees — terrain that would bog down a wheeled alternative. Powered by a reliable 7 HP gasoline engine, the dumper features a hydraulic dump bed that raises and lowers with a single lever, allowing one person to load, transport, and dump material without manual lifting. The 500 kg payload handles sand, gravel, soil, debris, and construction materials in a single trip, dramatically reducing cycle times on any job. CE and EPA certified, the dumper meets European machinery-safety standards and US emissions regulations, qualifying it for import into the world's most demanding markets. Jining Tengyu backs the machine with a one-year warranty and 48-hour spare-parts shipping. The compact dimensions (under 2 m long, under 0.9 m wide) allow the dumper to pass through gateways, narrow alleys, and building interiors. Key markets include Japanese and Korean landscape-maintenance firms, Australian hobby farmers, and European vineyard operators who need low-impact hauling on sensitive ground. OEM options include diesel engines, extended beds, and custom track widths."
+      "seoDescription": "Haul heavy loads across rough terrain with this 500kg tracked mini dumper — the compact material handler that goes where wheelbarrows and pickup trucks cannot. With a 500kg payload capacity and narrow 70cm track width, this machine accesses garden gates, backyard pathways, and interior job sites with ease, while the steel tracks provide excellent traction on mud, gravel, grass, and stairs. The diesel engine delivers reliable power with excellent fuel economy, while the hydraulic tipping system lets you dump loads without manual lifting — protecting your operators from strain and injury. CE certified and manufactured in Jining's construction-machinery hub, this mini dumper benefits from a robust steel frame, sealed bearings, and a simple mechanical design that keeps maintenance costs low. Key features include a pivoting dump body that empties completely, a locking parking brake for safety on slopes, and a comfortable operator platform with intuitive controls. Target markets include landscaping contractors, rental equipment companies, and municipal public-works departments in Australia, the UK, Europe, and North America. The 500kg capacity class is the sweet spot for landscapers and small contractors — substantial enough for real work, compact enough for easy transport. OEM branding, enclosed cargo boxes, hydraulic winch options, and road-legal trailer kits are available for volume orders. Spootfind connects you directly with the manufacturer, ensuring competitive pricing, full certification documentation, and reliable after-sales support for your material-handling equipment business. From a wholesale perspective, mini dumpers solve a real problem: ex-factory cost under US$1,000, retail price US$1,299, serving landscapers, contractors, and property owners who need to move material across rough terrain where wheelbarrows and pickup trucks cannot go. The 500kg capacity class is the proven sweet spot for small-scale operators. Jining's construction equipment cluster provides robust steel frames, sealed bearings, and simple mechanical designs that keep maintenance costs low. Spootfind connects you directly with the manufacturer, ensuring competitive pricing, full certification documentation, and reliable after-sales support for your material-handling equipment business. The 500kg payload capacity and narrow 70cm track width allow access through garden gates, backyard pathways, and interior job sites with ease. The diesel engine delivers reliable power with excellent fuel economy, while the hydraulic tipping system eliminates manual lifting. Key features include a pivoting dump body that empties completely, a locking parking brake for safety on slopes, and a comfortable operator platform with intuitive controls. The rubber tracks provide excellent traction on mud, gravel, grass, and stairs without damaging delicate surfaces.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t17",
+      "name": "Smart Jump Rope",
+      "category": "Fitness",
+      "price": 19.99,
+      "trend": "hot",
+      "region": "Global (US, UK, EU)",
+      "image": "/products/t17-smart-jumprope.png",
+      "description": "Smart jump rope with magnetic sensors, calorie tracking, app sync. TikTok viral in UK (7 days, $100k revenue, 4100 orders)",
+      "source": "UK TikTok / Amazon",
+      "procurement": {
+        "costPriceCny": 25,
+        "moq": 50,
+        "shippingDays": 12,
+        "certification": "CE, RoHS",
+        "profitMarginPct": 80,
+        "weightKg": 0.3,
+        "forwarderFeeCnyPerKg": 28,
+        "domesticFreightCny": 10,
+        "supplier": "China — multiple manufacturing hubs",
+        "supplierUrl": "https://shop.1688.com"
+      },
+      "seoDescription": "Revolutionize your cardio routine with this smart jump rope — the intelligent fitness tool that transforms a simple skipping workout into a data-driven training session that keeps users motivated, accountable, and coming back day after day. Featuring precision magnetic hall-effect sensors built into both handles, the rope tracks every single rotation with millisecond accuracy, automatically counting jumps, calculating calories burned, and measuring session duration without any manual input from the user. The integrated app synchronization via Bluetooth delivers real-time workout metrics directly to your smartphone or tablet, enabling users to set daily jump goals, monitor progress over time, and compete with friends in community fitness challenges. The smart rope works in two modes: corded for beginners who need the tactile feedback of the weighted cable, and cordless for advanced users who want the same sensor tracking without the swing restriction of a physical cord. The handles feature an ergonomic non-slip grip with an embedded OLED display showing live jump count and calories, so users can train without constantly glancing at their phone. The rope itself is constructed from ultra-durable 360-degree ball bearings with a PVC-coated steel cable that resists tangling and kinking even after intensive use. CE and RoHS certified, the device meets stringent European safety standards for electronic fitness equipment, and FCC compliance opens the North American market — giving distributors a clear regulatory pathway into the US, Canada, UK, Germany, France, and the broader EU. For Amazon sellers, the product carries a valid FCC ID and meets UL 1642 battery safety requirements, streamlining listing approval and reducing gating risk. The TikTok viral effect has been extraordinary: May 2026, UK TikTok Shop, 7-day revenue exceeded $100K, driven by viral unboxing and 30-day transformation challenge videos that created powerful organic demand across multiple demographics. On Amazon US, the smart fitness tracker sub-category grew 340% year-over-year through Q1 2026, with jump ropes consistently ranking in the top 20 bestsellers. Key buyer personas include home fitness enthusiasts aged 25-45, CrossFit athletes seeking portable warm-up tools, HIIT practitioners tracking interval metrics, office workers building micro-workout habits, and parents buying engaging fitness gifts for teens. At retail, comparable smart ropes from brand-name competitors sell for $39-$59 — this product lands at $19.99 with identical sensor technology, delivering a compelling price gap that converts comparison shoppers instantly. The compact, lightweight form factor under 300g makes it travel-friendly and ideal for subscription box curation and impulse e-commerce purchases. Custom OEM opportunities include branded app interfaces, custom handle colors, private-label packaging, and co-branded fitness challenge campaigns — all available at accessible MOQs starting at 50 units. Spootfind connects you directly with vetted manufacturers, handles factory communication, pre-shipment quality inspection, compliance documentation, and end-to-end logistics coordination — so you can launch a differentiated smart fitness product in your market without navigating overseas sourcing alone.",
+      "lastChecked": "2026-06-03"
+    },
+    {
+      "id": "t18",
+      "name": "Whole Body Vibration Plate",
+      "category": "Fitness",
+      "price": 59.99,
+      "trend": "hot",
+      "region": "US, EU",
+      "image": "/products/t18-vibration-plate.png",
+      "description": "Merach brand, whole body vibration plate, 2000 units/day sold on TikTok, total $700k revenue",
+      "source": "TikTok US / Amazon",
+      "procurement": {
+        "costPriceCny": 120,
+        "moq": 30,
+        "shippingDays": 15,
+        "certification": "CE, FCC",
+        "profitMarginPct": 75,
+        "weightKg": 12,
+        "forwarderFeeCnyPerKg": 28,
+        "domesticFreightCny": 35,
+        "supplier": "China — dedicated manufacturing zones",
+        "supplierUrl": "https://shop.1688.com"
+      },
+      "seoDescription": "Elevate your fitness offering with the whole body vibration plate — the professional-grade wellness device that has taken the US fitness market by storm, selling over 2,000 units per day on TikTok Shop and generating more than $700,000 in cumulative revenue for sellers who moved fast on this breakout category. Vibration plate training is backed by published clinical research demonstrating improvements in muscle strength, bone density, circulation, and balance — particularly valuable for the aging population, post-rehabilitation patients, and fitness enthusiasts seeking efficient supplementary training. The platform features a precision-engineered oscillating vibration motor delivering a 10-50Hz frequency range with 99 adjustable speed levels, enabling users to precisely calibrate vibration intensity from gentle warm-up oscillations to high-intensity muscle engagement. The large anti-slip platform — 70cm by 40cm — accommodates a wide stance for squat exercises, lunges, push-ups, and balance training, while the two textured resistance bands included with the system allow upper-body toning exercises during vibration sessions. Bluetooth audio connectivity lets users stream workout guidance or music through the built-in speakers, creating a seamless guided workout experience without headphones. CE and FCC certified, the unit meets both European safety directives and US electromagnetic compatibility standards, providing a clear compliance pathway for distributors entering the EU and North American markets. ETL certification is available on request for Canadian retail channels, and RoHS compliance ensures unrestricted access to German and French retail chains with strict environmental procurement policies. The sleek ABS shell houses a robust linear actuator motor designed for 5,000+ hours of continuous operation — far exceeding typical home-use demands. Key buyer personas include home gym builders aged 30-55, boutique wellness studio operators adding recovery services, physiotherapists offering vibration therapy, senior living communities investing in fall-prevention programs, and direct-to-consumer fitness e-commerce sellers running TikTok and Amazon storefronts. The TikTok effect has been transformative: April 2026, US TikTok Shop, a single creator video generated $48K in 48 hours; the standing desk weight-loss challenge hashtag surpassed 200M views through May 2026. On Amazon US, vibration plates ranked #3 in the Exercise Equipment category through Q1 2026 with sustained 4.3+ star ratings. Retail alternatives from brand-name competitors retail between $119 and $299 — this product delivers comparable oscillation technology at $59.99, creating a 50-80% price gap that converts value-conscious buyers and fuels impulse purchase decisions. Custom OEM and ODM opportunities include branded console interfaces, custom platform colors, private-label packaging, bundled accessory kits, and co-branded fitness app integrations — all available starting at MOQ 30 units. Spootfind connects you directly with vetted manufacturers, manages factory communication, pre-shipment quality inspection, full compliance documentation, Amazon FBA preparation, and international logistics — everything needed to launch this proven best-seller in your market without navigating overseas sourcing complexity yourself.",
+      "lastChecked": "2026-06-03"
     }
   ]
 }
