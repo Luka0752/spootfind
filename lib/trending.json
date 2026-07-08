@@ -9,10 +9,14 @@
       "price": 24.99,
       "trend": "hot",
       "region": "Global",
-      "image": "/products/t2-stem-blocks.jpg",
+      "image": "/products/t2-stem-blocks.jpg?v=2",
       "description": "Compatible with major brands. Creative gears & wheels. Ages 6+.",
       "source": "Amazon Bestseller",
-      "trendTags": ["STEM", "educational", "construction"],
+      "trendTags": [
+        "STEM",
+        "educational",
+        "construction"
+      ],
       "procurement": {
         "costPriceCny": 28,
         "moq": 50,
@@ -34,10 +38,15 @@
       "price": 32.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/stunt-car.webp",
+      "image": "/products/stunt-car.webp?v=2",
       "description": "2.4GHz, LED lights, all-terrain. 45min play. Best seller age 8-12.",
       "source": "TikTok Shop",
-      "trendTags": ["RC-car", "stunt", "LED", "TikTok-viral"],
+      "trendTags": [
+        "RC-car",
+        "stunt",
+        "LED",
+        "TikTok-viral"
+      ],
       "procurement": {
         "costPriceCny": 45,
         "moq": 30,
@@ -59,10 +68,14 @@
       "price": 14.99,
       "trend": "hot",
       "region": "US,UK,CA",
-      "image": "/products/t4-squishmallow.jpg",
+      "image": "/products/t4-squishmallow.jpg?v=2",
       "description": "Ultra-soft short plush. 20+ animal designs. TikTok collection trend.",
       "source": "Amazon Bestseller",
-      "trendTags": ["plush", "collectible", "TikTok-trend"],
+      "trendTags": [
+        "plush",
+        "collectible",
+        "TikTok-trend"
+      ],
       "procurement": {
         "costPriceCny": 16.8,
         "moq": 60,
@@ -84,10 +97,15 @@
       "price": 29.99,
       "trend": "hot",
       "region": "US,EU,AU",
-      "image": "/products/t5-magnetic-tiles.jpg",
+      "image": "/products/t5-magnetic-tiles.jpg?v=2",
       "description": "Strong magnets, 3D building. STEM Montessori certified. Ages 3+.",
       "source": "AliExpress Trending",
-      "trendTags": ["STEM", "Montessori", "magnetic", "creative"],
+      "trendTags": [
+        "STEM",
+        "Montessori",
+        "magnetic",
+        "creative"
+      ],
       "procurement": {
         "costPriceCny": 35,
         "moq": 40,
@@ -109,10 +127,15 @@
       "price": 89.99,
       "trend": "hot",
       "region": "Global",
-      "image": "/products/ai-glasses.jpg",
+      "image": "/products/ai-glasses.jpg?v=2",
       "description": "Voice interaction, real-time translation, photo/video. 6-8h battery. Lightweight 20g.",
       "source": "TikTok Shop Bestseller",
-      "trendTags": ["AI", "wearable", "translation", "viral-2026"],
+      "trendTags": [
+        "AI",
+        "wearable",
+        "translation",
+        "viral-2026"
+      ],
       "procurement": {
         "costPriceCny": 168,
         "moq": 50,
@@ -134,10 +157,16 @@
       "price": 16.99,
       "trend": "hot",
       "region": "US,EU,UK,AU,CA",
-      "image": "/products/silicone-bags.jpg",
+      "image": "/products/silicone-bags.jpg?v=2",
       "description": "6-pack (3 sizes). Leakproof, freezer-safe, microwave-safe. Replaces 1000+ plastic bags.",
       "source": "Amazon Eco Bestseller + TikTok Viral",
-      "trendTags": ["eco-friendly", "zero-waste", "kitchen", "TikTok-viral", "reusable"],
+      "trendTags": [
+        "eco-friendly",
+        "zero-waste",
+        "kitchen",
+        "TikTok-viral",
+        "reusable"
+      ],
       "procurement": {
         "costPriceCny": 18.5,
         "moq": 150,
@@ -159,10 +188,16 @@
       "price": 19.99,
       "trend": "hot",
       "region": "US,EU,JP,KR,SEA",
-      "image": "/products/neck-fan.jpg",
+      "image": "/products/neck-fan.jpg?v=2",
       "description": "4000mAh, 8h runtime, 360° wind. 3 speed levels. Hands-free, USB-C.",
       "source": "TikTok Shop + Amazon Bestseller",
-      "trendTags": ["summer", "wearable", "cooling", "TikTok-viral", "USB-C"],
+      "trendTags": [
+        "summer",
+        "wearable",
+        "cooling",
+        "TikTok-viral",
+        "USB-C"
+      ],
       "procurement": {
         "costPriceCny": 22,
         "moq": 100,
@@ -184,10 +219,16 @@
       "price": 14.99,
       "trend": "rising",
       "region": "US,EU,UK,AU",
-      "image": "/products/beeswax-wrap.jpg",
+      "image": "/products/beeswax-wrap.jpg?v=2",
       "description": "6-pack (3 sizes). Organic cotton, jojoba beeswax. Self-adhering, washable. 1 year lifespan.",
       "source": "Etsy Top Seller + Amazon Eco",
-      "trendTags": ["eco-friendly", "zero-waste", "organic", "kitchen", "plastic-free"],
+      "trendTags": [
+        "eco-friendly",
+        "zero-waste",
+        "organic",
+        "kitchen",
+        "plastic-free"
+      ],
       "procurement": {
         "costPriceCny": 12.5,
         "moq": 200,
@@ -209,10 +250,16 @@
       "price": 18.99,
       "trend": "rising",
       "region": "US,EU,UK",
-      "image": "/products/compostable-bags.jpg",
+      "image": "/products/compostable-bags.jpg?v=2",
       "description": "120-count box. ASTM D6400 certified. Kitchen food waste. Drawstring, leakproof.",
       "source": "Amazon Eco Bestseller",
-      "trendTags": ["eco-friendly", "compostable", "kitchen", "ASTM-D6400", "biodegradable"],
+      "trendTags": [
+        "eco-friendly",
+        "compostable",
+        "kitchen",
+        "ASTM-D6400",
+        "biodegradable"
+      ],
       "procurement": {
         "costPriceCny": 28,
         "moq": 100,
@@ -234,10 +281,15 @@
       "price": 12.99,
       "trend": "hot",
       "region": "US,EU,AU,CA",
-      "image": "/products/bamboo-brush.jpg",
+      "image": "/products/bamboo-brush.jpg?v=2",
       "description": "10-pack biodegradable bamboo handles. BPA-free nylon bristles. Plastic-free packaging.",
       "source": "Amazon Eco Bestseller",
-      "trendTags": ["eco-friendly", "sustainable", "zero-waste", "biodegradable"],
+      "trendTags": [
+        "eco-friendly",
+        "sustainable",
+        "zero-waste",
+        "biodegradable"
+      ],
       "procurement": {
         "costPriceCny": 15.8,
         "moq": 200,
@@ -259,10 +311,16 @@
       "price": 11.99,
       "trend": "rising",
       "region": "US,EU,UK,AU,JP",
-      "image": "/products/silicone-bottle.jpg",
+      "image": "/products/silicone-bottle.jpg?v=2",
       "description": "4-pack leakproof TSA-approved bottles. Food-grade silicone. 3oz each. Stand-up base.",
       "source": "Amazon Travel Bestseller",
-      "trendTags": ["travel", "TSA-approved", "eco-friendly", "collapsible", "reusable"],
+      "trendTags": [
+        "travel",
+        "TSA-approved",
+        "eco-friendly",
+        "collapsible",
+        "reusable"
+      ],
       "procurement": {
         "costPriceCny": 10.2,
         "moq": 200,
@@ -284,10 +342,16 @@
       "price": 29.99,
       "trend": "hot",
       "region": "US,EU,JP",
-      "image": "/products/spin-scrubber.jpg",
+      "image": "/products/spin-scrubber.jpg?v=2",
       "description": "3 interchangeable heads, 300RPM. Waterproof IPX7. USB rechargeable. Bathroom, kitchen, tiles.",
       "source": "TikTok Shop + Amazon Home Bestseller",
-      "trendTags": ["cleaning", "smart-home", "TikTok-viral", "rechargeable", "bathroom"],
+      "trendTags": [
+        "cleaning",
+        "smart-home",
+        "TikTok-viral",
+        "rechargeable",
+        "bathroom"
+      ],
       "procurement": {
         "costPriceCny": 32,
         "moq": 80,
@@ -306,13 +370,17 @@
       "id": "t9",
       "name": "Mini Excavator 1.8T Diesel",
       "category": "Machinery",
-      "price": 3899.0,
+      "price": 3899,
       "trend": "hot",
       "region": "SEA,AF,Americas",
-      "image": "/products/mini-excavator.webp",
+      "image": "/products/mini-excavator.webp?v=2",
       "description": "1.8 ton, Kubota engine, 2.5m digging depth. 40HQ fits 6 units. CE certified.",
       "source": "Alibaba Top Rated",
-      "trendTags": ["construction", "compact", "Kubota"],
+      "trendTags": [
+        "construction",
+        "compact",
+        "Kubota"
+      ],
       "procurement": {
         "costPriceCny": 22800,
         "moq": 1,
@@ -331,13 +399,17 @@
       "id": "t10",
       "name": "Road Roller 3T Single Drum",
       "category": "Machinery",
-      "price": 4299.0,
+      "price": 4299,
       "trend": "hot",
       "region": "AF,ME,SEA",
-      "image": "/products/mini-bulldozer.webp",
+      "image": "/products/mini-bulldozer.webp?v=2",
       "description": "3 ton, hydraulic drive, 0.8m drum width. Compaction force 3.2T. Site ready.",
       "source": "Alibaba Top Rated",
-      "trendTags": ["construction", "compaction", "hydraulic"],
+      "trendTags": [
+        "construction",
+        "compaction",
+        "hydraulic"
+      ],
       "procurement": {
         "costPriceCny": 25800,
         "moq": 1,
@@ -356,13 +428,17 @@
       "id": "t14",
       "name": "Mini Dumper 500kg Tracked",
       "category": "Machinery",
-      "price": 1299.0,
+      "price": 1299,
       "trend": "hot",
       "region": "EU,UK,US",
-      "image": "/products/rideon-dump.webp",
+      "image": "/products/rideon-dump.webp?v=2",
       "description": "500kg capacity, rubber tracks, 7HP gasoline. 25° climbing. Garden & construction.",
       "source": "AliExpress Industrial",
-      "trendTags": ["compact", "tracked", "hauling"],
+      "trendTags": [
+        "compact",
+        "tracked",
+        "hauling"
+      ],
       "procurement": {
         "costPriceCny": 7200,
         "moq": 3,
