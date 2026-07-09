@@ -1,4 +1,3 @@
-// deploy trigger: 1783511848681
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 
@@ -29,5 +28,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-// Trigger redeploy: 1783503461250
 export default withNextIntl(nextConfig);
